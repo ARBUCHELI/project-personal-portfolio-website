@@ -88,13 +88,14 @@ details {
 }
 
 summary {
-  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/7/right-arrow.svg);
 }
 
 footer {
   margin-top: auto;
   padding: var(--spacing-2) 0;
   text-align: center;
+  font-weight: bold;
 }
 
 section {
@@ -128,6 +129,10 @@ a {
   font-size: 2em;
   width: 2em;
   margin-top: var(--spacing-1);
+}
+
+.colored-link {
+  color: #034f84;
 }
 
 @media only screen and (max-width: 600px) {
