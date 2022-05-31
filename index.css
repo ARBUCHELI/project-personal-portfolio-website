@@ -151,6 +151,40 @@ a {
   color: #034f84;
 }
 
+.skill-image {
+  width: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #034f84;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  font-family: "Proza Libre", sans-serif;
+  color: #deeaee;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: #034f84;
+}
+
+tr:nth-child(odd) td {
+  background-color: #034f84;
+}
 
 
 @media only screen and (max-width: 600px) {
