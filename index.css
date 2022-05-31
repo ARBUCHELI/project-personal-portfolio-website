@@ -151,6 +151,8 @@ a {
   color: #034f84;
 }
 
+
+
 @media only screen and (max-width: 600px) {
   .about-me-container {
     flex-direction: column;

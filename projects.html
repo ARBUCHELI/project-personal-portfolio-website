@@ -6,6 +6,97 @@
     <title>Projects</title>
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <style>
+      .mySlides {display: none}
+      .img-slider {vertical-align: middle; max-height: 400px; border-radius: 5px; border: solid 1px #92a8d1}
+        
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+        
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: #034f84;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+        
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+        
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+        
+      /* Caption text */
+      .text {
+        color: #c94c4c;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+        
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #034f84;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+        
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+        
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+        
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+        
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+        
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -20,384 +111,1334 @@
       </ul>
     </nav>
 
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 24</div>
+          <img class="img-slider" src="./images-projects/cocacola.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 24</div>
+          <img class="img-slider" src="./images-projects/beer.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 24</div>
+          <img class="img-slider" src="./images-projects/pedal-faster.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 24</div>
+          <img class="img-slider" src="./images-projects/musicon.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 24</div>
+          <img class="img-slider" src="./images-projects/sky.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 24</div>
+          <img class="img-slider" src="./images-projects/programmer.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">7 / 24</div>
+          <img class="img-slider" src="./images-projects/innovation.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">8 / 24</div>
+          <img class="img-slider" src="./images-projects/adhoc.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">9 / 24</div>
+          <img class="img-slider" src="./images-projects/citrus.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">10 / 24</div>
+          <img class="img-slider" src="./images-projects/the-books-that-i-love.jpg" style="width:100%">
+          <!-- <div class="text">The Books That I Love</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">11 / 24</div>
+          <img class="img-slider" src="./images-projects/brigton.jpg" style="width:100%">
+          <!-- <div class="text">The Books That I Love</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">12 / 24</div>
+          <img class="img-slider" src="./images-projects/trending-woofs.jpg" style="width:100%">
+          <!-- <div class="text">The Books That I Love</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">13 / 24</div>
+          <img class="img-slider" src="./images-projects/newsletter.jpg" style="width:100%">
+          <!-- <div class="text">The Books That I Love</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">14 / 24</div>
+          <img class="img-slider" src="./images-projects/punk.jpg" style="width:100%">
+          <!-- <div class="text">The Books That I Love</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">15 / 24</div>
+          <img class="img-slider" src="./images-projects/would-you-rather.jpg" style="width:100%">
+          <!-- <div class="text">Would You Rather</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">16 / 24</div>
+          <img class="img-slider" src="./images-projects/doctor-crepe.jpg" style="width:100%">
+          <!-- <div class="text">Doctor Crepe</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">17 / 24</div>
+          <img class="img-slider" src="./images-projects/expenses-tracker.jpg" style="width:100%">
+          <!-- <div class="text">Expenses Tracker App</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">18 / 24</div>
+          <img class="img-slider" src="./images-projects/movie-reviews.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">19 / 24</div>
+          <img class="img-slider" src="./images-projects/tribute.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">20 / 24</div>
+          <img class="img-slider" src="./images-projects/recipes.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">21 / 24</div>
+          <img class="img-slider" src="./images-projects/globe-book-store.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">22 / 24</div>
+          <img class="img-slider" src="./images-projects/pin-point.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">23 / 24</div>
+          <img class="img-slider" src="./images-projects/sneakers.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">24 / 24</div>
+          <img class="img-slider" src="./images-projects/pet-book.jpg" style="width:100%">
+          <!-- <div class="text">Movie Reviews</div> -->
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+      <span class="dot" onclick="currentSlide(6)"></span> 
+      <span class="dot" onclick="currentSlide(7)"></span> 
+      <span class="dot" onclick="currentSlide(8)"></span> 
+      <span class="dot" onclick="currentSlide(9)"></span>
+      <span class="dot" onclick="currentSlide(10)"></span>
+      <span class="dot" onclick="currentSlide(11)"></span> 
+      <span class="dot" onclick="currentSlide(12)"></span>
+      <span class="dot" onclick="currentSlide(13)"></span>
+      <span class="dot" onclick="currentSlide(14)"></span>
+      <span class="dot" onclick="currentSlide(15)"></span>
+      <span class="dot" onclick="currentSlide(16)"></span>
+      <span class="dot" onclick="currentSlide(17)"></span>
+      <span class="dot" onclick="currentSlide(18)"></span> 
+      <span class="dot" onclick="currentSlide(19)"></span>
+      <span class="dot" onclick="currentSlide(20)"></span>
+      <span class="dot" onclick="currentSlide(21)"></span>
+      <span class="dot" onclick="currentSlide(22)"></span>
+      <span class="dot" onclick="currentSlide(23)"></span>
+      <span class="dot" onclick="currentSlide(24)"></span>             
+    </div>
+
     <main>
-        <section id="about-me">
-            <div class="about-me-container">
-              <div class="about-me-text-container">
-                <h2 style="color: #034f84">Projects Sample</h2>
-                <p>
-                    If you have an interesting project and you are looking for a professional web developer with a real engineering 
-                    background, feel free to contact me and take a look at my <a class="colored-link"
-                    href="https://github.com/ARBUCHELI" target="blank">GitHub Profile</a>,
-                    and my <a class="colored-link"
-                    href="https://www.codecademy.com/profiles/ANDRES.R.BUCHELI" target="blank">Codecademy Profile.</a> 
-                  </p>
-              </div>
-            </div>
-        </section>
-        <section id="projects">
-            <h2 style="color: #034f84">Front-End Projects</h2>
-            <h3 style="color: #667292">React & Redux Web Apps</h3>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>The Books that I Love App</h3>
-                </summary>
-                <img
-                  src="./images-projects/the-books-that-i-love.jpg"
-                  alt="Photo of the Books That I Love app"
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://bookshelf-bucheli-web-development.netlify.app/" target="blank">Organize your books digitally and remember the books you want to read in the future.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and Redux!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Would You Rather App</h3>
-                </summary>
-                <img
-                  src="./images-projects/would-you-rather.jpg"
-                  alt="Photo of the Would You Rather app"
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://would-you-rather-bucheli-web-development.netlify.app/" target="blank">A social network that allows you to get to know your friends better.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and Redux!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>PetBook App</h3>
-                </summary>
-                <img
-                  src="./images-projects/pet-book.jpg"
-                  alt='Photo of the PetBook app'
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://pet-book-version2-bucheli-web-development.netlify.app/" target="blank">Fun social network for pets that you will love.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page ap powered by React, and Redux!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Doctor Crepe App</h3>
-                </summary>
-                <img
-                  src="./images-projects/doctor-crepe.jpg"
-                  alt='Photo of the Doctor Crepe app'
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://doctor-crepe-3-bucheli-web-development.netlify.app/" target="blank">Muffin store application.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, Node.JS, Express.JS, Mailchimp API, and Heroku!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Expenses Tracker App</h3>
-                </summary>
-                <img
-                  src="./images-projects/expenses-tracker.jpg"
-                  alt='Photo of the Expenses Tracker app'
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://expense-tracker-bucheli-web-development.netlify.app/" target="blank">Expenses Tracker Application to pay attention to your expenses.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page app owered by React, and Redux!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>News Reader App</h3>
-                </summary>
-                <img
-                  src="./images-projects/news-reader.jpg"
-                  alt='Photo of the News Reader app'
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://redux-news-reader-bucheli-web-development.netlify.app/" target="blank">Read, get feedback, and comment your favorite news.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, Middleware, and Thunks!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Matching Memory Game App</h3>
-                </summary>
-                <img
-                  src="./images-projects/matching-memory.jpg"
-                  alt='Photo of the Matching Memory Game app'
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://matching-memory-game-bucheli-web-development.netlify.app/" target="blank">Put your memory to the test with this fun game.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and Redux!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Content Management System App</h3>
-                </summary>
-                <img
-                  src="./images-projects/content-management-system.jpg"
-                  alt='Photo of the Content Management System app'
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://content-management-system-bucheli-web-development.netlify.app/" target="blank">Refresh your knowledge about web development with this application.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, and React Router!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Pet Adoption App</h3>
-                </summary>
-                <img
-                  src="./images-projects/pet-adoption.jpg"
-                  alt='Photo of the Pet Adoption app'
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://bucheli-pet-adoption-app-bucheli-web-development.netlify.app/" target="blank">If you love animals, help them to find a sweet home with this app.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, and React Router!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Holidays Destination App</h3>
-                </summary>
-                <img
-                  src="./images-projects/holidays-destination.jpg"
-                  alt='Photo of the Holidays Destination app'
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://bucheli-web-build-tools-vite-holiday-destinations.netlify.app/" target="blank">Plan your next holidays and explore wonderful destinations.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux and Vite!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Videoplayer</h3>
-                </summary>
-                <img
-                  src="./images-projects/videoplayer.jpg"
-                  alt='Photo of the Videoplayer app'
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://bucheli-react-video-player.netlify.app/" target="blank">Reproduce your favorite videos.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page app powered by React!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Grocery Shopping App</h3>
-                </summary>
-                <img
-                  src="./images-projects/grocery-shopping.jpg"
-                  alt='Photo of the Grocery Shopping app'
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://react-grocery-shopping-app-bucheli-web-development.netlify.app/" target="blank">Make your grocery shopping more easy.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page app powered by React!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Keeper App</h3>
-                </summary>
-                <img
-                  src="./images-projects/keeper.jpg"
-                  alt='Photo of the Keeper app'
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://react-keeper-bucheli-web-development.netlify.app/" target="blank">Organize your notes with Keeper.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page app powered by React!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Travel App</h3>
-                </summary>
-                <img
-                  src="./images-projects/travel.jpg"
-                  alt='Photo of the Travel app'
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://css-in-js-bucheli-travel-app.netlify.app/" target="blank">Beautiful Front End for a Wonderful Traveling App.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, React Emotion and Styled Components!</p>
-            </details>
-        </section>
-        <section id="projects">
-            <h3 style="color: #667292">React Native Apps</h3>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Woofstagram</h3>
-                </summary>
-                <img
-                  src="./images-projects/trending-woofs.jpg"
-                  alt="Photo of the Woofstagram app"
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://snack.expo.dev/@andresrbucheli/bucheli-react-native-woofstram-home-screen" target="blank">Funny Instagram for Dogs.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, and React Native!</p>
-            </details>
-        </section>
-        <section id="projects">
-            <h3 style="color: #667292">Ember JS Framework Apps</h3>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Emergency Services Tracker</h3>
-                </summary>
-                <img
-                  src="./images-projects/emergency-tracker.jpg"
-                  alt="Photo of the Emergency Tracker app"
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://emergency-services-tracker-bucheli-web-development.netlify.app/" target="blank">Emergency Services Tracker App.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">Single page app powered by Ember!</p>
-            </details>
-        </section>
-        <section id="projects">
-            <h3 style="color: #667292">jQuery Projects</h3>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Memory Game</h3>
-                </summary>
-                <img
-                  src="./images-projects/memory-game.jpg"
-                  alt="Photo of the Memory Game app"
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://card-memory-game-bucheli-web-development.netlify.app/" target="blank">Test your memory with this funny memory game.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">JS App powered by JQuery!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Drum Kit</h3>
-                </summary>
-                <img
-                  src="./images-projects/drum-kit.jpg"
-                  alt="Photo of the Drum Kit app"
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://drumkit-bucheli-web-development.netlify.app/" target="blank">Have fun playing drums with this wonderful app.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">JS App powered by JQuery!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Pixel Art Maker</h3>
-                </summary>
-                <img
-                  src="./images-projects/pixel-art-maker.jpg"
-                  alt="Photo of the Pixel Art Maker app"
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://pixel-art-bucheli-web-development.netlify.app/" target="blank">Create pixel pieces of art witih this cool Pixel Art Maker.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">JS App powered by JQuery!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Simon Game</h3>
-                </summary>
-                <img
-                  src="./images-projects/simon-game.jpg"
-                  alt="Photo of the Simon Game app"
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://simon-game-bucheli-web-development.netlify.app/" target="blank">Test your concentration with Simon Game.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">JS App powered by JQuery!</p>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                  <h3>Dice Game</h3>
-                </summary>
-                <img
-                  src="./images-projects/dice-game.jpg"
-                  alt="Photo of the Dice Game app"
-                  class="project-image"
-                />
-                <p class="project-description">
-                  <a class="colored-link"
-                  href="https://dice-game-bucheli-web-development.netlify.app/" target="blank">Have fun playing with Dices.</a>
-                </p>
-                <p style="color:#c94c4c; font-weight:bold">JS App powered by JQuery!</p>
-            </details>
-        </section>
-      <section id="skills">
-        <h2>Skills</h2>
-        <div id="skills-container">
-          <i class="fab fa-html5"></i>
-          <i class="fab fa-css3-alt"></i>
-          <i class="fab fa-js"></i>
-          <i class="fab fa-react"></i>
-          <i class="fab fa-aws"></i>
-          <i class="fab fa-sketch"></i>
-          <i class="fab fa-figma"></i>
-          <i class="fab fa-git"></i>
-          <i class="fab fa-chrome"></i>
-          <i class="fas fa-terminal"></i>
-          <i class="fas fa-universal-access"></i>
-          <i class="fab fa-npm"></i>
-          <i class="fab fa-node"></i>
-          <i class="fab fa-github"></i>
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container">
+            <h2 style="color: #034f84">Projects Sample</h2>
+              <p>
+                If you have an interesting project and you are looking for a professional web developer with a real engineering 
+                background, take a look at my <a class="colored-link"
+                href="https://github.com/ARBUCHELI" target="blank">GitHub Profile</a>,
+                and my <a class="colored-link"
+                href="https://www.codecademy.com/profiles/ANDRES.R.BUCHELI" target="blank">Codecademy Profile</a>, and feel free to contact me.
+              </p>
+          </div>
         </div>
       </section>
+
+      <section id="projects">
+        <h2 style="color: #034f84">Front-End Projects</h2>
+        <h3 style="color: #667292">React & Redux Web Apps</h3>
+        <details class="project">
+          <summary class="project-title">
+            <h3>The Books that I Love App</h3>
+          </summary>
+          <img
+            src="./images-projects/the-books-that-i-love.jpg"
+            alt="Photo of the Books That I Love app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bookshelf-bucheli-web-development.netlify.app/" target="blank">Organize your books digitally and remember the books you want to read in the future.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and Redux!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Would You Rather App</h3>
+          </summary>
+          <img
+            src="./images-projects/would-you-rather.jpg"
+            alt="Photo of the Would You Rather app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://would-you-rather-bucheli-web-development.netlify.app/" target="blank">A social network that allows you to get to know your friends better.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and Redux!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>PetBook App</h3>
+          </summary>
+          <img
+            src="./images-projects/pet-book.jpg"
+            alt='Photo of the PetBook app'
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://pet-book-version2-bucheli-web-development.netlify.app/" target="blank">Fun social network for pets that you will love.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page ap powered by React, and Redux!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Doctor Crepe App</h3>
+          </summary>
+          <img
+            src="./images-projects/doctor-crepe.jpg"
+            alt='Photo of the Doctor Crepe app'
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://doctor-crepe-3-bucheli-web-development.netlify.app/" target="blank">Muffin store application.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, Node.JS, Express.JS, Mailchimp API, and Heroku!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Expenses Tracker App</h3>
+          </summary>
+          <img
+            src="./images-projects/expenses-tracker.jpg"
+            alt='Photo of the Expenses Tracker app'
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://expense-tracker-bucheli-web-development.netlify.app/" target="blank">Expenses Tracker Application to pay attention to your expenses.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app owered by React, and Redux!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>News Reader App</h3>
+          </summary>
+          <img
+            src="./images-projects/news-reader.jpg"
+            alt='Photo of the News Reader app'
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://redux-news-reader-bucheli-web-development.netlify.app/" target="blank">Read, get feedback, and comment your favorite news.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, Middleware, and Thunks!</p>
+        </details>
+        <details class="project">
+            <summary class="project-title">
+              <h3>Matching Memory Game App</h3>
+            </summary>
+            <img
+              src="./images-projects/matching-memory.jpg"
+              alt='Photo of the Matching Memory Game app'
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://matching-memory-game-bucheli-web-development.netlify.app/" target="blank">Put your memory to the test with this fun game.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and Redux!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Content Management System App</h3>
+          </summary>
+          <img
+            src="./images-projects/content-management-system.jpg"
+            alt='Photo of the Content Management System app'
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://content-management-system-bucheli-web-development.netlify.app/" target="blank">Refresh your knowledge about web development with this application.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, and React Router!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Pet Adoption App</h3>
+          </summary>
+          <img
+            src="./images-projects/pet-adoption.jpg"
+            alt='Photo of the Pet Adoption app'
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-pet-adoption-app-bucheli-web-development.netlify.app/" target="blank">If you love animals, help them to find a sweet home with this app.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, and React Router!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Holidays Destination App</h3>
+          </summary>
+          <img
+            src="./images-projects/holidays-destination.jpg"
+            alt='Photo of the Holidays Destination app'
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-build-tools-vite-holiday-destinations.netlify.app/" target="blank">Plan your next holidays and explore wonderful destinations.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux and Vite!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Videoplayer</h3>
+          </summary>
+          <img
+            src="./images-projects/videoplayer.jpg"
+            alt='Photo of the Videoplayer app'
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-react-video-player.netlify.app/" target="blank">Reproduce your favorite videos.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app powered by React!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Grocery Shopping App</h3>
+          </summary>
+          <img
+            src="./images-projects/grocery-shopping.jpg"
+            alt='Photo of the Grocery Shopping app'
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://react-grocery-shopping-app-bucheli-web-development.netlify.app/" target="blank">Make your grocery shopping more easy.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app powered by React!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Keeper App</h3>
+          </summary>
+          <img
+            src="./images-projects/keeper.jpg"
+            alt='Photo of the Keeper app'
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://react-keeper-bucheli-web-development.netlify.app/" target="blank">Organize your notes with Keeper.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app powered by React!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Travel App</h3>
+          </summary>
+          <img
+            src="./images-projects/travel.jpg"
+            alt='Photo of the Travel app'
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://css-in-js-bucheli-travel-app.netlify.app/" target="blank">Beautiful Front End for a Wonderful Traveling App.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, React Emotion and Styled Components!</p>
+        </details>
+      </section>
+
+      <section id="projects">
+        <h3 style="color: #667292">React Native Apps</h3>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Woofstagram</h3>
+          </summary>
+          <img
+            src="./images-projects/trending-woofs.jpg"
+            alt="Photo of the Woofstagram app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://snack.expo.dev/@andresrbucheli/bucheli-react-native-woofstram-home-screen" target="blank">Funny Instagram for Dogs.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, and React Native!</p>
+        </details>
+      </section>
+
+      <section id="projects">
+        <h3 style="color: #667292">Ember JS Framework Apps</h3>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Emergency Services Tracker</h3>
+          </summary>
+          <img
+            src="./images-projects/emergency-tracker.jpg"
+            alt="Photo of the Emergency Tracker app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://emergency-services-tracker-bucheli-web-development.netlify.app/" target="blank">Emergency Services Tracker App.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app powered by Ember!</p>
+        </details>
+      </section>
+
+      <section id="projects">
+        <h3 style="color: #667292">jQuery Projects</h3>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Memory Game</h3>
+          </summary>
+          <img
+            src="./images-projects/memory-game.jpg"
+            alt="Photo of the Memory Game app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://card-memory-game-bucheli-web-development.netlify.app/" target="blank">Test your memory with this funny memory game.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">JS App powered by JQuery!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Drum Kit</h3>
+          </summary>
+          <img
+            src="./images-projects/drum-kit.jpg"
+            alt="Photo of the Drum Kit app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://drumkit-bucheli-web-development.netlify.app/" target="blank">Have fun playing drums with this wonderful app.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">JS App powered by JQuery!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Pixel Art Maker</h3>
+          </summary>
+          <img
+            src="./images-projects/pixel-art-maker.jpg"
+            alt="Photo of the Pixel Art Maker app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://pixel-art-bucheli-web-development.netlify.app/" target="blank">Create pixel pieces of art witih this cool Pixel Art Maker.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">JS App powered by JQuery!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Simon Game</h3>
+          </summary>
+          <img
+            src="./images-projects/simon-game.jpg"
+            alt="Photo of the Simon Game app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://simon-game-bucheli-web-development.netlify.app/" target="blank">Test your concentration with Simon Game.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">JS App powered by JQuery!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Dice Game</h3>
+          </summary>
+          <img
+            src="./images-projects/dice-game.jpg"
+            alt="Photo of the Dice Game app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://dice-game-bucheli-web-development.netlify.app/" target="blank">Have fun playing with Dices.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">JS App powered by JQuery!</p>
+        </details>
+      </section>
+
+      <section id="projects">
+        <h3 style="color: #667292">Vanilla JavaScript Projects</h3>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Online Piano Player</h3>
+          </summary>
+          <img
+            src="./images-projects/online-piano-player.jpg"
+            alt="Photo of the Piano Player app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-online-piano-player-bucheli-web-development.netlify.app/" target="blank">Learn to play keybowards with this training app.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Application Powered by JS!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Number Guesser</h3>
+          </summary>
+          <img
+            src="./images-projects/number-guesser.jpg"
+            alt="Photo of the Number Guesser app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-js-syntax-1-number-guesser.netlify.app/" target="blank">Have fun guessing the number.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Application Powered by JS!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Chore Door</h3>
+          </summary>
+          <img
+            src="./images-projects/chore-door.jpg"
+            alt="Photo of the Chore Door app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-building-interactive-javascript-websites-project.netlify.app/" target="blank">Have a good time playing this funny game.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Application Powered by JS!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Color Flipper</h3>
+          </summary>
+          <img
+            src="./images-projects/color-flipper.jpg"
+            alt="Photo of the Color Flipper app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://color-flipper-bucheli-web-development.netlify.app/" target="blank">Random Color Generator.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Application Powered by JS!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Sophisticated Nav Bar</h3>
+          </summary>
+          <img
+            src="./images-projects/sophisticated-nav-bar.jpg"
+            alt="Photo of the Color Flipper app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://navbar-bucheli-web-development.netlify.app/index.html" target="blank">Beautiful website to be used in your projects.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Application Powered by JS!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Counter App</h3>
+          </summary>
+          <img
+            src="./images-projects/counter-app.jpg"
+            alt="Photo of the Counter app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://counter-bucheli-web-design.netlify.app/" target="blank">Counter mini-app to be used in your projects.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Application Powered by JS!</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Scrolling Content App</h3>
+          </summary>
+          <img
+            src="./images-projects/scrolling-content-app.jpg"
+            alt="Photo of the Color Flipper app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://scrolling-content-app-bucheli-web-development.netlify.app/" target="blank">Scrolling content mini-app to be used in your projects.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Application Powered by JS!</p>
+        </details>
+        </section>
+
+        <section id="projects">
+          <h3 style="color: #667292">Websites for Businesses</h3>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Coca-Cola and Pepsi</h3>
+            </summary>
+            <img
+              src="./images-projects/cocacola.jpg"
+              alt="Photo of the Coca Cola and Pepsi website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://ui-ux-soda-pop-bucheli-web-development.netlify.app/" target="blank">Front End for promoting famous sodas in a Digital Shop.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Budweiser and Heineken</h3>
+            </summary>
+            <img
+              src="./images-projects/beer.jpg"
+              alt="Photo of the Budweiser and Heineken website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://ui-ux-beer-can-bucheli-web-design.netlify.app/" target="blank">Front End for promoting famous beers in a Digital Shop.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>I'm a programmer</h3>
+            </summary>
+            <img
+              src="./images-projects/programmer.jpg"
+              alt="Photo of the Programmer website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://awesome-design-bucheli-web-design.netlify.app/" target="blank">Website for Freelancer Programmer.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Nike and Adidas</h3>
+            </summary>
+            <img
+              src="./images-projects/sneakers.jpg"
+              alt="Photo of the Programmer website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://ui-ux-sneakers-bucheli-web-design.netlify.app/" target="blank">Front End for promoting famous sneakers in a Digital Shop.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Movie Reviews</h3>
+            </summary>
+            <img
+              src="./images-projects/movie-reviews.jpg"
+              alt="Photo of the Movie Reviews website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+               href="https://bucheli-web-development-text-design-project-reel-good-reviews.netlify.app/" target="blank">Front End for Movie Reviews Website.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Nizhny Novgorod Web Development Club</h3>
+            </summary>
+            <img
+              src="./images-projects/nizhny-novgorod.jpg"
+              alt="Photo of the Nizhny Novgorod Web Development Club website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-making-a-website-responsive-challenge-4.netlify.app/" target="blank">Front End for Nizhny Novgorod Web Development Club.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Fotomatic</h3>
+            </summary>
+            <img
+              src="./images-projects/fotomatic.jpg"
+              alt="Photo of the Fotomatic website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-docu-and-debug-project-1.netlify.app/" target="blank">Front End for Photo Studio Business.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Not Much Thyme</h3>
+            </summary>
+            <img
+              src="./images-projects/recipes.jpg"
+              alt="Photo of the Not Much Thyme website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-text-design-project-not-much-thyme.netlify.app/" target="blank">Front End for a nice recipes Website.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Hotels in Singapore</h3>
+            </summary>
+            <img
+              src="./images-projects/hotels-in-singapore.jpg"
+              alt="Photo of the Hotels in Singapore website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+               href="https://bucheli-web-development-improving-style-landing-page.netlify.app/" target="blank">Front End for a nice Hotel Management Website.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Experience The Summit</h3>
+            </summary>
+            <img
+              src="./images-projects/experience-the-summit.jpg"
+              alt="Photo of the Experience The Summit website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-improving-style-project-summit.netlify.app/" target="blank">Front End for a cool Hiking Website.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Twenty Thousand Leagues Under The Sea</h3>
+            </summary>
+            <img
+              src="./images-projects/book-reading.jpg"
+              alt="Photo of the Book Reading website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-intermediate-css-project-transitions.netlify.app/#" target="blank">Front End for a Book Reading Website.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Tsunami Coffee</h3>
+            </summary>
+            <img
+              src="./images-projects/tsunami-coffee.jpg"
+              alt="Photo of the Tsunami Coffee website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-responsive-project-tsunami-coffee.netlify.app/" target="blank">Front End for a Gourmette Coffee shop.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Amazing Space</h3>
+            </summary>
+            <img
+              src="./images-projects/amazing-space.jpg"
+              alt="Photo of the Amazing Space website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-responsive-example-2.netlify.app/" target="blank">Front End for a Science Study Group for Kids.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Bana's Travel Blog</h3>
+            </summary>
+            <img
+              src="./images-projects/banas-travel-blog.jpg"
+              alt="Photo of the Banas Travel Blog website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-responsive-design-banas-travel-blog.netlify.app/" target="blank">Front End for a Traveling Blog Website.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Globe Book Store</h3>
+            </summary>
+            <img
+              src="./images-projects/globe-book-store.jpg"
+              alt="Photo of the Globe Book Store website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-responsive-example.netlify.app/" target="blank">Front End for Book Store Website.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Tea Cozy</h3>
+            </summary>
+            <img
+              src="./images-projects/tea-cozy.jpg"
+              alt="Photo of the Tea Cozy website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-intermediate-css-flexbox-project-v1.netlify.app/" target="blank">Front End for a Tea Shop Website.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Breaking News</h3>
+            </summary>
+            <img
+              src="./images-projects/breaking-news.jpg"
+              alt="Photo of the Breaking News website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-intermediate-css-flexbox1.netlify.app/" target="blank">Front End for a Breaking News Web Portal.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Morocco</h3>
+            </summary>
+            <img
+              src="./images-projects/morocco.jpg"
+              alt="Photo of the Morocco website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-css-course-typography-project.netlify.app/" target="blank">Front End for a Traveling Blog.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Pin Point</h3>
+            </summary>
+            <img
+              src="./images-projects/pin-point.jpg"
+              alt="Photo of the Pin Point website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-ui-design-pinpoint-e-commerce.netlify.app/" target="blank">Front End for a Online Shop.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>House Store</h3>
+            </summary>
+            <img
+              src="./images-projects/house-store.jpg"
+              alt="Photo of the House Store website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-css-colors-project-paint-house.netlify.app/" target="blank">Front End for a House Painting shop.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>The Best Coffee Regions</h3>
+            </summary>
+            <img
+              src="./images-projects/best-coffee.jpg"
+              alt="Photo of the The Best Coffee Regions website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-css-color-foreground-vs-background.netlify.app/" target="blank">Front End for a Website dedicated to Coffee.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>We Are Brodway</h3>
+            </summary>
+            <img
+              src="./images-projects/brodway.jpg"
+              alt="Photo of the Brodway website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-css-color-foreground-vs-background.netlify.app/" target="blank">Front End for a Software Development Company located in NY.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Pearl Jam</h3>
+            </summary>
+            <img
+              src="./images-projects/pearl-jam.jpg"
+              alt="Photo of the Pearl Jam website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-catalog-templates-rock-band.netlify.app/#" target="blank">Pearl Jam Landing Page.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>The Analog Specialist</h3>
+            </summary>
+            <img
+              src="./images-projects/analog-specialist.jpg"
+              alt="Photo of the Analog Specialist website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-classic-design-1.netlify.app/#" target="blank">Classic style website.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Yoko's Kitchen</h3>
+            </summary>
+            <img
+              src="./images-projects/yoko-kitchen.jpg"
+              alt="Photo of the Yoko's Kitchen website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-classic-design-3.netlify.app/" target="blank">Japanese Restaurant Website.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, and HTML5 Layout!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Pedal Faster</h3>
+            </summary>
+            <img
+              src="./images-projects/pedal-faster.jpg"
+              alt="Photo of the Pedal Faster website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-960gs-classic-website.netlify.app/" target="blank">Landing Page for bicycle store.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, and 960gs Framework!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Citrus</h3>
+            </summary>
+            <img
+              src="./images-projects/citrus.jpg"
+              alt="Photo of the Citrus website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-color-design-course-introduction.netlify.app/" target="blank">Contact Landing Page created for a Chicago Company.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>The Terminal</h3>
+            </summary>
+            <img
+              src="./images-projects/the-terminal.jpg"
+              alt="Photo of the The Terminal website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-css-course-box-visibility.netlify.app/" target="blank">Landing Page for Eco-tourism company.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Look Up In The Sky</h3>
+            </summary>
+            <img
+              src="./images-projects/sky.jpg"
+              alt="Photo of the Look Up In The Sky website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-color-design-course-complementary.netlify.app/" target="blank">Landing Page for University Science Club.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Musicon</h3>
+            </summary>
+            <img
+              src="./images-projects/musicon.jpg"
+              alt="Photo of the Musicon website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-handlebars-musicon-bucheli.netlify.app/index.html" target="blank">Landing Page for Guitar Shop.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, and Handlebars!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Innovation Cloud</h3>
+            </summary>
+            <img
+              src="./images-projects/innovation.jpg"
+              alt="Photo of the Innovation Cloud website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-css-course-intro-to-css.netlify.app/" target="blank">Landing Page for International Conference.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>AdHoc</h3>
+            </summary>
+            <img
+              src="./images-projects/adhoc.jpg"
+              alt="Photo of the AdHoc website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-bootstrap-adhoc.netlify.app/" target="blank">Landing Page for Startup.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS and Bootstrap!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Jetsetter Concierge</h3>
+            </summary>
+            <img
+              src="./images-projects/airline.jpg"
+              alt="Photo of the Jetsetter Concierge website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://bucheli-web-development-front-end-course-applying-css.netlify.app/" target="blank">Landing Page for Airline.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Reserva Natural Biotopo Selva Humeda</h3>
+            </summary>
+            <img
+              src="./images-projects/biotopo.jpg"
+              alt="Photo of the Reserva Natural Biotopo website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://andina-foundation-project-bucheli-web-design.netlify.app/index.html" target="blank">Multipage Website for Ecological Company.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Portfolio Website</h3>
+            </summary>
+            <img
+              src="./images-projects/portfolio.jpg"
+              alt="Photo of the Portfolio website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://personal-portfolio-bucheli-web-development.netlify.app/#contact" target="blank">Portfolio Website.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Dr. Carl Sagan</h3>
+            </summary>
+            <img
+              src="./images-projects/tribute.jpg"
+              alt="Photo of the Portfolio website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://tribute-page-2-bucheli-web-development.netlify.app/" target="blank">Tribute Page.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Brighton Times</h3>
+            </summary>
+            <img
+              src="./images-projects/brigton.jpg"
+              alt="Photo of the Brighton Times website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://responsive-web-newspaper-bucheli-web-development.netlify.app/" target="blank">Responsive digital Brighton newspaper.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>The Punk Rock Gazeta</h3>
+            </summary>
+            <img
+              src="./images-projects/punk.jpg"
+              alt="Photo of the Brighton Times website"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://the-punk-rock-gazeta-bucheli-web-development.netlify.app/" target="blank">Responsive digital punk newspaper.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+          </details>
+        </section>
+
+        <section id="projects">
+          <h2 style="color: #034f84">Back-End Projects</h2>
+          <h3 style="color: #667292">Node.Js and Express Apps</h3>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Coder Warriors NewsLetter</h3>
+            </summary>
+            <img
+              src="./images-projects/newsletter.jpg"
+              alt="Photo of the Newsletter app"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://thawing-reaches-09155.herokuapp.com/" target="blank">Newsletter App.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Backend App powered by Node.js, Express.js, Heroku, and Mailchimp!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Todo List</h3>
+            </summary>
+            <img
+              src="./images-projects/todo-list.jpg"
+              alt="Photo of the Todo List app"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://calm-woodland-84400.herokuapp.com/" target="blank">Todo List App with Persisting Data.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Backend App powered by Node.js, Express.js, Heroku, MongoDB, Mongoose and Mailchimp!</p>
+          </details>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Daily Journal</h3>
+            </summary>
+            <img
+              src="./images-projects/daily-journal.jpg"
+              alt="Photo of the Daily Journal app"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://desolate-temple-32561.herokuapp.com/" target="blank">Daily Journal App with persisting data capabilities.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Backend App powered by Node.js, Express.js, Heroku, MongoDB, Mongoose and Mailchimp!</p>
+          </details>
+        </section>
+
+        <section id="projects">
+          <h2 style="color: #034f84">Full-Stack Projects</h2>
+          <h3 style="color: #667292">Node.Js and Express Apps</h3>
+          <details class="project">
+            <summary class="project-title">
+              <h3>Restaurants List</h3>
+            </summary>
+            <img
+              src="./images-projects/restaurants.jpg"
+              alt="Photo of the Restaurants List app"
+              class="project-image"
+            />
+            <p class="project-description">
+              <a class="colored-link"
+              href="https://github.com/ARBUCHELI/BUCHELI-PROJECT-SERVER-SIDE-CALLS-TO-EXTERNAL-APIS" target="blank">Restaurants List Full Stack App.</a>
+            </p>
+            <p style="color:#c94c4c; font-weight:bold">Full Stack App powered by React.js, Node.js, Express.js, PostgreSQL, and Supabase!</p>
+          </details>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+          <div id="skills-container">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js"></i>
+            <i class="fab fa-react"></i>
+            <i class="fab fa-aws"></i>
+            <i class="fab fa-sketch"></i>
+            <i class="fab fa-figma"></i>
+            <i class="fab fa-git"></i>
+            <i class="fab fa-chrome"></i>
+            <i class="fas fa-terminal"></i>
+            <i class="fas fa-universal-access"></i>
+            <i class="fab fa-npm"></i>
+            <i class="fab fa-node"></i>
+            <i class="fab fa-github"></i>
+          </div>
+        </section>
     </main>
-
     <footer>Made with <span class="heart">♥</span> in Nizhny Novgorod</footer>
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+        
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+        
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+        
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+    </script>
   </body>
-  <script>
-    const timeContainer = document.getElementById("time-container");
-    const STARTING_DAY = "01-01-2015";
-    const STARTING_DAY_DATE = new Date(STARTING_DAY);
-    const intlNumberFormatter = new Intl.NumberFormat("en-US");
-
-    setInterval(() => {
-      const now = new Date();
-      const difference = Math.floor(
-        (now.getTime() - STARTING_DAY_DATE.getTime()) / 1000
-      );
-      timeContainer.innerText = intlNumberFormatter.format(difference);
-    }, 1000);
-  </script>
+ 
 </html>
