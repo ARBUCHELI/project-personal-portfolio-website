@@ -38,7 +38,6 @@ h3 {
   margin-bottom: var(--spacing-2);
 }
 
-
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -105,13 +104,6 @@ details {
 
 summary {
   list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/7/right-arrow.svg);
-}
-
-footer {
-  margin-top: auto;
-  padding: var(--spacing-2) 0;
-  text-align: center;
-  font-weight: bold;
 }
 
 section {
@@ -186,9 +178,328 @@ tr:nth-child(odd) td {
   background-color: #034f84;
 }
 
+.cert-image {
+  text-align: center;
+  max-width: 700px;
+  max-height: 800px;
+  border: solid 1px #034f84;
+}
+
+hr.divisor {
+  border: 1px solid #92a8d1;
+}
+
+.projectcard {
+  background-color: #92a8d1;
+  border: solid 2px #034f84;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.certificate-card {
+  border: solid 2px white;
+  background-color: #deeaee;
+  margin: 3em;
+  padding: 3em;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: auto;
+  padding: var(--spacing-2) 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 947px) {
+  #skills-container {
+    font-size: 0.9em;
+  }
+  .cert-image {
+    max-width: 670px;
+  }
+}
+
+@media only screen and (max-width: 905px) {
+  table {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .portrait {
+    width: 270px;
+  }
+  .about-me-text-container {
+    font-size: 14px;
+  }
+  .cert-image {
+    max-width: 650px;
+  }
+  .certificate-card {
+    margin: 2.8em;
+  }
+}
+
+@media only screen and (max-width: 866px) {
+  .cert-image {
+    max-width: 630px;
+  }
+  .certificate-card {
+    margin: 2.8em;
+  }
+}
+
+@media only screen and (max-width: 842px) {
+  .cert-image {
+    max-width: 600px;
+  }
+}
+
+@media only screen and (max-width: 838px) {
+  #skills-container {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 829px) {
+  .portrait {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  .cert-image {
+    max-width: 550px;
+  }
+}
+
+@media only screen and (max-width: 787px) {
+  table {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  nav {
+    font-size: 13px;
+  }
+  #skills-container {
+    font-size: 0.7em;
+  }
+  .portrait {
+    width: 210px;
+  }
+  .about-me-text-container {
+    font-size: 13px;
+  }
+  .cert-image {
+    max-width: 510px;
+  }
+  .certificate-card {
+    margin: 2em;
+  }
+}
+
+@media only screen and (max-width: 726px) {
+  table {
+    font-size: 0.6rem;
+  }
+  .cert-image {
+    max-width: 510px;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .portrait {
+    width: 200px;
+  }
+  .cert-image {
+    max-width: 450px;
+  }
+}
+
+@media only screen and (max-width: 676px) {
+  nav {
+    font-size: 12px;
+  }
+  #skills-container {
+    font-size: 0.6em;
+  }
+  .portrait {
+    width: 180px;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 2px 8px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .cert-image {
+    max-width: 400px;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .about-me-container {
     flex-direction: column;
+  }
+  #skills-container {
+    font-size: 0.5em;
+  }
+  #logo {
+    font-size: 2em;
+  }
+  nav {
+    font-size: 14px;
+    display: inline-block;
+  }
+  .cert-image {
+    max-width: 380px;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 2px 5px;
+  }
+  .cert-image {
+    max-width: 350px;
+  }
+  .certificate-card {
+    margin: 2em;
+  }
+}
+
+@media only screen and (max-width: 532px) {
+  .cert-image {
+    max-width: 320px;
+  }
+  .certificate-card {
+    margin: 2em;
+  }
+}
+
+@media only screen and (max-width: 516px) {
+  table {
+    font-size: 0.4rem;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .cert-image {
+    max-width: 300px;
+  }
+  .certificate-card {
+    margin: 2em;
+  }
+}
+
+@media only screen and (max-width: 498px) {
+  .about-me-container {
+    flex-direction: column;
+  }
+  #skills-container {
+    font-size: 0.4em;
+  }
+  #logo {
+    font-size: 2em;
+  }
+  nav {
+    font-size: 12px;
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .cert-image {
+    max-width: 280px;
+  }
+  .certificate-card {
+    margin: 2em;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .about-me-container {
+    flex-direction: column;
+  }
+  #skills-container {
+    font-size: 0.4em;
+  }
+  #logo {
+    font-size: 2.5em;
+  }
+  nav {
+    font-size: 10px;
+    display: inline-block;
+  }
+  .cert-image {
+    max-width: 250px;
+  }
+  .certificate-card {
+    margin: 2em;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .cert-image {
+    max-width: 200px;
+  }
+  .certificate-card {
+    margin: 2em;
+  }
+}
+
+@media only screen and (max-width: 407px) {
+  .about-me-container {
+    flex-direction: column;
+  }
+  #skills-container {
+    font-size: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .about-me-container {
+    flex-direction: column;
+  }
+  #skills-container {
+    font-size: 0.5em;
+  }
+  #logo {
+    font-size: 2em;
+  }
+  nav {
+    font-size: 8px;
+    display: inline-block;
+  }
+  .cert-image {
+    max-width: 150px;
+  }
+  .certificate-card {
+    margin: 2em;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .about-me-container {
+    flex-direction: column;
+  }
+  #skills-container {
+    font-size: 0.5em;
+  }
+  #logo {
+    font-size: 1.5em;
+  }
+  nav {
+    font-size: 7px;
+    display: inline-block;
   }
 }
