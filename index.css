@@ -183,6 +183,33 @@ tr:nth-child(odd) td {
   max-width: 700px;
   max-height: 800px;
   border: solid 1px #034f84;
+  transition: transform .5s;
+}
+
+.pop {
+  transition: transform 3s;
+  border: solid 1px #034f84;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.pop:hover {
+  -ms-transform: scale(2.3, 2.3);
+  -webkit-transform: scale(2.3, 2.3);
+  transform: scale(2.3, 2.3);
+}
+
+.diploma-image {
+  text-align: center;
+  max-width: 700px;
+  max-height: 800px;
+  border: solid 1px #034f84;
+  transition: transform .5s;
+}
+    
+.cert-image:hover {
+  -ms-transform: scale(1.7, 1.7);
+  -webkit-transform: scale(1.7, 1.7);
+  transform: scale(1.7, 1.7);
 }
 
 hr.divisor {
@@ -195,6 +222,9 @@ hr.divisor {
   text-align: center;
   border-radius: 5px;
   margin-bottom: 50px;
+  padding: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .certificate-card {
@@ -203,6 +233,10 @@ hr.divisor {
   margin: 3em;
   padding: 3em;
   border-radius: 5px;
+}
+
+.university:hover {
+  color: #034f84;
 }
 
 footer {
@@ -217,6 +251,9 @@ footer {
     font-size: 0.9em;
   }
   .cert-image {
+    max-width: 670px;
+  }
+  .diploma-image {
     max-width: 670px;
   }
 }
@@ -237,6 +274,9 @@ footer {
   .cert-image {
     max-width: 650px;
   }
+  .diploma-image {
+    max-width: 650px;
+  }
   .certificate-card {
     margin: 2.8em;
   }
@@ -246,6 +286,9 @@ footer {
   .cert-image {
     max-width: 630px;
   }
+  .diploma-image {
+    max-width: 630px;
+  }
   .certificate-card {
     margin: 2.8em;
   }
@@ -253,6 +296,9 @@ footer {
 
 @media only screen and (max-width: 842px) {
   .cert-image {
+    max-width: 600px;
+  }
+  .diploma-image {
     max-width: 600px;
   }
 }
@@ -271,6 +317,9 @@ footer {
 
 @media only screen and (max-width: 815px) {
   .cert-image {
+    max-width: 550px;
+  }
+  .diploma-image {
     max-width: 550px;
   }
 }
@@ -297,6 +346,9 @@ footer {
   .cert-image {
     max-width: 510px;
   }
+  .diploma-image {
+    max-width: 510px;
+  }
   .certificate-card {
     margin: 2em;
   }
@@ -309,6 +361,9 @@ footer {
   .cert-image {
     max-width: 510px;
   }
+  .diploma-image {
+    max-width: 510px;
+  }
 }
 
 @media only screen and (max-width: 690px) {
@@ -316,6 +371,9 @@ footer {
     width: 200px;
   }
   .cert-image {
+    max-width: 450px;
+  }
+  .diploma-image {
     max-width: 450px;
   }
 }
@@ -343,6 +401,9 @@ footer {
   .cert-image {
     max-width: 400px;
   }
+  .diploma-image {
+    max-width: 400px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -362,6 +423,9 @@ footer {
   .cert-image {
     max-width: 380px;
   }
+  .diploma-image {
+    max-width: 380px;
+  }
 }
 
 @media only screen and (max-width: 565px) {
@@ -372,6 +436,9 @@ footer {
   .cert-image {
     max-width: 350px;
   }
+  .diploma-image {
+    max-width: 350px;
+  }
   .certificate-card {
     margin: 2em;
   }
@@ -379,6 +446,9 @@ footer {
 
 @media only screen and (max-width: 532px) {
   .cert-image {
+    max-width: 320px;
+  }
+  .diploma-image {
     max-width: 320px;
   }
   .certificate-card {
@@ -394,6 +464,9 @@ footer {
 
 @media only screen and (max-width: 510px) {
   .cert-image {
+    max-width: 300px;
+  }
+  .diploma-image {
     max-width: 300px;
   }
   .certificate-card {
@@ -421,6 +494,9 @@ footer {
   .cert-image {
     max-width: 280px;
   }
+  .diploma-image {
+    max-width: 280px;
+  }
   .certificate-card {
     margin: 2em;
   }
@@ -443,6 +519,9 @@ footer {
   .cert-image {
     max-width: 250px;
   }
+  .diploma-image {
+    max-width: 250px;
+  }
   .certificate-card {
     margin: 2em;
   }
@@ -450,6 +529,9 @@ footer {
 
 @media only screen and (max-width: 430px) {
   .cert-image {
+    max-width: 200px;
+  }
+  .diploma-image {
     max-width: 200px;
   }
   .certificate-card {
@@ -483,6 +565,9 @@ footer {
   .cert-image {
     max-width: 150px;
   }
+  .diploma-image {
+    max-width: 150px;
+  }
   .certificate-card {
     margin: 2em;
   }
@@ -503,3 +588,4 @@ footer {
     display: inline-block;
   }
 }
+
