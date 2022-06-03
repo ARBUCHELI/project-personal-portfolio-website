@@ -7,27 +7,100 @@
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <style>
+       .row .column {
+            box-sizing: border-box;
+        }
+        .row {
+            text-align: center;
+        }
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+    </style>
   </head>
   <body>
     <nav>
-      <h2 id="logo"><a href="/">Ada Lovelace</a></h2>
+      <h2 id="logo">Andrés R. Bucheli</h2>
       <ul class="navigation-items">
-        <li class="navigation-item"><a href="./index.html">About Me</a></li>
-        <li class="navigation-item"><a href="/#projects">Projects</a></li>
-        <li class="navigation-item"><a href="/#skills">Skills</a></li>
-        <li class="navigation-item"><a href="/contact.html">Contact</a></li>
+        <li class="navigation-item"><a class="colored-link-header" href="./index.html">About Me</a></li>
+        <li class="navigation-item"><a class="colored-link-header" href="./projects.html">Projects</a></li>
+        <li class="navigation-item"><a class="colored-link-header" href="./skills.html">Skills</a></li>
+        <li class="navigation-item"><a class="colored-link-header" href="./certificates.html">Certificates</a></li>
+        <li class="navigation-item"><a class="colored-link-header" href="./education.html">Education</a></li>
+        <li class="navigation-item"><a class="colored-link-header" href="./contact.html">Contact</a></li>
       </ul>
     </nav>
     <main>
       <section id="contact">
-        <h2>Contact</h2>
+        <h2 style="color: #034f84">Contact</h2>
         <p>Have an interesting project? I would love to hear about it!</p>
-        <div>
-          <a href="#"><i class="fab fa-linkedin icon"></i></a>
-          <a href="#"><i class="fab fa-github icon"></i></a>
-          <a href="#"><i class="fas fa-envelope-square icon"></i></a>
+        <div class="row">
+          <div class="column">
+            <a target="_blank" href="https://github.com/ARBUCHELI"><img src="./contact-icons/github.png" alt="github" style="width:100%" class="icon-image"></a>
+          </div>
+          <div class="column">
+            <a target="_blank" href="https://www.linkedin.com/in/andresregaladobucheli/"><img src="./contact-icons/linkedin.png" alt="github" style="width:100%" class="icon-image"></a>
+          </div>
+          <div class="column">
+            <a target="_blank" href="mailto:radio_seattle@hotmail.com"><img src="./contact-icons/email.png" alt="email" style="width:100%" class="icon-image"></a>
+          </div>
+          
+          <div class="column">
+            <a target="_blank" href="tel:+79601847870"><img src="./contact-icons/phone.png" alt="email" style="width:100%" class="icon-image"></a>
+          </div>
+          <div class="column">
+            <a target="_blank" href="https://bryansk.hh.ru/resume/09b1a902ff072c9db30039ed1f334279355174"><img src="./contact-icons/hhr.png" alt="email" style="width:100%" class="icon-image"></a>
+          </div>
+          <div class="column">
+            <a target="_blank" href="https://www.codecademy.com/profiles/ANDRES.R.BUCHELI"><img src="./education-icons/codecademy.jpg" alt="codecademy" style="width:100%" class="icon-image"></a>
+          </div>
+
+          <div class="column">
+            <a target="_blank" href="https://coderwarriors.wordpress.com/about/"><img src="./contact-icons/coderwarriors.jpg" alt="email" style="width:100%" class="icon-image"></a>
+          </div>
+          <div class="column">
+            <a target="_blank" href="https://codepen.io/rothwulf"><img src="./contact-icons/codepen.png" alt="codecademy" style="width:100%" class="icon-image"></a>
+          </div>
+          <div class="column">
+            <a target="_blank" href="https://www.codeply.com/u/arbucheli"><img src="./contact-icons/codeply.png" alt="codecademy" style="width:100%" class="icon-image"></a>
+          </div>
+
+          <div class="column">
+            <a target="_blank" href="https://replit.com/@ARBUCHELI"><img src="./contact-icons/replit.png" alt="codecademy" style="width:100%" class="icon-image"></a>
+          </div>
+          <div class="column">
+            <a target="_blank" href="https://expo.dev/@andresrbucheli?tab=snacks"><img src="./contact-icons/expo.png" alt="codecademy" style="width:100%" class="icon-image"></a>
+          </div>
+          <div class="column">
+            <a target="_blank" href="https://www.coursera.org/user/b79c4e7f912c5ab4a03b34b36f1f9d4b"><img src="./education-icons/coursera.jpg" alt="coursera" style="width:100%" class="icon-image"></a>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="skills" style="margin-top: 410px">
+        <div id="skills-container">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-aws"></i>
+          <i class="fab fa-sketch"></i>
+          <i class="fab fa-figma"></i>
+          <i class="fab fa-git"></i>
+          <i class="fab fa-chrome"></i>
+          <i class="fas fa-terminal"></i>
+          <i class="fas fa-universal-access"></i>
+          <i class="fab fa-npm"></i>
+          <i class="fab fa-node"></i>
+          <i class="fab fa-github"></i>
         </div>
       </section>
     </main>
+    <footer>Made with <span class="heart">♥</span> in Nizhny Novgorod</footer>
   </body>
 </html>

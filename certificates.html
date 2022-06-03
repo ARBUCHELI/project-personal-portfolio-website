@@ -20,9 +20,9 @@
           width: 280px;
         }
         
-        div.gallery:hover {
-          /*border: 1px solid #777;*/
-        }
+        /*div.gallery:hover {
+          border: 1px solid #777;
+        }*/
         
         div.gallery img {
           width: 100%;
@@ -33,18 +33,36 @@
           padding: 15px;
           text-align: center;
         }
+        .row .column {
+            box-sizing: border-box;
+        }
+        .row {
+            text-align: center;
+        }
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+            .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
     </style>
   </head>
   <body>
     <nav>
       <h2 id="logo">Andrés R. Bucheli</h2>
       <ul class="navigation-items">
-        <li class="navigation-item"><a href="./index.html">About Me</a></li>
-        <li class="navigation-item"><a href="./projects.html">Projects</a></li>
-        <li class="navigation-item"><a href="./skills.html">Skills</a></li>
-        <li class="navigation-item"><a href="./certificates.html">Certificates</a></li>
-        <li class="navigation-item"><a href="./education.html">Education</a></li>
-        <li class="navigation-item"><a href="./contact.html">Contact</a></li>
+        <li class="navigation-item"><a class="colored-link-header" href="./index.html">About Me</a></li>
+        <li class="navigation-item"><a class="colored-link-header" href="./projects.html">Projects</a></li>
+        <li class="navigation-item"><a class="colored-link-header" href="./skills.html">Skills</a></li>
+        <li class="navigation-item"><a class="colored-link-header" href="./certificates.html">Certificates</a></li>
+        <li class="navigation-item"><a class="colored-link-header" href="./education.html">Education</a></li>
+        <li class="navigation-item"><a class="colored-link-header" href="./contact.html">Contact</a></li>
       </ul>
     </nav>
 
@@ -52,10 +70,54 @@
         <section id="about-me">
           <div class="about-me-container">
             <div class="about-me-text-container">
-              <h2 style="color: #034f84">Electronic Certificates</h2>
+              <h2 style="color: #034f84">Certificates and Scholarships</h2>
+              <h2 style="color: #034f84">Certificates</h2>
               <p>
                 Here you can find a gallery of the educational certifications I have obtained throughout my career and during my professional growth.
               </p>
+              <p>
+                One of my biggest motivations as a Software Engineer is constant learning, and that is why I frequently use different 
+                virtual educational platforms such as 
+                <a class="colored-link" target="_blank" href="https://www.codecademy.com/">Codecademy</a>,
+                <a class="colored-link" target="_blank" href="https://www.freecodecamp.org/">Freecodecamp</a>,
+                <a class="colored-link" target="_blank" href="https://www.udacity.com/">Udacity</a>,
+                <a class="colored-link" target="_blank" href="https://www.edx.org/">edX</a>,
+                <a class="colored-link" target="_blank" href="https://www.coursera.org/">Coursera</a>,
+                <a class="colored-link" target="_blank" href="https://openlearning.mit.edu/courses-programs/mitx-courses?f%5B0%5D=course_availability%3A62">MITx</a>, 
+                <a class="colored-link" target="_blank" href="https://vpal.harvard.edu/harvard-online-harvardx">Harvardx</a>,
+                <a class="colored-link" target="_blank" href="https://www.linkedin.com/learning/">Linkedin Learning</a>, and 
+                <a class="colored-link" target="_blank" href="https://www.udemy.com/">Udemy</a>, 
+                to keep my knowledge up to date.
+              </p>
+              <div class="row">
+                <div class="column">
+                  <img src="./education-icons/codecademy.jpg" alt="codecademy" style="width:100%" class="icon-image">
+                </div>
+                <div class="column">
+                    <img src="./education-icons/edx.jpg" alt="edx" style="width:100%" class="icon-image">
+                </div>
+                <div class="column">
+                    <img src="./education-icons/freecodecamp.jpg" alt="freecodecamp" style="width:100%" class="icon-image">
+                </div>
+                <div class="column">
+                    <img src="./education-icons/udacity.jpg" alt="udacity" style="width:100%" class="icon-image">
+                </div>
+                <div class="column">
+                    <img src="./education-icons/coursera.jpg" alt="coursera" style="width:100%" class="icon-image">
+                </div>
+                <div class="column">
+                    <img src="./education-icons/linkedin.jpg" alt="linkedin" style="width:100%" class="icon-image">
+                </div>
+                <div class="column">
+                    <img src="./education-icons/mitx.jpg" alt="mitx" style="width:100%" class="icon-image">
+                </div>
+                <div class="column">
+                    <img src="./education-icons/udemy.jpg" alt="udemy" style="width:100%" class="icon-image">
+                </div>
+                <div class="column">
+                    <img src="./education-icons/harvardx.jpg" alt="harvardx" style="width:100%" class="icon-image">
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -123,6 +185,23 @@
                     </a>
                 </div>
                 <div class="gallery">
+                    <img src="./images-certificates/linux.jpg" alt="Photo of certificate" width="600" height="400" class="pop">
+                    <a target="_blank" href="https://verify.edx.org/cert/7dcebc519d644102918e42bb5492647c">
+                        <div class="desc"><span style="color: #bc5a45">LINUX FOUNDATION</span> LFS101x.2, Introduction to Linux
+                        </div> 
+                    </a>
+                </div>
+                <div class="gallery">
+                    <img src="./images-certificates/harvey.jpg" alt="Photo of certificate" width="600" height="400" class="pop">
+                    <a target="_blank" href="https://verify.edx.org/cert/3c64f63a792545c988cbcb0115267754">
+                        <div class="desc"><span style="color: #bc5a45">HARVEY MUDD COLLEGE</span> My CS: Computer Science for Beginners
+                        </div> 
+                    </a>
+                </div>
+            </div>
+
+            <div class="external">
+                <div class="gallery">
                     <img src="./images-certificates/r.jpg" alt="Photo of certificate" width="600" height="400" class="pop">
                     <a target="_blank" href="https://courses.edx.org/certificates/71cc0ec0445f4ff58d58b7325a9bca55">
                         <div class="desc"><span style="color: #bc5a45">MICROSOFT</span> DAT204x: Introduction to R Programming  
@@ -136,27 +215,10 @@
                         </div> 
                     </a>
                 </div>
-            </div>
-
-            <div class="external">
-                <div class="gallery">
-                    <img src="./images-certificates/linux.jpg" alt="Photo of certificate" width="600" height="400" class="pop">
-                    <a target="_blank" href="https://verify.edx.org/cert/7dcebc519d644102918e42bb5492647c">
-                        <div class="desc"><span style="color: #bc5a45">LINUX FOUNDATION</span> LFS101x.2, Introduction to Linux
-                        </div> 
-                    </a>
-                </div>
                 <div class="gallery">
                     <img src="./images-certificates/c.jpg" alt="Photo of certificate" width="600" height="400" class="pop">
                     <a target="_blank" href="https://courses.edx.org/certificates/6c19c4f9030c46f5b0598365213e8d0b">
                         <div class="desc"><span style="color: #bc5a45">MICROSOFT</span> DEV210x: Introduction to C++
-                        </div> 
-                    </a>
-                </div>
-                <div class="gallery">
-                    <img src="./images-certificates/harvey.jpg" alt="Photo of certificate" width="600" height="400" class="pop">
-                    <a target="_blank" href="https://verify.edx.org/cert/3c64f63a792545c988cbcb0115267754">
-                        <div class="desc"><span style="color: #bc5a45">HARVEY MUDD COLLEGE</span> My CS: Computer Science for Beginners
                         </div> 
                     </a>
                 </div>
@@ -751,18 +813,11 @@
 
         <section id="projects" class="projectcard webdevelopmentcard" style="padding-top: 30px;">
             <h2 style="color: white; font-size: bolder; width: 100%; text-align: center;">ELECTRONIC ENGINEERING</h2>
-            <div class="external" style="margin-top: 40px;">
+            <div class="external" style="margin-top: 40px; margin-bottom: 50px;">
                 <div class="gallery">
                     <img src="./images-certificates/robotics.jpg" alt="Photo of certificate" width="600" height="400" class="pop">
                     <a target="_blank" href="https://github.com/ARBUCHELI/MY-CERTIFICATIONS/blob/master/AN%C3%81LISIS%20E%20IDENTIFICACI%C3%93N%20DE%20UN%20SISTEMA%20ROB%C3%93TICO.pdf">
                         <div class="desc"><span style="color: #034f84">SENA</span> Analysis and identification of a robotic system
-                        </div> 
-                    </a>
-                </div>
-                <div class="gallery">
-                    <img src="./images-certificates/berklee.jpg" alt="Photo of certificate" width="600" height="400" class="pop">
-                    <a target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/LY8NHJKMX3">
-                        <div class="desc"><span style="color: #034f84">BERKLEE COLLEGE OF MUSIC</span> Introduction to Music Production
                         </div> 
                     </a>
                 </div>
@@ -773,9 +828,6 @@
                         </div>
                     </a>
                 </div>
-            </div>
-
-            <div class="external" style="margin-bottom: 50px;">
                 <div class="gallery">
                     <img src="./images-certificates/rochester.jpg" alt="Photo of certificate" width="600" height="400" class="pop">
                     <a target="_blank" href="https://github.com/ARBUCHELI/MY-CERTIFICATIONS/blob/master/FUNDAMENTALS%20OF%20AUDIO%20AND%20MUSIC%20ENGINEERING%20PART%201%20MUSICAL%20SOUND%20%26%20ELECTRONICS.pdf">
@@ -817,6 +869,13 @@
 
             <div class="external">
                 <div class="gallery">
+                    <img src="./images-certificates/digital-transformation.jpg" alt="Photo of certificate" width="600" height="400" class="pop">
+                    <a target="_blank" href="https://www.udemy.com/certificate/UC-8e2b0e0d-a904-47e4-b7f2-a567770703b9/">
+                        <div class="desc"><span style="color: #bc5a45">ICAN CONSULTANCY</span> Digital Transformation and Industry 4.0
+                        </div> 
+                    </a>
+                </div>
+                <div class="gallery">
                     <img src="./images-certificates/hiring.jpg" alt="Photo of certificate" width="600" height="400" class="pop">
                     <a target="_blank" href="https://www.udemy.com/certificate/UC-10GNBP4V/">
                         <div class="desc"><span style="color: #bc5a45">UDEMY</span> Hiring Workflow: How to Build a Superstar Tech Team
@@ -830,13 +889,6 @@
                         </div> 
                     </a>
                 </div>
-                <div class="gallery">
-                    <img src="./images-certificates/virginia.jpg" alt="Photo of certificate" width="600" height="400" class="pop">
-                    <a target="_blank" href="https://github.com/ARBUCHELI/MY-CERTIFICATIONS/blob/master/Coursera%20projects101%202015.pdf">
-                        <div class="desc"><span style="color: #bc5a45">UNIVERSITY OF VIRGINIA</span> Fundamentals of Project Planning and Management
-                        </div> 
-                    </a>
-                </div>
             </div>
 
             <div class="external" style="margin-bottom: 50px;">
@@ -845,6 +897,13 @@
                     <a target="_blank" href="https://github.com/ARBUCHELI/MY-CERTIFICATIONS/blob/master/DEVELOPING%20INNOVATIVE%20IDEAS%20FOR%20NEW%20COMPANIES.pdf">
                         <div class="desc"><span style="color: #bc5a45">UNIVERSITY OF MARYLAND</span> Developing Innovative Ideas for New Companies: The
                             First Step in Entrepreneurship
+                        </div> 
+                    </a>
+                </div>
+                <div class="gallery">
+                    <img src="./images-certificates/virginia.jpg" alt="Photo of certificate" width="600" height="400" class="pop">
+                    <a target="_blank" href="https://github.com/ARBUCHELI/MY-CERTIFICATIONS/blob/master/Coursera%20projects101%202015.pdf">
+                        <div class="desc"><span style="color: #bc5a45">UNIVERSITY OF VIRGINIA</span> Fundamentals of Project Planning and Management
                         </div> 
                     </a>
                 </div>
@@ -916,6 +975,7 @@
         </section>
         
         
+
         <section id="projects" class="projectcard" style="padding-top: 30px;">
             <h2 style="color: white; font-size: bolder; width: 100%; text-align: center;">HOBBIES</h2>
             <div class="external" style="margin-top: 40px; margin-bottom: 50px;">
@@ -926,11 +986,112 @@
                         </div> 
                     </a>
                 </div>
+                <div class="gallery">
+                    <img src="./images-certificates/berklee.jpg" alt="Photo of certificate" width="600" height="400" class="pop">
+                    <a target="_blank" href="https://www.coursera.org/account/accomplishments/certificate/LY8NHJKMX3">
+                        <div class="desc"><span style="color: #bc5a45">BERKLEE COLLEGE OF MUSIC</span> Introduction to Music Production
+                        </div> 
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="about-me">
+            <div class="about-me-container">
+                <div class="about-me-text-container">
+                    <h2 style="color: #034f84">Scholarships</h2>
+                    <p>
+                        Throughout my career I have obtained scholarships with different technology companies, which have allowed me to interact and develop projects with engineers from different countries and work with cutting-edge technology. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="projects" class="projectcard scholarships" style="padding-top: 30px;">
+            <h2 style="color: #034f84; font-size: bolder; width: 100%; text-align: center;">UDACITY</h2>
+            <div class="external" style="margin-top: 40px; margin-bottom: 50px;">
+                <div class="gallery">
+                    <img src="./scholarships/google.jpg" alt="Photo of certificate" width="600" height="400" class="pop scholarship">
+                    <a href="">
+                        <div class="desc"><span style="color: #034f84">GOOGLE</span> Front-End Web Developer (2017 - 2018)
+                        </div> 
+                    </a>
+                </div>
+                <div class="gallery">
+                    <img src="./scholarships/intel.jpg" alt="Photo of certificate" width="600" height="400" class="pop scholarship">
+                    <a href="">
+                        <div class="desc"><span style="color: #034f84">INTEL</span> Intel Edge AI for IoT Developers (2019 - 2020)
+                        </div> 
+                    </a>
+                </div>
+                <div class="gallery">
+                    <img src="./scholarships/microsoft-azure.jpg" alt="Photo of certificate" width="600" height="400" class="pop scholarship">
+                    <a href="">
+                        <div class="desc"><span style="color: #034f84">MICROSOFT</span> Microsoft Azure Machine Learning Scholarship (2020 - 2021)
+                        </div> 
+                    </a>
+                </div>
+            </div>
+            <div class="external">
+                <div class="gallery">
+                    <img src="./scholarships/nutanix.jpg" alt="Photo of certificate" width="600" height="400" class="pop scholarship">
+                    <a href="">
+                        <div class="desc"><span style="color: #034f84">NUTANIX</span> Hybrid Cloud Engineer (2020 - 2021)
+                        </div> 
+                    </a>
+                </div>
+                <div class="gallery">
+                    <img src="./scholarships/bertelsmann.jpg" alt="Photo of certificate" width="600" height="400" class="pop scholarship">
+                    <a href="">
+                        <div class="desc"><span style="color: #034f84">BERTELSMANN</span> Bertelsmann Technology Scholarship (2021)
+                        </div> 
+                    </a>
+                </div>
+                <div class="gallery">
+                    <img src="./scholarships/suse.jpg" alt="Photo of certificate" width="600" height="400" class="pop scholarship">
+                    <a href="">
+                        <div class="desc"><span style="color: #034f84">SUSE</span> Suse Scholarship Program (2021)
+                        </div> 
+                    </a>
+                </div>
             </div>
         </section>
 
 
         
+        <section id="about-me">
+            <div class="about-me-container">
+                <div class="about-me-text-container">
+                    <h2 style="color: #034f84">Free Courses Without Certificate</h2>
+                    <ul>
+                        <li>Learn Handlebars - Codecademy.</li>
+                        <li>Refresh Your Resume - Udacity.</li>
+                        <li>Responsive Web Design Fundamentals (Common Responsive Patterns) - Udacity.</li>
+                        <li>Writting READmes - Udacity.</li>
+                        <li>Shell Workshop - Udacity.</li>
+                        <li>Version Control with Git - Udacity.</li>
+                        <li>GitHub and Collaboration - Udacity.</li>
+                        <li>Intro to JavaScript - Udacity.</li>
+                        <li>Intro to jQuery - Udacity.</li>
+                        <li>Basic JavaScript - freeCodeCamp.</li>
+                        <li>ES6 - freeCodeCamp.</li>
+                        <li>Regular Expressions - freeCodeCamp.</li>
+                        <li>Debugging - freeCodeCamp.</li>
+                        <li>Basic Data Structures - freeCodeCamp.</li>
+                        <li>Basic Algorithm Scripting - freeCodeCamp.</li>
+                        <li>Object Oriented Programming - freeCodeCamp.</li>
+                        <li>Functional Programming - freeCodeCamp.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+
         <section id="skills">
             <div id="skills-container">
               <i class="fab fa-html5"></i>
