@@ -411,6 +411,9 @@ footer {
   .diploma-image {
     max-width: 550px;
   }
+  .topnav a {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 787px) {
