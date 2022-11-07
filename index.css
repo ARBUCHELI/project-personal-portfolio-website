@@ -348,6 +348,9 @@ footer {
   table {
     font-size: 0.8rem;
   }
+  .topnav a {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
