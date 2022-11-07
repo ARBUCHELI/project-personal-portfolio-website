@@ -148,14 +148,6 @@
     const STARTING_DAY = "01-01-2015";
     const STARTING_DAY_DATE = new Date(STARTING_DAY);
     const intlNumberFormatter = new Intl.NumberFormat("en-US");
-
-    setInterval(() => {
-      const now = new Date();
-      const difference = Math.floor(
-        (now.getTime() - STARTING_DAY_DATE.getTime()) / 1000
-      );
-      timeContainer.innerText = intlNumberFormatter.format(difference);
-    }, 1000);
     function myFunction() {
       var x = document.getElementById("myTopnav");
       if (x.className === "topnav") {
@@ -164,5 +156,13 @@
           x.className = "topnav";
         }
     }
+    setInterval(() => {
+      const now = new Date();
+      const difference = Math.floor(
+        (now.getTime() - STARTING_DAY_DATE.getTime()) / 1000
+      );
+      timeContainer.innerText = intlNumberFormatter.format(difference);
+    }, 1000);
+    
   </script>
 </html>
