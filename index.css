@@ -123,7 +123,8 @@ a {
 }
 
 #logo {
-  margin: 0;
+  /*margin: 0;*/
+  margin-top: 3em;
 }
 
 #skills-container {
