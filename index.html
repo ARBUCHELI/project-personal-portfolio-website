@@ -148,14 +148,6 @@
     const STARTING_DAY = "01-01-2015";
     const STARTING_DAY_DATE = new Date(STARTING_DAY);
     const intlNumberFormatter = new Intl.NumberFormat("en-US");
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-          x.className = "topnav";
-        }
-    }
     setInterval(() => {
       const now = new Date();
       const difference = Math.floor(
