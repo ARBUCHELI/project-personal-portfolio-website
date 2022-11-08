@@ -30,6 +30,7 @@ h2 {
   font-family: "Proza Libre", sans-serif;
   margin: 0;
   margin-bottom: var(--spacing-2);
+  font-size: 18px;
 }
 
 h3 {
@@ -68,7 +69,8 @@ nav {
 }
 
 .portrait {
-  width: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: var(--border-radius);
   flex-shrink: 0;
 }
@@ -86,6 +88,11 @@ nav {
 
 .about-me-text-container {
   margin-right: var(--spacing-3);
+  font-size: 14px;
+}
+
+#projects {
+  font-size: 14px;
 }
 
 .project-image {
@@ -124,6 +131,10 @@ a {
 
 #logo {
   margin: 0;
+}
+
+#skills {
+  margin-top: 0.5em;
 }
 
 #skills-container {
@@ -290,10 +301,64 @@ img .pop.scholarship {
 }
 
 footer {
-  margin-top: auto;
+  margin-top: 5px;
   padding: var(--spacing-2) 0;
   text-align: center;
   font-weight: bold;
+}
+
+#skills-container-out {
+  margin-top: 10em;
+}
+
+@media only screen and (max-width: 1281px) {
+  .about-me-text-container {
+    font-size: 14px;
+  }
+  #projects {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  footer {
+    font-size: 14px;
+  }
+  #skills-container {
+    font-size: 0.6em;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .portrait {
+    width: 240px;
+    height: 240px;
+  }
+  #skills {
+    margin-top: 5em;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .about-me-text-container {
+    font-size: 10px;
+  }
+  #projects {
+    font-size: 10px;
+  }
+  h2 {
+    font-size: 10px;
+  }
+  footer {
+    font-size: 10px;
+  }
+  #skills-container {
+    font-size: 0.6em;
+  }
+  .portrait {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 @media only screen and (max-width: 947px) {
@@ -308,6 +373,31 @@ footer {
   }
 }
 
+@media only screen and (max-width: 913px) {
+  .about-me-text-container {
+    font-size: 15px;
+  }
+  #projects {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  footer {
+    font-size: 15px;
+  }
+  #skills-container {
+    font-size: 0.6em;
+  }
+  .portrait {
+    width: 150px;
+    height: 150px;
+  }
+  #skills {
+    margin-top: 39em;
+  }
+}
+
 @media only screen and (max-width: 905px) {
   table {
     font-size: 0.8rem;
@@ -316,10 +406,14 @@ footer {
 
 @media only screen and (max-width: 900px) {
   .portrait {
-    width: 270px;
+    width: 250px;
+    height: 250px;
   }
   .about-me-text-container {
-    font-size: 14px;
+    font-size: 16px;
+  }
+  #projects {
+    font-size: 16px;
   }
   .cert-image {
     max-width: 650px;
@@ -329,6 +423,13 @@ footer {
   }
   .certificate-card {
     margin: 2.8em;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .portrait {
+    width: 240px;
+    height: 240px;
   }
 }
 
@@ -359,9 +460,28 @@ footer {
   }
 }
 
-@media only screen and (max-width: 829px) {
+@media only screen and (max-width: 821px) {
+  .about-me-text-container {
+    font-size: 16px;
+  }
+  #projects {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  footer {
+    font-size: 16px;
+  }
+  #skills-container {
+    font-size: 0.6em;
+  }
   .portrait {
-    width: 250px;
+    width: 200px;
+    height: 200px;
+  }
+  #skills {
+    margin-top: 21em;
   }
 }
 
@@ -374,24 +494,49 @@ footer {
   }
 }
 
+@media only screen and (max-width: 805px) {
+  .portrait {
+    width: 220px;
+    height: 220px;
+  }
+  .about-me-text-container {
+    font-size: 16px;
+    margin-top: 0em;
+  }
+  #projects {
+    font-size: 16px;
+  }
+}
+
 @media only screen and (max-width: 787px) {
   table {
     font-size: 0.7rem;
+  }
+  .portrait {
+    width: 210px;
+    height: 210px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  #skills {
+    margin-top: 9em;
   }
 }
 
 @media only screen and (max-width: 760px) {
   nav {
-    font-size: 13px;
+    font-size: 16px;
   }
   #skills-container {
     font-size: 0.7em;
   }
   .portrait {
     width: 210px;
+    height: 210px;
   }
   .about-me-text-container {
-    font-size: 13px;
+    font-size: 16px;
   }
   .cert-image {
     max-width: 510px;
@@ -416,9 +561,19 @@ footer {
   }
 }
 
+@media only screen and (max-width: 714px) {
+  .about-me-text-container {
+    font-size: 14px;
+  }
+  #projects {
+    font-size: 14px;
+  }
+}
+
 @media only screen and (max-width: 690px) {
   .portrait {
     width: 200px;
+    height: 200px;
   }
   .cert-image {
     max-width: 450px;
@@ -437,6 +592,7 @@ footer {
   }
   .portrait {
     width: 180px;
+    height: 180px;
   }
 }
 
@@ -444,6 +600,15 @@ footer {
   td, th {
     border: 1px solid rgb(190,190,190);
     padding: 2px 8px;
+  }
+  .about-me-text-container {
+    font-size: 13px;
+  }
+  #projects {
+    font-size: 13px;
+  }
+  main {
+    font-size: 13px;
   }
 }
 
@@ -457,9 +622,6 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-  .about-me-container {
-    flex-direction: column;
-  }
   #skills-container {
     font-size: 0.5em;
   }
@@ -476,7 +638,23 @@ footer {
   .diploma-image {
     max-width: 380px;
   }
+  .about-me-text-container {
+    font-size: 12px;
+  }
+  #projects {
+    font-size: 12px;
+  }
 }
+
+@media only screen and (max-width: 587px) {
+  .about-me-text-container {
+    font-size: 12px;
+  }
+  #projects {
+    font-size: 12px;
+  }
+}
+
 
 @media only screen and (max-width: 565px) {
   td, th {
@@ -491,6 +669,30 @@ footer {
   }
   .certificate-card {
     margin: 2em;
+  }
+}
+
+@media only screen and (max-width: 541px) {
+  .about-me-text-container {
+    font-size: 11px;
+  }
+  #projects {
+    font-size: 11px;
+  }
+  h2 {
+    font-size: 11px;
+  }
+  footer {
+    font-size: 11px;
+  }
+  #skills-container {
+    font-size: 0.4em;
+  }
+  #skills {
+    margin-top: 3em;
+  }
+  .external {
+    margin-left: 100px;
   }
 }
 
@@ -525,9 +727,6 @@ footer {
 }
 
 @media only screen and (max-width: 498px) {
-  .about-me-container {
-    flex-direction: column;
-  }
   #skills-container {
     font-size: 0.4em;
   }
@@ -553,9 +752,6 @@ footer {
 }
 
 @media only screen and (max-width: 460px) {
-  .about-me-container {
-    flex-direction: column;
-  }
   #skills-container {
     font-size: 0.4em;
   }
@@ -589,21 +785,100 @@ footer {
   }
 }
 
-@media only screen and (max-width: 407px) {
-  .about-me-container {
-    flex-direction: column;
+@media only screen and (max-width: 415px) {
+  .about-me-text-container {
+    font-size: 10.8px;
+  }
+  #projects {
+    font-size: 10.8px;
+  }
+  h2 {
+    font-size: 10.8px;
+  }
+  footer {
+    font-size: 10.8px;
   }
   #skills-container {
-    font-size: 0.5em;
+    font-size: 0.4em;
+  }
+  .external {
+    margin-left: 40px;
   }
 }
 
-@media only screen and (max-width: 385px) {
-  .about-me-container {
-    flex-direction: column;
+@media only screen and (max-width: 413px) {
+  .about-me-text-container {
+    font-size: 10.9px;
+  }
+  #projects {
+    font-size: 10.9px;
+  }
+  h2 {
+    font-size: 10.9px;
+  }
+  footer {
+    font-size: 10.9px;
   }
   #skills-container {
+    font-size: 0.4em;
+  }
+}
+
+@media only screen and (max-width: 407px) {
+  #skills-container {
     font-size: 0.5em;
+  }
+  .about-me-text-container {
+    font-size: 10px;
+  }
+  #projects {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 394px) {
+  .about-me-text-container {
+    font-size: 9.7px;
+  }
+  #projects {
+    font-size: 9.7px;
+  }
+  h2 {
+    font-size: 9.7px;
+  }
+  footer {
+    font-size: 9.7px;
+  }
+  #skills-container {
+    font-size: 0.4em;
+  }
+  #skill {
+    margin-top: 10em;
+  }
+  .external {
+    margin-left: 25px;
+  }
+}
+
+
+@media only screen and (max-width: 385px) {
+  .about-me-text-container {
+    font-size: 9.2px;
+  }
+  #projects {
+    font-size: 9.2px;
+  }
+  .external {
+    margin-left: 20px;
+  }
+  h2 {
+    font-size: 9.2px;
+  }
+  footer {
+    font-size: 9.2px;
+  }
+  #skills-container {
+    font-size: 0.4em;
   }
   #logo {
     font-size: 2em;
@@ -621,14 +896,42 @@ footer {
   .certificate-card {
     margin: 2em;
   }
+  .portrait {
+    width: 90px;
+    height: 90px;
+  }
+  #skill {
+    margin-top: 1em;
+  }
+  table {
+    font-size: 3px;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .about-me-text-container {
+    font-size: 10px;
+  }
+  #projects {
+    font-size: 10px;
+  }
+  h2 {
+    font-size: 10px;
+  }
+  footer {
+    font-size: 10px;
+  }
+  table {
+    font-size: 3px;
+  }
+  .external {
+    margin-left: 10px;
+  }
 }
 
 @media only screen and (max-width: 280px) {
-  .about-me-container {
-    flex-direction: column;
-  }
   #skills-container {
-    font-size: 0.5em;
+    font-size: 0.3em;
   }
   #logo {
     font-size: 1.5em;
@@ -636,6 +939,25 @@ footer {
   nav {
     font-size: 7px;
     display: inline-block;
+  }
+  .portrait {
+    width: 80px;
+    height: 80px;
+  }
+  .about-me-text-container {
+    font-size: 7.5px;
+  }
+  #projects {
+    font-size: 7.5px;
+  }
+  h2 {
+    font-size: 7.5px;
+  }
+  footer {
+    font-size: 7.5px;
+  }
+  table {
+    font-size: 3px;
   }
 }
 
