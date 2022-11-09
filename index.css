@@ -110,8 +110,9 @@ nav {
 #projects-home {
   font-size: 14px;
   padding: 1em;
-  border: 1px #6b5b95 solid;
+  border: 1px transparent solid;
   border-radius: 10px;
+  background-color: #f0f0f0;
 }
 
 #projects-projects {
