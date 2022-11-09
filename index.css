@@ -876,6 +876,9 @@ footer {
   #projects {
     font-size: 9.2px;
   }
+  #skills {
+    margin-top: 1em;
+  }
   .external {
     margin-left: 20px;
   }
