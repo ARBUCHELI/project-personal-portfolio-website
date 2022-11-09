@@ -850,22 +850,22 @@ footer {
 
 @media only screen and (max-width: 394px) {
   .about-me-text-container {
-    font-size: 9.7px;
+    font-size: 9.5px;
   }
   #projects {
-    font-size: 9.7px;
+    font-size: 9.5px;
   }
   #skills {
     margin-top: 0.0em;
   }
   h2 {
-    font-size: 9.7px;
+    font-size: 9.5px;
   }
   footer {
-    font-size: 9.7px;
+    font-size: 9.5px;
   }
   #skills-container {
-    font-size: 0.2em;
+    font-size: 0.5em;
   }
   #skill {
     margin-top: 10em;
