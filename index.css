@@ -350,16 +350,16 @@ footer {
 
 @media only screen and (max-width: 1025px) {
   .about-me-text-container {
-    font-size: 14px;
+    font-size: 12px;
   }
   #projects {
-    font-size: 14px;
+    font-size: 12px;
   }
   h2 {
-    font-size: 14px;
+    font-size: 12px;
   }
   footer {
-    font-size: 14px;
+    font-size: 12px;
   }
   #skills-container {
     font-size: 0.7em;
