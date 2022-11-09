@@ -856,7 +856,7 @@ footer {
     font-size: 9.5px;
   }
   #skills {
-    margin-top: 2em;
+    margin-top: 3em;
   }
   h2 {
     font-size: 9.5px;
@@ -875,6 +875,32 @@ footer {
   }
 }
 
+@media only screen and (max-width: 391px) {
+  .about-me-text-container {
+    font-size: 9.5px;
+  }
+  #projects {
+    font-size: 9.5px;
+  }
+  #skills {
+    margin-top: 2em;
+  }
+  h2 {
+    font-size: 9.5px;
+  }
+  footer {
+    font-size: 9.5px;
+  }
+  #skills-container {
+    font-size: 0.6em;
+  }
+  #skill {
+    margin-top: 10em;
+  }
+  .external {
+    margin-left: 25px;
+  }
+}
 
 @media only screen and (max-width: 385px) {
   .about-me-text-container {
