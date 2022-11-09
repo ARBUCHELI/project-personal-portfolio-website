@@ -86,7 +86,7 @@ nav {
   display: flex;
 }
 
-.about-me-text-container {
+.about-me-text-container-home {
   margin-right: var(--spacing-3);
   font-size: 14px;
   padding: 1em;
