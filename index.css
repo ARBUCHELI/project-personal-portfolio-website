@@ -1200,7 +1200,7 @@ text-align: center;
   div.gallery {
     margin: 5px 25px 5px 0px;
     /*border: 1px solid #ccc;*/
-    float: center;
+    float: left;
     width: 280px;
     }
   .pop {
