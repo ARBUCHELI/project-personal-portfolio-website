@@ -1161,11 +1161,16 @@ text-align: center;
     font-size: 3px;
   }
   div.gallery {
-    margin: 5px 0px;
+    margin: 5px 0px 5px 0px;
+    padding-left: 0.4em;
     /*border: 1px solid #ccc;*/
-    float: left;
+    float: center;
     width: 280px;
-    }
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
   .pop {
     transition: none !important;
     border: solid 1px #034f84;
