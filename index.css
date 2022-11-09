@@ -1006,12 +1006,22 @@ text-align: center;
   #skills-container {
     font-size: 0.6em;
   }
+  div.gallery {
+    margin: 5px 0px 5px 0px;
+    padding-left: 0.4em;
+    /*border: 1px solid #ccc;*/
+    float: center;
+    width: 280px;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
   .pop {
     transition: none !important;
     border: solid 1px #034f84;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
   }
-  
   .pop:hover {
     -ms-transform: scale(0, 0);
     -webkit-transform: scale(0, 0);
