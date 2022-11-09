@@ -606,10 +606,6 @@ text-align: center;
   #skills {
     margin-top: 26em;
   }
-  div.gallery img {
-    width: 80%;
-    height: auto;
-  }
   .pop {
     transition: none !important;
     border: solid 1px #034f84;
