@@ -98,9 +98,11 @@ nav {
 .about-me-text-container-projects {
   margin-right: var(--spacing-3);
   font-size: 14px;
-  background-color: white;
   padding: 1em;
   border-radius: 10px;
+  border-radius: 10px;
+  border: 1px transparent solid;
+  background-color: #eaece5;
 }
 
 #projects {
@@ -119,8 +121,9 @@ nav {
 #projects-projects {
   font-size: 14px;
   padding: 1em;
-  border: 1px #6b5b95 solid;
+  border: 1px transparent solid;
   border-radius: 10px;
+  background-color: #f0f0f0;
   margin-bottom: 3em;
 }
 
