@@ -92,11 +92,14 @@ nav {
   background-color: white;
   padding: 1em;
   border-radius: 10px;
+  border: 4px #6b5b95 solid
 }
 
 #projects {
   font-size: 14px;
   background-color: #f0f0f0;
+  padding: 1em;
+  border-radius: 10px;
 }
 
 .project-image {
