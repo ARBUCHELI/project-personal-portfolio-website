@@ -1018,12 +1018,15 @@ footer {
     font-size: 3px;
   }
   .pop {
+    transition: none !important;
     border: solid 1px #034f84;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
   }
   
   .pop:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    -ms-transform: scale(2.3, 2.3);
+    -webkit-transform: scale(2.3, 2.3);
+    transform: scale(2.3, 2.3);
   }
 }
 
