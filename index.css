@@ -90,7 +90,7 @@ nav {
   margin-right: var(--spacing-3);
   font-size: 14px;
   background-color: white;
-  padding: 1em;
+  padding: 0.5em;
   border-radius: 10px;
   border: 1px #6b5b95 solid
 }
