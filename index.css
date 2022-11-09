@@ -1151,7 +1151,6 @@ text-align: center;
     transform: scale(0, 0);
   }
   div.gallery {
-    margin: 5px;
     /*border: 1px solid #ccc;*/
     float: center;
     width: 100%;
