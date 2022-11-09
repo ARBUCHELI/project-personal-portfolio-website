@@ -607,7 +607,7 @@ text-align: center;
     margin-top: 26em;
   }
   div.gallery img {
-    width: 800px;
+    width: 30%;
     height: auto;
   }
 }
