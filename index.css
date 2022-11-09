@@ -616,6 +616,11 @@ text-align: center;
     width: 80%;
     height: auto;
   }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 1px;
+  }
   .pop {
     transition: none !important;
     border: solid 1px #034f84;
