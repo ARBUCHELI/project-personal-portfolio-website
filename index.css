@@ -114,6 +114,13 @@ nav {
   border-radius: 10px;
 }
 
+#projects-projects {
+  font-size: 14px;
+  padding: 1em;
+  border: 1px #6b5b95 solid;
+  border-radius: 10px;
+}
+
 .project-image {
   width: 50%;
   border-radius: 5px;
