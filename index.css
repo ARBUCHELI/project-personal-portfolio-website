@@ -1017,6 +1017,10 @@ footer {
   table {
     font-size: 3px;
   }
+  .pop {
+    border: solid 1px #034f84;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  }
 }
 
 @media only screen and (max-width: 361px) {
