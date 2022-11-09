@@ -1198,7 +1198,7 @@ text-align: center;
     margin-left: 10px;
   }
   div.gallery {
-    margin: 5px 0px;
+    margin: 5px 5px 5px 0px;
     /*border: 1px solid #ccc;*/
     float: left;
     width: 280px;
