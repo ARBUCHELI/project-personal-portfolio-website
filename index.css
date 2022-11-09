@@ -463,14 +463,14 @@ footer {
     font-size: 16px;
   }
   #skills-container {
-    font-size: 2em;
+    font-size: 1em;
   }
   .portrait {
     width: 150px;
     height: 150px;
   }
   #skills {
-    margin-top: 30em;
+    margin-top: 35em;
   }
 }
 
