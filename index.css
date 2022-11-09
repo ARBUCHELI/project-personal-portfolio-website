@@ -1197,6 +1197,22 @@ text-align: center;
   .external {
     margin-left: 10px;
   }
+  div.gallery {
+    margin: 5px 0px;
+    /*border: 1px solid #ccc;*/
+    float: left;
+    width: 280px;
+    }
+  .pop {
+    transition: none !important;
+    border: solid 1px #034f84;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  }
+  .pop:hover {
+    -ms-transform: scale(0, 0);
+    -webkit-transform: scale(0, 0);
+    transform: scale(0, 0);
+  }
 }
 
 @media only screen and (max-width: 280px) {
