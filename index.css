@@ -1145,19 +1145,6 @@ text-align: center;
   table {
     font-size: 3px;
   }
-  div.gallery {
-    /*border: 1px solid #ccc;*/
-    float: center;
-    width: 100%;
-    }
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  .column {
-    float: left;
-    width: 33.33%;
-  }
   .pop {
     transition: none !important;
     border: solid 1px #034f84;
@@ -1167,16 +1154,6 @@ text-align: center;
     -ms-transform: scale(0, 0);
     -webkit-transform: scale(0, 0);
     transform: scale(0, 0);
-  }
-  .projectcard {
-    background-color: #92a8d1;
-    border: solid 2px #034f84;
-    text-align: center;
-    border-radius: 5px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
   }
 }
 
