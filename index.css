@@ -125,6 +125,16 @@ nav {
   background-color: #eaece5;
 }
 
+.about-me-text-container-certificates {
+  margin-right: var(--spacing-3);
+  font-size: 14px;
+  padding: 1em;
+  border-radius: 10px;
+  border-radius: 10px;
+  border: 1px transparent solid;
+  background-color: #eaece5;
+}
+
 #projects {
   font-size: 14px;
   padding: 1em;
