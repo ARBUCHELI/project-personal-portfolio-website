@@ -613,7 +613,7 @@ text-align: center;
     width: 400px;
     }
   div.gallery img {
-    width: 400px;
+    width: 80%;
     height: auto;
   }
   .pop {
