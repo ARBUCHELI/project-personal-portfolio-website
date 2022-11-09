@@ -609,6 +609,7 @@ text-align: center;
   div.gallery img {
     width: 300px;
     margin-right: 100px;
+    margin-left: 100px;
     height: auto;
   }
   .pop {
