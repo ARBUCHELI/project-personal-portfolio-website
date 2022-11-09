@@ -1146,7 +1146,6 @@ text-align: center;
     font-size: 3px;
   }
   div.gallery {
-    margin: 1px;
     /*border: 1px solid #ccc;*/
     float: center;
     width: 100%;
@@ -1158,7 +1157,6 @@ text-align: center;
   .column {
     float: left;
     width: 33.33%;
-    padding: 1px;
   }
   .pop {
     transition: none !important;
