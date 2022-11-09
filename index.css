@@ -854,6 +854,9 @@ footer {
   #projects {
     font-size: 9.7px;
   }
+  #skills {
+    margin-top: 0.2em;
+  }
   h2 {
     font-size: 9.7px;
   }
@@ -861,7 +864,7 @@ footer {
     font-size: 9.7px;
   }
   #skills-container {
-    font-size: 0.4em;
+    font-size: 0.6em;
   }
   #skill {
     margin-top: 10em;
