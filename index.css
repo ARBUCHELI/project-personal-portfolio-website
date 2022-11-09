@@ -89,6 +89,7 @@ nav {
 .about-me-text-container {
   margin-right: var(--spacing-3);
   font-size: 14px;
+  background-color: #eea29a;
 }
 
 #projects {
