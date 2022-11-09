@@ -91,7 +91,8 @@ nav {
   font-size: 14px;
   padding: 1em;
   border-radius: 10px;
-  border: 1px #6b5b95 solid
+  border: 1px #6b5b95 solid;
+  background-color: #eaece5;
 }
 
 .about-me-text-container-projects {
