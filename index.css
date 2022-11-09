@@ -1202,7 +1202,11 @@ text-align: center;
     /*border: 1px solid #ccc;*/
     float: left;
     width: 280px;
-    }
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
   .pop {
     transition: none !important;
     border: solid 1px #034f84;
