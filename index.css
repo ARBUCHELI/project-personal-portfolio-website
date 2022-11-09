@@ -606,12 +606,6 @@ text-align: center;
   #skills {
     margin-top: 26em;
   }
-  div.gallery {
-    margin: 5px;
-    /*border: 1px solid #ccc;*/
-    float: center;
-    width: 50%;
-    }
   div.gallery img {
     width: 80%;
     height: auto;
