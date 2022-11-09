@@ -361,6 +361,9 @@ footer {
   footer {
     font-size: 10.5px;
   }
+  #skills {
+    margin-top: 2em;
+  }
   #skills-container {
     font-size: 0.6em;
   }
