@@ -10,14 +10,12 @@
     <style>
       .mySlides {display: none}
       .img-slider {vertical-align: middle; max-height: 400px; border-radius: 5px; border: solid 1px #92a8d1}
-        
       /* Slideshow container */
       .slideshow-container {
         max-width: 1000px;
         position: relative;
         margin: auto;
       }
-        
       /* Next & previous buttons */
       .prev, .next {
         cursor: pointer;
@@ -33,18 +31,15 @@
         border-radius: 0 3px 3px 0;
         user-select: none;
       }
-        
       /* Position the "next button" to the right */
       .next {
         right: 0;
         border-radius: 3px 0 0 3px;
-      }
-        
+      } 
       /* On hover, add a black background color with a little bit see-through */
       .prev:hover, .next:hover {
         background-color: rgba(0,0,0,0.8);
-      }
-        
+      } 
       /* Caption text */
       .text {
         color: #c94c4c;
@@ -56,7 +51,6 @@
         width: 100%;
         text-align: center;
       }
-        
       /* Number text (1/3 etc) */
       .numbertext {
         color: #034f84;
@@ -65,7 +59,6 @@
         position: absolute;
         top: 0;
       }
-        
       /* The dots/bullets/indicators */
       .dot {
         cursor: pointer;
@@ -77,22 +70,18 @@
         display: inline-block;
         transition: background-color 0.6s ease;
       }
-        
       .active, .dot:hover {
         background-color: #717171;
       }
-        
       /* Fading animation */
       .fade {
         animation-name: fade;
         animation-duration: 1.5s;
-      }
-        
+      } 
       @keyframes fade {
         from {opacity: .4} 
         to {opacity: 1}
       }
-        
       /* On smaller screens, decrease text size */
       @media only screen and (max-width: 300px) {
         .prev, .next,.text {font-size: 11px}
@@ -102,7 +91,6 @@
         background-color: #deeaee;
         text-align: center;
       }
-  
       .topnav a {
         float: left;
         display: block;
@@ -113,78 +101,65 @@
         font-size: 17px;
         border-radius: 5px;
       }
-      
       .topnav a:hover {
         background-color: #ddd;
         color: #034f84;
       }
-      
       .topnav a.active {
         background-color: #6b5b95;
         color: white;
       }
-      
       .topnav .icon {
         display: none;
       }
-
       @media only screen and (max-width: 1025px) {
         .topnav a {
           font-size: 16px;
         }
       }
-
       @media screen and (max-width: 910px) {
         .topnav a {
           font-size: 16px;
         }
       }
-
       @media screen and (max-width: 821px) {
         .topnav a {
           font-size: 16px;
         }
       }
-      
       @media screen and (max-width: 872px) {
         .topnav a {
           font-size: 14px;
         }
       }
-
       @media screen and (max-width: 693px) {
         .topnav a {
           font-size: 13px;
         }
       }
-
       @media screen and (max-width: 667px) {
         .topnav a {
           font-size: 12px;
         }
       }
-
       @media screen and (max-width: 631px) {
         .topnav a {
           font-size: 11px;
         }
       }
-
       @media screen and (max-width: 600px) {
         .topnav a {
           font-size: 14px;
           padding: 1px 16px;
         }
       }
-
       @media screen and (max-width: 600px) {
         .topnav a:not(first-child) {display: none;}
         .topnav a.icon {
           float: right;
           display: block;
         }
-      }
-      
+      }     
       @media screen and (max-width: 600px) {
         .topnav.responsive {position: relative;}
         .topnav.responsive .icon {
@@ -198,50 +173,42 @@
           text-align: left;
         }
       }
-
       @media screen and (max-width: 541px) {
         .topnav a {
           font-size: 16px;
           padding: 1px 16px;
         }
       }
-
       @media screen and (max-width: 415px) {
         .topnav a {
           font-size: 16px;
           padding: 1px 16px;
         }
       }
-
-
       @media screen and (max-width: 413px) {
         .topnav a {
           font-size: 16px;
           padding: 1px 16px;
         }
       }
-
       @media screen and (max-width: 394px) {
         .topnav a {
           font-size: 16px;
           padding: 1px 16px;
         }
       }
-
       @media screen and (max-width: 361px) {
         .topnav a {
           font-size: 16px;
           padding: 1px 16px;
         }
       }
-
       @media screen and (max-width: 376px) {
         .topnav a {
           font-size: 16px;
           padding: 1px 16px;
         }
       }
-
       @media screen and (max-width: 281px) {
         .topnav a {
           font-size: 16px;
@@ -264,260 +231,175 @@
           <i class="fa fa-bars"></i>
         </a>
       </div>
-      <!--<h2 id="logo">Andrés R. Bucheli</h2>
-      <ul class="navigation-items">
-        <li class="navigation-item"><a class="colored-link-header" href="./index.html">About Me</a></li>
-        <li class="navigation-item"><a class="colored-link-header" href="./projects.html">Projects</a></li>
-        <li class="navigation-item"><a class="colored-link-header" href="./customizations.html">Customizations</a></li>
-        <li class="navigation-item"><a class="colored-link-header" href="./skills.html">Skills</a></li>
-        <li class="navigation-item"><a class="colored-link-header" href="./certificates.html">Certificates</a></li>
-        <li class="navigation-item"><a class="colored-link-header" href="./education.html">Education</a></li>
-        <li class="navigation-item"><a class="colored-link-header" href="./contact.html">Contact</a></li>
-      </ul>-->
     </nav>
   
     <div class="slideshow-container" class="">
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 41</div>
-          <img class="img-slider" src="./images-projects/my-favorite-sci-fi-movies.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
       <div class="mySlides fade">
-          <div class="numbertext">2 / 41</div>
-          <img class="img-slider" src="./images-projects/my-coding-education-budget.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
+        <div class="numbertext">1 / 41</div>
+        <img class="img-slider" src="./images-projects/my-favorite-sci-fi-movies.jpg" style="width:100%">
       </div>
       <div class="mySlides fade">
-          <div class="numbertext">3 / 41</div>
-          <img class="img-slider" src="./images-projects/bucheli-restaurants.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-       </div>
-       <div class="mySlides fade">
-          <div class="numbertext">4 / 41</div>
-          <img class="img-slider" src="./images-projects/my-favorite-metal-albums.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-       </div>
-       <div class="mySlides fade">
-          <div class="numbertext">5 / 41</div>
-          <img class="img-slider" src="./images-projects/bucheli-favorite-recipes-react-and-react-redux.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-       </div>
-       <div class="mySlides fade">
-          <div class="numbertext">6 / 41</div>
-          <img class="img-slider" src="./images-projects/bucheli-fashion-online-shop.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-       </div>
-       <div class="mySlides fade">
-          <div class="numbertext">7 / 41</div>
-          <img class="img-slider" src="./images-projects/bucheli-online-guitar-shop.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-       </div>
-       <div class="mySlides fade">
-          <div class="numbertext">8 / 41</div>
-          <img class="img-slider" src="./images-projects/holidays-destination.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-       </div>
-       <div class="mySlides fade">
-          <div class="numbertext">9 / 41</div>
-          <img class="img-slider" src="./images-projects/travel.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-       </div>
-      
-       <div class="mySlides fade">
-          <div class="numbertext">10 / 41</div>
-          <img class="img-slider" src="./images-projects/30-divulgation-books.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-       </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">11 / 41</div>
-          <img class="img-slider" src="./images-projects/cocacola.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">12 / 41</div>
-          <img class="img-slider" src="./images-projects/beer.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">13 / 41</div>
-          <img class="img-slider" src="./images-projects/pedal-faster.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">14 / 41</div>
-          <img class="img-slider" src="./images-projects/musicon.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">15 / 41</div>
-          <img class="img-slider" src="./images-projects/sky.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">16 / 41</div>
-          <img class="img-slider" src="./images-projects/programmer.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">17 / 41</div>
-          <img class="img-slider" src="./images-projects/innovation.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">18 / 41</div>
-          <img class="img-slider" src="./images-projects/adhoc.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">19 / 41</div>
-          <img class="img-slider" src="./images-projects/citrus.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">20 / 41</div>
-          <img class="img-slider" src="./images-projects/the-books-that-i-love.jpg" style="width:100%">
-          <!-- <div class="text">The Books That I Love</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">21 / 41</div>
-          <img class="img-slider" src="./images-projects/brigton.jpg" style="width:100%">
-          <!-- <div class="text">The Books That I Love</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">22 / 41</div>
-          <img class="img-slider" src="./images-projects/trending-woofs.jpg" style="width:100%">
-          <!-- <div class="text">The Books That I Love</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">23 / 41</div>
-          <img class="img-slider" src="./images-projects/newsletter.jpg" style="width:100%">
-          <!-- <div class="text">The Books That I Love</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">24 / 41</div>
-          <img class="img-slider" src="./images-projects/punk.jpg" style="width:100%">
-          <!-- <div class="text">The Books That I Love</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">25 / 41</div>
-          <img class="img-slider" src="./images-projects/would-you-rather.jpg" style="width:100%">
-          <!-- <div class="text">Would You Rather</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">26 / 41</div>
-          <img class="img-slider" src="./images-projects/doctor-crepe.jpg" style="width:100%">
-          <!-- <div class="text">Doctor Crepe</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">27 / 41</div>
-          <img class="img-slider" src="./images-projects/expenses-tracker.jpg" style="width:100%">
-          <!-- <div class="text">Expenses Tracker App</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">28 / 41</div>
-          <img class="img-slider" src="./images-projects/movie-reviews.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">29 / 41</div>
-          <img class="img-slider" src="./images-projects/tribute.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">30 / 41</div>
-          <img class="img-slider" src="./images-projects/recipes.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">31 / 41</div>
-          <img class="img-slider" src="./images-projects/globe-book-store.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">32 / 41</div>
-          <img class="img-slider" src="./images-projects/pin-point.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">33 / 41</div>
-          <img class="img-slider" src="./images-projects/sneakers.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">34 / 41</div>
-          <img class="img-slider" src="./images-projects/pet-book.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">35 / 41</div>
-          <img class="img-slider" src="./images-projects/excursion.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">36 / 41</div>
-          <img class="img-slider" src="./images-projects/colmar-academy.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">37 / 41</div>
-          <img class="img-slider" src="./images-projects/quiz-webpage.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">38 / 41</div>
-          <img class="img-slider" src="./images-projects/nutrition-label.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">39 / 41</div>
-          <img class="img-slider" src="./images-projects/photo-gallery.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">40 / 41</div>
-          <img class="img-slider" src="./images-projects/jammming.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">41 / 41</div>
-          <img class="img-slider" src="./images-projects/film-finder.jpg" style="width:100%">
-          <!-- <div class="text">Movie Reviews</div> -->
-        </div>
-
+        <div class="numbertext">2 / 41</div>
+        <img class="img-slider" src="./images-projects/my-coding-education-budget.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 41</div>
+        <img class="img-slider" src="./images-projects/bucheli-restaurants.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 41</div>
+        <img class="img-slider" src="./images-projects/my-favorite-metal-albums.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 41</div>
+        <img class="img-slider" src="./images-projects/bucheli-favorite-recipes-react-and-react-redux.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 41</div>
+        <img class="img-slider" src="./images-projects/bucheli-fashion-online-shop.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 41</div>
+        <img class="img-slider" src="./images-projects/bucheli-online-guitar-shop.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">8 / 41</div>
+        <img class="img-slider" src="./images-projects/holidays-destination.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">9 / 41</div>
+        <img class="img-slider" src="./images-projects/travel.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">10 / 41</div>
+        <img class="img-slider" src="./images-projects/30-divulgation-books.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">11 / 41</div>
+        <img class="img-slider" src="./images-projects/cocacola.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">12 / 41</div>
+        <img class="img-slider" src="./images-projects/beer.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">13 / 41</div>
+        <img class="img-slider" src="./images-projects/pedal-faster.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">14 / 41</div>
+        <img class="img-slider" src="./images-projects/musicon.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">15 / 41</div>
+        <img class="img-slider" src="./images-projects/sky.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">16 / 41</div>
+        <img class="img-slider" src="./images-projects/programmer.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">17 / 41</div>
+        <img class="img-slider" src="./images-projects/innovation.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">18 / 41</div>
+        <img class="img-slider" src="./images-projects/adhoc.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">19 / 41</div>
+        <img class="img-slider" src="./images-projects/citrus.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">20 / 41</div>
+        <img class="img-slider" src="./images-projects/the-books-that-i-love.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">21 / 41</div>
+        <img class="img-slider" src="./images-projects/brigton.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">22 / 41</div>
+        <img class="img-slider" src="./images-projects/trending-woofs.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">23 / 41</div>
+        <img class="img-slider" src="./images-projects/newsletter.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">24 / 41</div>
+        <img class="img-slider" src="./images-projects/punk.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">25 / 41</div>
+        <img class="img-slider" src="./images-projects/would-you-rather.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">26 / 41</div>
+        <img class="img-slider" src="./images-projects/doctor-crepe.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">27 / 41</div>
+        <img class="img-slider" src="./images-projects/expenses-tracker.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">28 / 41</div>
+        <img class="img-slider" src="./images-projects/movie-reviews.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">29 / 41</div>
+        <img class="img-slider" src="./images-projects/tribute.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">30 / 41</div>
+        <img class="img-slider" src="./images-projects/recipes.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">31 / 41</div>
+        <img class="img-slider" src="./images-projects/globe-book-store.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">32 / 41</div>
+        <img class="img-slider" src="./images-projects/pin-point.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">33 / 41</div>
+        <img class="img-slider" src="./images-projects/sneakers.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">34 / 41</div>
+        <img class="img-slider" src="./images-projects/pet-book.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">35 / 41</div>
+        <img class="img-slider" src="./images-projects/excursion.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">36 / 41</div>
+        <img class="img-slider" src="./images-projects/colmar-academy.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">37 / 41</div>
+        <img class="img-slider" src="./images-projects/quiz-webpage.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">38 / 41</div>
+        <img class="img-slider" src="./images-projects/nutrition-label.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">39 / 41</div>
+        <img class="img-slider" src="./images-projects/photo-gallery.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">40 / 41</div>
+        <img class="img-slider" src="./images-projects/jammming.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">41 / 41</div>
+        <img class="img-slider" src="./images-projects/film-finder.jpg" style="width:100%">
+      </div>
         <a class="prev" onclick="plusSlides(-1)">❮</a>
         <a class="next" onclick="plusSlides(1)">❯</a>
-
     </div>
     <br>
 
@@ -584,9 +466,8 @@
       <section id="projects-projects">
         <h2 style="color: #034f84">Front-End Projects</h2>
         <h3 style="color: #667292">React & Redux Web Apps</h3>
-        
-        
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Bucheli Restaurants Search App React & Yelp API</h3>
           </summary>
@@ -602,7 +483,7 @@
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and Yelp API!</p>
         </details>
         
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">30 Scientific Divulgation Books You Must Read, React, Redux, React-Redux, Redux Toolkit</h3>
           </summary>
@@ -618,7 +499,7 @@
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, React-Redux, and Redux Tookit!</p>
         </details>
         
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">My Coding Education Budget React, Redux, React-Redux, Redux Toolkit</h3>
           </summary>
@@ -634,7 +515,7 @@
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, React-Redux, and Redux Tookit!</p>
         </details>
         
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Bucheli Favorite Recipes React, Redux & React-Redux</h3>
           </summary>
@@ -650,7 +531,7 @@
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, and React-Redux!</p>
         </details>
         
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">My Favorite Metal Albums React, Redux & React-Redux</h3>
           </summary>
@@ -666,7 +547,7 @@
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, and React-Redux!</p>
         </details>
         
-         <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Bucheli Online Fashion Shop React, and Redux</h3>
           </summary>
@@ -682,7 +563,7 @@
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and Redux!</p>
         </details>
         
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Bucheli Online Guitar Shop React, and Redux</h3>
           </summary>
@@ -698,7 +579,7 @@
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and Redux!</p>
         </details>
         
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">The Books that I Love App</h3>
           </summary>
@@ -713,7 +594,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and Redux!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Would You Rather App</h3>
           </summary>
@@ -729,7 +611,7 @@
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and Redux!</p>
         </details>
         
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">My Favorite Sci-Fi Movies</h3>
           </summary>
@@ -745,7 +627,7 @@
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, React, Redux, React-Redux, and Redux Toolkit!</p>
         </details>
 
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Jammming</h3>
           </summary>
@@ -762,7 +644,7 @@
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and Redux!</p>
         </details>
 
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">PetBook App</h3>
           </summary>
@@ -777,7 +659,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Single page ap powered by React, and Redux!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Doctor Crepe App</h3>
           </summary>
@@ -792,7 +675,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, Node.JS, Express.JS, Mailchimp API, and Heroku!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Expenses Tracker App</h3>
           </summary>
@@ -807,7 +691,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Single page app owered by React, and Redux!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">News Reader App</h3>
           </summary>
@@ -822,39 +707,40 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, Middleware, and Thunks!</p>
         </details>
-        <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Matching Memory Game App</h3>
-            </summary>
-            <img
-              src="./images-projects/matching-memory.jpg"
-              alt='Photo of the Matching Memory Game app'
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://matching-memory-game-bucheli-web-development.netlify.app/" target="blank">Put your memory to the test with this fun game.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and Redux!</p>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Matching Memory Game App</h3>
+          </summary>
+          <img
+            src="./images-projects/matching-memory.jpg"
+            alt='Photo of the Matching Memory Game app'
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://matching-memory-game-bucheli-web-development.netlify.app/" target="blank">Put your memory to the test with this fun game.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and Redux!</p>
         </details>
         
-        <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Matching Programming Languages</h3>
-            </summary>
-            <img
-              src="./images-projects/matching-programming-languages.jpg"
-              alt='Photo of the Matching Programming Languages App'
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://matching-programming-languages-game.netlify.app/" target="blank">Put your memory to the test with this fun game.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and React-Redux!</p>
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Matching Programming Languages</h3>
+          </summary>
+          <img
+            src="./images-projects/matching-programming-languages.jpg"
+            alt='Photo of the Matching Programming Languages App'
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://matching-programming-languages-game.netlify.app/" target="blank">Put your memory to the test with this fun game.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, and React-Redux!</p>
         </details>
         
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Content Management System App</h3>
           </summary>
@@ -869,7 +755,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, and React Router!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Pet Adoption App</h3>
           </summary>
@@ -884,7 +771,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux, and React Router!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Holidays Destination App</h3>
           </summary>
@@ -899,7 +787,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React, Redux and Vite!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Videoplayer</h3>
           </summary>
@@ -915,7 +804,7 @@
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React!</p>
         </details>
         
-          <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Appoinment Planner App</h3>
           </summary>
@@ -931,7 +820,7 @@
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React and React-Router!</p>
         </details>
         
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Grocery Shopping App</h3>
           </summary>
@@ -946,7 +835,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Keeper App</h3>
           </summary>
@@ -961,7 +851,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Single page app powered by React!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Travel App</h3>
           </summary>
@@ -980,7 +871,8 @@
 
       <section id="projects-projects">
         <h3 style="color: #667292">React Native Apps</h3>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Woofstagram</h3>
           </summary>
@@ -999,7 +891,8 @@
 
       <section id="projects-projects">
         <h3 style="color: #667292">Ember JS Framework Apps</h3>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Emergency Services Tracker</h3>
           </summary>
@@ -1018,7 +911,8 @@
 
       <section id="projects-projects">
         <h3 style="color: #667292">jQuery Projects</h3>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Memory Game</h3>
           </summary>
@@ -1033,7 +927,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">JS App powered by JQuery!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Drum Kit</h3>
           </summary>
@@ -1048,7 +943,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">JS App powered by JQuery!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Pixel Art Maker</h3>
           </summary>
@@ -1063,7 +959,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">JS App powered by JQuery!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Simon Game</h3>
           </summary>
@@ -1078,7 +975,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">JS App powered by JQuery!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Dice Game</h3>
           </summary>
@@ -1097,7 +995,8 @@
 
       <section id="projects-projects">
         <h3 style="color: #667292">Vanilla JavaScript Projects</h3>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Film Finder</h3>
           </summary>
@@ -1112,7 +1011,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Application Powered by JS!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Online Piano Player</h3>
           </summary>
@@ -1127,7 +1027,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Application Powered by JS!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Number Guesser</h3>
           </summary>
@@ -1142,7 +1043,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Application Powered by JS!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Chore Door</h3>
           </summary>
@@ -1157,7 +1059,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Application Powered by JS!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Color Flipper</h3>
           </summary>
@@ -1172,7 +1075,8 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Application Powered by JS!</p>
         </details>
-        <details class="project">
+
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Sophisticated Nav Bar</h3>
           </summary>
@@ -1188,7 +1092,7 @@
           <p style="color:#c94c4c; font-weight:bold">Application Powered by JS!</p>
         </details>
         
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Clonning and Dragging PacMan</h3>
           </summary>
@@ -1204,7 +1108,7 @@
           <p style="color:#c94c4c; font-weight:bold">Clonning and Dragging Powered by JS!</p>
         </details>
         
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Color Picker Snippet</h3>
           </summary>
@@ -1220,7 +1124,7 @@
           <p style="color:#c94c4c; font-weight:bold">Color Picker Snippet Powered by JS!</p>
         </details>
         
-         <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Cloning Application</h3>
           </summary>
@@ -1236,7 +1140,7 @@
           <p style="color:#c94c4c; font-weight:bold">Color Application Powered by JS!</p>
         </details>
         
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Counter App</h3>
           </summary>
@@ -1252,7 +1156,7 @@
           <p style="color:#c94c4c; font-weight:bold">Application Powered by JS!</p>
         </details>
         
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Byte Size</h3>
           </summary>
@@ -1268,7 +1172,7 @@
           <p style="color:#c94c4c; font-weight:bold">Application Powered by Asynchronous JS!</p>
         </details>
         
-        <details class="project">
+        <details open class="project">
           <summary class="project-title">
             <h3 class="colored-link-header">Scrolling Content App</h3>
           </summary>
@@ -1283,1227 +1187,1284 @@
           </p>
           <p style="color:#c94c4c; font-weight:bold">Application Powered by JS!</p>
         </details>
-        </section>
+      </section>
 
-        <section id="projects-projects">
-          <h3 style="color: #667292">Websites for Businesses</h3>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Coca-Cola and Pepsi</h3>
-            </summary>
-            <img
-              src="./images-projects/cocacola.jpg"
-              alt="Photo of the Coca Cola and Pepsi website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://ui-ux-soda-pop-bucheli-web-development.netlify.app/" target="blank">Front End for promoting famous sodas in a Digital Shop.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Budweiser and Heineken</h3>
-            </summary>
-            <img
-              src="./images-projects/beer.jpg"
-              alt="Photo of the Budweiser and Heineken website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://ui-ux-beer-can-bucheli-web-design.netlify.app/" target="blank">Front End for promoting famous beers in a Digital Shop.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">I'm a programmer</h3>
-            </summary>
-            <img
-              src="./images-projects/programmer.jpg"
-              alt="Photo of the Programmer website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://awesome-design-bucheli-web-design.netlify.app/" target="blank">Website for Freelancer Programmer.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Nike and Adidas</h3>
-            </summary>
-            <img
-              src="./images-projects/sneakers.jpg"
-              alt="Photo of the Programmer website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://ui-ux-sneakers-bucheli-web-design.netlify.app/" target="blank">Front End for promoting famous sneakers in a Digital Shop.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Movie Reviews</h3>
-            </summary>
-            <img
-              src="./images-projects/movie-reviews.jpg"
-              alt="Photo of the Movie Reviews website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-               href="https://bucheli-web-development-text-design-project-reel-good-reviews.netlify.app/" target="blank">Front End for Movie Reviews Website.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          
-           <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Beer Bottles</h3>
-            </summary>
-            <img
-              src="./images-projects/beer-bottles.jpg"
-              alt="Photo of the Beer Bottles website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-               href="https://bucheli-web-development-beer-bottles.netlify.app/" target="blank">Bottle Reviews Website.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Ice Cold Drinks</h3>
-            </summary>
-            <img
-              src="./images-projects/ice-cold-drinks.jpg"
-              alt="Photo of the Ice Cold Drinks website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-               href="https://bucheli-web-development-ice-cold-drinks.netlify.app/" target="blank">Ice Cold Drinks Website.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          
-           <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Coca-Cola</h3>
-            </summary>
-            <img
-              src="./images-projects/coca-cola-card.jpg"
-              alt="Photo of the Coca Cola website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-               href="https://bucheli-web-development-ice-cold-drinks.netlify.app/cocacola.html" target="blank">Coca Cola Card.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          
-            <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Pepsi</h3>
-            </summary>
-            <img
-              src="./images-projects/pepsicola.jpg"
-              alt="Photo of the Ice Pepsicola website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-               href="https://bucheli-web-development-pepsi.netlify.app/" target="blank">PepsiCola Card.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Card Powered by HTML, and CSS!</p>
-          </details>
-          
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Stylish Survey Form</h3>
-            </summary>
-            <img
-              src="./images-projects/stylish_submit_form.jpg"
-              alt="Photo of the stylish submit form website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-               href="https://bucheli-web-development-stylish-submit-form.netlify.app/" target="blank">Front End for Stylish Survey Form.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Nizhny Novgorod Web Development Club</h3>
-            </summary>
-            <img
-              src="./images-projects/nizhny-novgorod.jpg"
-              alt="Photo of the Nizhny Novgorod Web Development Club website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-making-a-website-responsive-challenge-4.netlify.app/" target="blank">Front End for Nizhny Novgorod Web Development Club.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Fotomatic</h3>
-            </summary>
-            <img
-              src="./images-projects/fotomatic.jpg"
-              alt="Photo of the Fotomatic website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-docu-and-debug-project-1.netlify.app/" target="blank">Front End for Photo Studio Business.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Not Much Thyme</h3>
-            </summary>
-            <img
-              src="./images-projects/recipes.jpg"
-              alt="Photo of the Not Much Thyme website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-text-design-project-not-much-thyme.netlify.app/" target="blank">Front End for a nice recipes Website.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Hotels in Singapore</h3>
-            </summary>
-            <img
-              src="./images-projects/hotels-in-singapore.jpg"
-              alt="Photo of the Hotels in Singapore website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-               href="https://bucheli-web-development-improving-style-landing-page.netlify.app/" target="blank">Front End for a nice Hotel Management Website.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Experience The Summit</h3>
-            </summary>
-            <img
-              src="./images-projects/experience-the-summit.jpg"
-              alt="Photo of the Experience The Summit website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-improving-style-project-summit.netlify.app/" target="blank">Front End for a cool Hiking Website.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Twenty Thousand Leagues Under The Sea</h3>
-            </summary>
-            <img
-              src="./images-projects/book-reading.jpg"
-              alt="Photo of the Book Reading website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-intermediate-css-project-transitions.netlify.app/#" target="blank">Front End for a Book Reading Website.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Tsunami Coffee</h3>
-            </summary>
-            <img
-              src="./images-projects/tsunami-coffee.jpg"
-              alt="Photo of the Tsunami Coffee website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-responsive-project-tsunami-coffee.netlify.app/" target="blank">Front End for a Gourmette Coffee shop.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Amazing Space</h3>
-            </summary>
-            <img
-              src="./images-projects/amazing-space.jpg"
-              alt="Photo of the Amazing Space website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-responsive-example-2.netlify.app/" target="blank">Front End for a Science Study Group for Kids.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Bana's Travel Blog</h3>
-            </summary>
-            <img
-              src="./images-projects/banas-travel-blog.jpg"
-              alt="Photo of the Banas Travel Blog website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-responsive-design-banas-travel-blog.netlify.app/" target="blank">Front End for a Traveling Blog Website.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Globe Book Store</h3>
-            </summary>
-            <img
-              src="./images-projects/globe-book-store.jpg"
-              alt="Photo of the Globe Book Store website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-responsive-example.netlify.app/" target="blank">Front End for Book Store Website.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Tea Cozy</h3>
-            </summary>
-            <img
-              src="./images-projects/tea-cozy.jpg"
-              alt="Photo of the Tea Cozy website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-intermediate-css-flexbox-project-v1.netlify.app/" target="blank">Front End for a Tea Shop Website.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Breaking News</h3>
-            </summary>
-            <img
-              src="./images-projects/breaking-news.jpg"
-              alt="Photo of the Breaking News website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-intermediate-css-flexbox1.netlify.app/" target="blank">Front End for a Breaking News Web Portal.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Morocco</h3>
-            </summary>
-            <img
-              src="./images-projects/morocco.jpg"
-              alt="Photo of the Morocco website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-css-course-typography-project.netlify.app/" target="blank">Front End for a Traveling Blog.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Pin Point</h3>
-            </summary>
-            <img
-              src="./images-projects/pin-point.jpg"
-              alt="Photo of the Pin Point website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-ui-design-pinpoint-e-commerce.netlify.app/" target="blank">Front End for a Online Shop.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">House Store</h3>
-            </summary>
-            <img
-              src="./images-projects/house-store.jpg"
-              alt="Photo of the House Store website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-css-colors-project-paint-house.netlify.app/" target="blank">Front End for a House Painting shop.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">The Best Coffee Regions</h3>
-            </summary>
-            <img
-              src="./images-projects/best-coffee.jpg"
-              alt="Photo of the The Best Coffee Regions website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-css-color-foreground-vs-background.netlify.app/" target="blank">Front End for a Website dedicated to Coffee.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">We Are Brodway</h3>
-            </summary>
-            <img
-              src="./images-projects/brodway.jpg"
-              alt="Photo of the Brodway website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-css-project-broadway.netlify.app/" target="blank">Front End for a Software Development Company located in NY.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          
-            <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Coding Blog Homepage</h3>
-            </summary>
-            <img
-              src="./images-projects/coding-blog-homepage.jpg"
-              alt="Photo of the Coding Blog website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-coding-blog-homepage.netlify.app/" target="blank">Front End for a Coding Blog Homepage.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS Accessibility!</p>
-          </details>
-          
-           <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Second Cousin Records</h3>
-            </summary>
-            <img
-              src="./images-projects/second-cousin-records.jpg"
-              alt="Photo of the Second Cousin Records Website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-front-end-for-records-company.netlify.app/" target="blank">Front End for a Records Company.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and advanced CSS!</p>
-          </details>
-          
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Greetings From Argentina</h3>
-            </summary>
-            <img
-              src="./images-projects/promotional-traveling-card.jpg"
-              alt="Photo of the Greetings From Argentina Website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-promotional-traveling-card-argentina.netlify.app/" target="blank">Promotional Traveling Card.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and advanced CSS!</p>
-          </details>
-          
-           <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Curious Ornithologist</h3>
-            </summary>
-            <img
-              src="./images-projects/a-curious-ornithologist.jpg"
-              alt="Photo of the Curious Ornithologist Website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-curious-ornithologist.netlify.app/#" target="blank">A Curious Ornithologist.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS Variables, and CSS Functions!</p>
-          </details>
-          
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Balance Sheet</h3>
-            </summary>
-            <img
-              src="./images-projects/balance-sheet.jpg"
-              alt="Photo of the Balance Sheet Website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-balance-sheet.netlify.app/" target="blank">Balance Sheet.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS and CSS Pseudo Selectors!</p>
-          </details>
-          
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Picasso Style Painting</h3>
-            </summary>
-            <img
-              src="./images-projects/picasso-painting.jpg"
-              alt="Photo of the Picasso Painting Website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-picasso-paint.netlify.app/" target="blank">Picasso Painting.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, Intermediate CSS, and Font Awesome!</p>
-          </details>
-          
-           <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">FreeCodeCamp Responsive Piano</h3>
-            </summary>
-            <img
-              src="./images-projects/freecodecamp-responsive-piano.jpg"
-              alt="Photo of the FreeCodeCamp Responsive Piano Website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-responsive-piano.netlify.app/" target="blank">FreeCodeCamp Responsive Piano.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, Intermediate CSS, and Pseudo Elements!</p>
-          </details>
-          
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">City Skyline</h3>
-            </summary>
-            <img
-              src="./images-projects/city-skyline.jpg"
-              alt="Photo of the City Skyline Website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-city-skyline.netlify.app/" target="blank">City Skyline.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, Intermediate CSS, and CSS Gradients!</p>
-          </details>
-          
-           <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Bucheli Ferris Wheel</h3>
-            </summary>
-            <img
-              src="./images-projects/bucheli-ferris-wheel.jpg"
-              alt="Photo of the Bucheli Ferris Wheel Website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-ferris-wheel.netlify.app/" target="blank">Bucheli Ferris Wheel.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, Intermediate CSS, and CSS Animations!</p>
-          </details>
-          
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">FreeCodeCamp Magazine</h3>
-            </summary>
-            <img
-              src="./images-projects/freecodecamp-magazine.jpg"
-              alt="Photo of the FreeCodeCamp Magazine Website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-freecodecamp-magazine.netlify.app/" target="blank">FreeCodeCamp Magazine.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, Intermediate CSS, and CSS Grid!</p>
-          </details>
-          
-           <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Penguin Greeting Card</h3>
-            </summary>
-            <img
-              src="./images-projects/flappy-penguin.jpg"
-              alt="Photo of the Flappy Penguin Website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-flappy-penguin.netlify.app/" target="blank">Penguin Greeting Card.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, Intermediate CSS, and CSS Transforms!</p>
-          </details>
-          
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Pearl Jam</h3>
-            </summary>
-            <img
-              src="./images-projects/pearl-jam.jpg"
-              alt="Photo of the Pearl Jam website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-catalog-templates-rock-band.netlify.app/#" target="blank">Pearl Jam Landing Page.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and W3.CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">The Analog Specialist</h3>
-            </summary>
-            <img
-              src="./images-projects/analog-specialist.jpg"
-              alt="Photo of the Analog Specialist website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-classic-design-1.netlify.app/#" target="blank">Classic style website.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Yoko's Kitchen</h3>
-            </summary>
-            <img
-              src="./images-projects/yoko-kitchen.jpg"
-              alt="Photo of the Yoko's Kitchen website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-classic-design-3.netlify.app/" target="blank">Japanese Restaurant Website.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, and HTML5 Layout!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Pedal Faster</h3>
-            </summary>
-            <img
-              src="./images-projects/pedal-faster.jpg"
-              alt="Photo of the Pedal Faster website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-960gs-classic-website.netlify.app/" target="blank">Landing Page for bicycle store.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, and 960gs Framework!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Citrus</h3>
-            </summary>
-            <img
-              src="./images-projects/citrus.jpg"
-              alt="Photo of the Citrus website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-color-design-course-introduction.netlify.app/" target="blank">Contact Landing Page created for a Chicago Company.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">The Terminal</h3>
-            </summary>
-            <img
-              src="./images-projects/the-terminal.jpg"
-              alt="Photo of the The Terminal website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-css-course-box-visibility.netlify.app/" target="blank">Landing Page for Eco-tourism company.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Look Up In The Sky</h3>
-            </summary>
-            <img
-              src="./images-projects/sky.jpg"
-              alt="Photo of the Look Up In The Sky website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-color-design-course-complementary.netlify.app/" target="blank">Landing Page for University Science Club.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Musicon</h3>
-            </summary>
-            <img
-              src="./images-projects/musicon.jpg"
-              alt="Photo of the Musicon website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-handlebars-musicon-bucheli.netlify.app/index.html" target="blank">Landing Page for Guitar Shop.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, and Handlebars!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Innovation Cloud</h3>
-            </summary>
-            <img
-              src="./images-projects/innovation.jpg"
-              alt="Photo of the Innovation Cloud website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-css-course-intro-to-css.netlify.app/" target="blank">Landing Page for International Conference.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">AdHoc</h3>
-            </summary>
-            <img
-              src="./images-projects/adhoc.jpg"
-              alt="Photo of the AdHoc website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-bootstrap-adhoc.netlify.app/" target="blank">Landing Page for Startup.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS and Bootstrap!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Jetsetter Concierge</h3>
-            </summary>
-            <img
-              src="./images-projects/airline.jpg"
-              alt="Photo of the Jetsetter Concierge website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-front-end-course-applying-css.netlify.app/" target="blank">Landing Page for Airline.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Reserva Natural Biotopo Selva Humeda</h3>
-            </summary>
-            <img
-              src="./images-projects/biotopo.jpg"
-              alt="Photo of the Reserva Natural Biotopo website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://andina-foundation-project-bucheli-web-design.netlify.app/index.html" target="blank">Multipage Website for Ecological Company.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Portfolio Website</h3>
-            </summary>
-            <img
-              src="./images-projects/portfolio.jpg"
-              alt="Photo of the Portfolio website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://personal-portfolio-bucheli-web-development.netlify.app/#contact" target="blank">Portfolio Website.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Dr. Carl Sagan</h3>
-            </summary>
-            <img
-              src="./images-projects/tribute.jpg"
-              alt="Photo of the Dr. Carl Sagan website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://tribute-page-2-bucheli-web-development.netlify.app/" target="blank">Dr. Carl Sagan.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Tribute Web Site</h3>
-            </summary>
-            <img
-              src="./images-projects/tribute-page.jpg"
-              alt="Photo of the Tribute Page website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-tribute-page.netlify.app/" target="blank">Tribute Web Site.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Product Landing Page</h3>
-            </summary>
-            <img
-              src="./images-projects/product-landing-page.jpg"
-              alt="Photo of the Product Landing Page Website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-product-landing-page.netlify.app/" target="blank">Product Landing Page.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Technical Documentation Page</h3>
-            </summary>
-            <img
-              src="./images-projects/technical-documentation-page.jpg"
-              alt="Photo of the Technical Documentation Page Website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-technical-documentation-page.netlify.app/" target="blank">Technical Documentation Page.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Brighton Times</h3>
-            </summary>
-            <img
-              src="./images-projects/brigton.jpg"
-              alt="Photo of the Brighton Times website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://responsive-web-newspaper-bucheli-web-development.netlify.app/" target="blank">Responsive digital Brighton newspaper.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">The Punk Rock Gazeta</h3>
-            </summary>
-            <img
-              src="./images-projects/punk.jpg"
-              alt="Photo of the Brighton Times website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://the-punk-rock-gazeta-bucheli-web-development.netlify.app/" target="blank">Responsive digital punk newspaper.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Quiz Webpage</h3>
-            </summary>
-            <img
-              src="./images-projects/quiz-webpage.jpg"
-              alt="Photo of the quiz website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-freecodecamp-new-resp-web-design-cert-quiz.netlify.app/" target="blank">Accessible Quiz website with ARIA attributes.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Nutrition Label</h3>
-            </summary>
-            <img
-              src="./images-projects/nutrition-label.jpg"
-              alt="Photo of the nutrition label site"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-freecodecamp-new-resp-web-design-nutrition-label.netlify.app/" target="blank">Nutrition Label Design.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Photo Gallery</h3>
-            </summary>
-            <img
-              src="./images-projects/photo-gallery.jpg"
-              alt="Photo of the photo gallery site"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-freecodecamp-new-resp-web-design-photo-gallery.netlify.app/" target="blank">Photo Gallery Powered by CSS Flexbox.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Art Rothko Painting</h3>
-            </summary>
-            <img
-              src="./images-projects/art-rothko-painting.jpg"
-              alt="Photo of the photo gallery site"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-freecodecamp-new-resp-web-design-rothko-painting.netlify.app/" target="blank">Art Rothko Painting Powered by CSS.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Cafe Menu</h3>
-            </summary>
-            <img
-              src="./images-projects/cafe-menu.jpg"
-              alt="Photo of the cafe menu site"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-freecodecamp-new-resp-web-design-cert-cafemenu.netlify.app/" target="blank">Cafe Menu Powered by CSS Flexbox.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Mockup Up to Article</h3>
-            </summary>
-            <img
-              src="./images-projects/mockup-to-article.jpg"
-              alt="Photo of the mockup to article site"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-mockup-to-article.netlify.app/" target="blank">Mocku Up to Article</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML</p>
-          </details>
-          
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Color Markers</h3>
-            </summary>
-            <img
-              src="./images-projects/color-markers.jpg"
-              alt="Photo of the color marker site"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-freecodecamp-new-resp-web-design-cert-colormarkers.netlify.app/" target="blank">Color Markers.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Registration Form</h3>
-            </summary>
-            <img
-              src="./images-projects/registration-form.jpg"
-              alt="Photo of the registration form site"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-freecodecamp-new-resp-web-design-cert-registration-form.netlify.app/" target="blank">Registration Form.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Excursion</h3>
-            </summary>
-            <img
-              src="./images-projects/excursion.jpg"
-              alt="Photo of the excursion site"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-excursion-app-project.netlify.app/" target="blank">Landing Page for Mobile App.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Colmar Academy</h3>
-            </summary>
-            <img
-              src="./images-projects/colmar-academy.jpg"
-              alt="Photo of the colmar academy website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-colmar-academy-project.netlify.app/" target="blank">Landing Page for Online Academy.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
-          </details>
-          
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Bootstrap for Pricing</h3>
-            </summary>
-            <img
-              src="./images-projects/bootstrap-for-pricing.jpg"
-              alt="Photo of the bootstrap for pricing website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-bootstrap-for-pricing.netlify.app/" target="blank">Bootstrap for Pricing.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Bootstrap for Pricing.  Powered by Bootstrap!</p>
-          </details>
-          
-            <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Product Landing Page with Bootstrap</h3>
-            </summary>
-            <img
-              src="./images-projects/product-landing-page-with-bootstrap.jpg"
-              alt="Photo of the product landing page website"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://bucheli-web-development-product-landing-page-with-bootstrap.netlify.app/" target="blank">Product Landing Page with Bootstrap.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Product Landing.  Powered by Bootstrap!</p>
-          </details>
-          
-        </section>
+      <section id="projects-projects">
+        <h3 style="color: #667292">Websites for Businesses</h3>
 
-        <section id="projects-projects">
-          <h2 style="color: #034f84">Back-End Projects</h2>
-          <h3 style="color: #667292">Node.Js and Express Apps</h3>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Coder Warriors NewsLetter</h3>
-            </summary>
-            <img
-              src="./images-projects/newsletter.jpg"
-              alt="Photo of the Newsletter app"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://thawing-reaches-09155.herokuapp.com/" target="blank">Newsletter App.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Backend App powered by Node.js, Express.js, Heroku, and Mailchimp!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Todo List</h3>
-            </summary>
-            <img
-              src="./images-projects/todo-list.jpg"
-              alt="Photo of the Todo List app"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://calm-woodland-84400.herokuapp.com/" target="blank">Todo List App with Persisting Data.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Backend App powered by Node.js, Express.js, Heroku, MongoDB, Mongoose and Mailchimp!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Daily Journal</h3>
-            </summary>
-            <img
-              src="./images-projects/daily-journal.jpg"
-              alt="Photo of the Daily Journal app"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://desolate-temple-32561.herokuapp.com/" target="blank">Daily Journal App with persisting data capabilities.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Backend App powered by Node.js, Express.js, Heroku, MongoDB, Mongoose and Mailchimp!</p>
-          </details>
-        </section>
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Coca-Cola and Pepsi</h3>
+          </summary>
+          <img
+            src="./images-projects/cocacola.jpg"
+            alt="Photo of the Coca Cola and Pepsi website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://ui-ux-soda-pop-bucheli-web-development.netlify.app/" target="blank">Front End for promoting famous sodas in a Digital Shop.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
 
-        <section id="projects-projects">
-          <h2 style="color: #034f84">Full-Stack Projects</h2>
-          <h3 style="color: #667292">Node.Js and Express Apps</h3>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Restaurants List</h3>
-            </summary>
-            <img
-              src="./images-projects/restaurants.jpg"
-              alt="Photo of the Restaurants List app"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://github.com/ARBUCHELI/BUCHELI-PROJECT-SERVER-SIDE-CALLS-TO-EXTERNAL-APIS" target="blank">Restaurants List Full Stack App.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Full Stack App powered by React.js, Node.js, Express.js, PostgreSQL, and Supabase!</p>
-          </details>
-          <h3 style="color: #667292">PHP and JavaScript Apps</h3>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Franklin's Fine Dining</h3>
-            </summary>
-            <img
-              src="./images-projects/franklins.jpg"
-              alt="Photo of the Franklins Restaurant app"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://github.com/ARBUCHELI/RESTAURANT-ONE-PAGE-PHP-APP" target="blank">Dining Restaurant PHP Full Stack App.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Full Stack App powered by PHP, and JavaSript!</p>
-          </details>
-        </section>
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Budweiser and Heineken</h3>
+          </summary>
+          <img
+            src="./images-projects/beer.jpg"
+            alt="Photo of the Budweiser and Heineken website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://ui-ux-beer-can-bucheli-web-design.netlify.app/" target="blank">Front End for promoting famous beers in a Digital Shop.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
 
-        <section id="projects-projects">
-          <h2 style="color: #034f84">Artificial Intelligence</h2>
-          <h3 style="color: #667292">Edge Artificial Intelligence for IoT Apps</h3>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Computer Pointer Controller</h3>
-            </summary>
-            <img
-              src="./images-projects/computer-pointer.jpg"
-              alt="Photo of the Computer Pointer Controller app"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://github.com/ARBUCHELI/COMPUTER-POINTER-CONTROLLER" target="blank">AI application that allows a user to control the computer pointer with the eyes, using computer vision.</a>
-            </p>
-            <p>
-              <a style="color:#c94c4c; font-weight:bold" 
-              href="https://www.youtube.com/watch?v=qy7uZli2U3w" target="blank">Edge AI App powered by Computer Vision, Python, and OpenVino!</a></p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Smart Queuing System</h3>
-            </summary>
-            <img
-              src="./images-projects/smart-system.jpg"
-              alt="Photo of the Smart Queuing System app"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://github.com/ARBUCHELI/SMART-QUEUING-SYSTEM" target="blank">AI application that implements a Smart Queuing System using Computer Vision.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Edge AI App powered by Computer Vision, Python, and OpenVino!</p>
-          </details>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">People Counter App</h3>
-            </summary>
-            <img
-              src="./images-projects/people-counter.jpg"
-              alt="Photo of the People Counter app"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://github.com/ARBUCHELI/DEPLOY-A-PEOPLE-COUNTER-APP-AT-THE-EDGE" target="blank">AI application that implements a people counter system using Computer Vision.</a>
-            </p>
-            <p style="color:#c94c4c; font-weight:bold">Edge AI App powered by Computer Vision, Python, and OpenVino!</p>
-          </details>
-        </section>
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">I'm a programmer</h3>
+          </summary>
+          <img
+            src="./images-projects/programmer.jpg"
+            alt="Photo of the Programmer website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://awesome-design-bucheli-web-design.netlify.app/" target="blank">Website for Freelancer Programmer.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
 
-        <section id="projects-projects">
-          <h2 style="color: #034f84">Cloud Computing</h2>
-          <h3 style="color: #667292">Hybrid Cloud Engineering Projects</h3>
-          <details class="project">
-            <summary class="project-title">
-              <h3 class="colored-link-header">Hybrid Cloud Saas Three Tier Web Application</h3>
-            </summary>
-            <img
-              src="./images-projects/three-tier.jpg"
-              alt="Photo of the Hybrid Cloud app"
-              class="project-image"
-            />
-            <p class="project-description">
-              <a class="colored-link"
-              href="https://github.com/ARBUCHELI/PROJECT-HYBRID-CLOUD-SAAS-THREE-TIER-WEB-APPLICATION" target="blank">Three tier Web application deployed with Hybrid Cloud Capabilities.</a>
-            </p>
-            <p>
-              <a style="color:#c94c4c; font-weight:bold" 
-              href="https://www.youtube.com/watch?v=qy7uZli2U3w" target="blank">Edge AI App powered by AWS and Nutanix!</a></p>
-          </details>
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Nike and Adidas</h3>
+          </summary>
+          <img
+            src="./images-projects/sneakers.jpg"
+            alt="Photo of the Programmer website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://ui-ux-sneakers-bucheli-web-design.netlify.app/" target="blank">Front End for promoting famous sneakers in a Digital Shop.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Movie Reviews</h3>
+          </summary>
+          <img
+            src="./images-projects/movie-reviews.jpg"
+            alt="Photo of the Movie Reviews website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-text-design-project-reel-good-reviews.netlify.app/" target="blank">Front End for Movie Reviews Website.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Beer Bottles</h3>
+          </summary>
+          <img
+            src="./images-projects/beer-bottles.jpg"
+            alt="Photo of the Beer Bottles website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-beer-bottles.netlify.app/" target="blank">Bottle Reviews Website.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Ice Cold Drinks</h3>
+          </summary>
+          <img
+            src="./images-projects/ice-cold-drinks.jpg"
+            alt="Photo of the Ice Cold Drinks website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-ice-cold-drinks.netlify.app/" target="blank">Ice Cold Drinks Website.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Coca-Cola</h3>
+          </summary>
+          <img
+            src="./images-projects/coca-cola-card.jpg"
+            alt="Photo of the Coca Cola website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-ice-cold-drinks.netlify.app/cocacola.html" target="blank">Coca Cola Card.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Pepsi</h3>
+          </summary>
+          <img
+            src="./images-projects/pepsicola.jpg"
+            alt="Photo of the Ice Pepsicola website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-pepsi.netlify.app/" target="blank">PepsiCola Card.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Card Powered by HTML, and CSS!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Stylish Survey Form</h3>
+          </summary>
+          <img
+            src="./images-projects/stylish_submit_form.jpg"
+            alt="Photo of the stylish submit form website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-stylish-submit-form.netlify.app/" target="blank">Front End for Stylish Survey Form.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Nizhny Novgorod Web Development Club</h3>
+          </summary>
+          <img
+            src="./images-projects/nizhny-novgorod.jpg"
+            alt="Photo of the Nizhny Novgorod Web Development Club website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-making-a-website-responsive-challenge-4.netlify.app/" target="blank">Front End for Nizhny Novgorod Web Development Club.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Fotomatic</h3>
+          </summary>
+          <img
+            src="./images-projects/fotomatic.jpg"
+            alt="Photo of the Fotomatic website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-docu-and-debug-project-1.netlify.app/" target="blank">Front End for Photo Studio Business.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Not Much Thyme</h3>
+          </summary>
+          <img
+            src="./images-projects/recipes.jpg"
+            alt="Photo of the Not Much Thyme website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-text-design-project-not-much-thyme.netlify.app/" target="blank">Front End for a nice recipes Website.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Hotels in Singapore</h3>
+          </summary>
+          <img
+            src="./images-projects/hotels-in-singapore.jpg"
+            alt="Photo of the Hotels in Singapore website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-improving-style-landing-page.netlify.app/" target="blank">Front End for a nice Hotel Management Website.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Experience The Summit</h3>
+          </summary>
+          <img
+            src="./images-projects/experience-the-summit.jpg"
+            alt="Photo of the Experience The Summit website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-improving-style-project-summit.netlify.app/" target="blank">Front End for a cool Hiking Website.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Twenty Thousand Leagues Under The Sea</h3>
+          </summary>
+          <img
+            src="./images-projects/book-reading.jpg"
+            alt="Photo of the Book Reading website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-intermediate-css-project-transitions.netlify.app/#" target="blank">Front End for a Book Reading Website.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Tsunami Coffee</h3>
+          </summary>
+          <img
+            src="./images-projects/tsunami-coffee.jpg"
+            alt="Photo of the Tsunami Coffee website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-responsive-project-tsunami-coffee.netlify.app/" target="blank">Front End for a Gourmette Coffee shop.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Amazing Space</h3>
+          </summary>
+          <img
+            src="./images-projects/amazing-space.jpg"
+            alt="Photo of the Amazing Space website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-responsive-example-2.netlify.app/" target="blank">Front End for a Science Study Group for Kids.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Bana's Travel Blog</h3>
+          </summary>
+          <img
+            src="./images-projects/banas-travel-blog.jpg"
+            alt="Photo of the Banas Travel Blog website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-responsive-design-banas-travel-blog.netlify.app/" target="blank">Front End for a Traveling Blog Website.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Globe Book Store</h3>
+          </summary>
+          <img
+            src="./images-projects/globe-book-store.jpg"
+            alt="Photo of the Globe Book Store website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-responsive-example.netlify.app/" target="blank">Front End for Book Store Website.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Tea Cozy</h3>
+          </summary>
+          <img
+            src="./images-projects/tea-cozy.jpg"
+            alt="Photo of the Tea Cozy website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-intermediate-css-flexbox-project-v1.netlify.app/" target="blank">Front End for a Tea Shop Website.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Breaking News</h3>
+          </summary>
+          <img
+            src="./images-projects/breaking-news.jpg"
+            alt="Photo of the Breaking News website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-intermediate-css-flexbox1.netlify.app/" target="blank">Front End for a Breaking News Web Portal.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Morocco</h3>
+          </summary>
+          <img
+            src="./images-projects/morocco.jpg"
+            alt="Photo of the Morocco website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-css-course-typography-project.netlify.app/" target="blank">Front End for a Traveling Blog.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Pin Point</h3>
+          </summary>
+          <img
+            src="./images-projects/pin-point.jpg"
+            alt="Photo of the Pin Point website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-ui-design-pinpoint-e-commerce.netlify.app/" target="blank">Front End for a Online Shop.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">House Store</h3>
+          </summary>
+          <img
+            src="./images-projects/house-store.jpg"
+            alt="Photo of the House Store website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-css-colors-project-paint-house.netlify.app/" target="blank">Front End for a House Painting shop.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">The Best Coffee Regions</h3>
+          </summary>
+          <img
+            src="./images-projects/best-coffee.jpg"
+            alt="Photo of the The Best Coffee Regions website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-css-color-foreground-vs-background.netlify.app/" target="blank">Front End for a Website dedicated to Coffee.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">We Are Brodway</h3>
+          </summary>
+          <img
+            src="./images-projects/brodway.jpg"
+            alt="Photo of the Brodway website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-css-project-broadway.netlify.app/" target="blank">Front End for a Software Development Company located in NY.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Coding Blog Homepage</h3>
+          </summary>
+          <img
+            src="./images-projects/coding-blog-homepage.jpg"
+            alt="Photo of the Coding Blog website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-coding-blog-homepage.netlify.app/" target="blank">Front End for a Coding Blog Homepage.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS Accessibility!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Second Cousin Records</h3>
+          </summary>
+          <img
+            src="./images-projects/second-cousin-records.jpg"
+            alt="Photo of the Second Cousin Records Website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-front-end-for-records-company.netlify.app/" target="blank">Front End for a Records Company.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and advanced CSS!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Greetings From Argentina</h3>
+          </summary>
+          <img
+            src="./images-projects/promotional-traveling-card.jpg"
+            alt="Photo of the Greetings From Argentina Website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-promotional-traveling-card-argentina.netlify.app/" target="blank">Promotional Traveling Card.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and advanced CSS!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Curious Ornithologist</h3>
+          </summary>
+          <img
+            src="./images-projects/a-curious-ornithologist.jpg"
+            alt="Photo of the Curious Ornithologist Website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-curious-ornithologist.netlify.app/#" target="blank">A Curious Ornithologist.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS Variables, and CSS Functions!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Balance Sheet</h3>
+          </summary>
+          <img
+            src="./images-projects/balance-sheet.jpg"
+            alt="Photo of the Balance Sheet Website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-balance-sheet.netlify.app/" target="blank">Balance Sheet.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS and CSS Pseudo Selectors!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Picasso Style Painting</h3>
+          </summary>
+          <img
+            src="./images-projects/picasso-painting.jpg"
+            alt="Photo of the Picasso Painting Website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-picasso-paint.netlify.app/" target="blank">Picasso Painting.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, Intermediate CSS, and Font Awesome!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">FreeCodeCamp Responsive Piano</h3>
+          </summary>
+          <img
+            src="./images-projects/freecodecamp-responsive-piano.jpg"
+            alt="Photo of the FreeCodeCamp Responsive Piano Website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-responsive-piano.netlify.app/" target="blank">FreeCodeCamp Responsive Piano.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, Intermediate CSS, and Pseudo Elements!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">City Skyline</h3>
+          </summary>
+          <img
+            src="./images-projects/city-skyline.jpg"
+            alt="Photo of the City Skyline Website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-city-skyline.netlify.app/" target="blank">City Skyline.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, Intermediate CSS, and CSS Gradients!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Bucheli Ferris Wheel</h3>
+          </summary>
+          <img
+            src="./images-projects/bucheli-ferris-wheel.jpg"
+            alt="Photo of the Bucheli Ferris Wheel Website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-ferris-wheel.netlify.app/" target="blank">Bucheli Ferris Wheel.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, Intermediate CSS, and CSS Animations!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">FreeCodeCamp Magazine</h3>
+          </summary>
+          <img
+            src="./images-projects/freecodecamp-magazine.jpg"
+            alt="Photo of the FreeCodeCamp Magazine Website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-freecodecamp-magazine.netlify.app/" target="blank">FreeCodeCamp Magazine.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, Intermediate CSS, and CSS Grid!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Penguin Greeting Card</h3>
+          </summary>
+          <img
+            src="./images-projects/flappy-penguin.jpg"
+            alt="Photo of the Flappy Penguin Website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-flappy-penguin.netlify.app/" target="blank">Penguin Greeting Card.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, Intermediate CSS, and CSS Transforms!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Pearl Jam</h3>
+          </summary>
+          <img
+            src="./images-projects/pearl-jam.jpg"
+            alt="Photo of the Pearl Jam website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-catalog-templates-rock-band.netlify.app/#" target="blank">Pearl Jam Landing Page.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and W3.CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">The Analog Specialist</h3>
+          </summary>
+          <img
+            src="./images-projects/analog-specialist.jpg"
+            alt="Photo of the Analog Specialist website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-classic-design-1.netlify.app/#" target="blank">Classic style website.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Yoko's Kitchen</h3>
+          </summary>
+          <img
+            src="./images-projects/yoko-kitchen.jpg"
+            alt="Photo of the Yoko's Kitchen website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-classic-design-3.netlify.app/" target="blank">Japanese Restaurant Website.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, and HTML5 Layout!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Pedal Faster</h3>
+          </summary>
+          <img
+            src="./images-projects/pedal-faster.jpg"
+            alt="Photo of the Pedal Faster website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-960gs-classic-website.netlify.app/" target="blank">Landing Page for bicycle store.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, and 960gs Framework!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Citrus</h3>
+          </summary>
+          <img
+            src="./images-projects/citrus.jpg"
+            alt="Photo of the Citrus website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+             href="https://bucheli-web-development-color-design-course-introduction.netlify.app/" target="blank">Contact Landing Page created for a Chicago Company.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">The Terminal</h3>
+          </summary>
+          <img
+            src="./images-projects/the-terminal.jpg"
+            alt="Photo of the The Terminal website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-css-course-box-visibility.netlify.app/" target="blank">Landing Page for Eco-tourism company.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Look Up In The Sky</h3>
+          </summary>
+          <img
+            src="./images-projects/sky.jpg"
+            alt="Photo of the Look Up In The Sky website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-color-design-course-complementary.netlify.app/" target="blank">Landing Page for University Science Club.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Musicon</h3>
+          </summary>
+          <img
+            src="./images-projects/musicon.jpg"
+            alt="Photo of the Musicon website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-handlebars-musicon-bucheli.netlify.app/index.html" target="blank">Landing Page for Guitar Shop.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS, and Handlebars!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Innovation Cloud</h3>
+          </summary>
+          <img
+            src="./images-projects/innovation.jpg"
+            alt="Photo of the Innovation Cloud website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-css-course-intro-to-css.netlify.app/" target="blank">Landing Page for International Conference.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">AdHoc</h3>
+          </summary>
+          <img
+            src="./images-projects/adhoc.jpg"
+            alt="Photo of the AdHoc website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-bootstrap-adhoc.netlify.app/" target="blank">Landing Page for Startup.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, CSS and Bootstrap!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Jetsetter Concierge</h3>
+          </summary>
+          <img
+            src="./images-projects/airline.jpg"
+            alt="Photo of the Jetsetter Concierge website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-front-end-course-applying-css.netlify.app/" target="blank">Landing Page for Airline.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Reserva Natural Biotopo Selva Humeda</h3>
+          </summary>
+          <img
+            src="./images-projects/biotopo.jpg"
+            alt="Photo of the Reserva Natural Biotopo website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://andina-foundation-project-bucheli-web-design.netlify.app/index.html" target="blank">Multipage Website for Ecological Company.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Portfolio Website</h3>
+          </summary>
+          <img
+            src="./images-projects/portfolio.jpg"
+            alt="Photo of the Portfolio website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://personal-portfolio-bucheli-web-development.netlify.app/#contact" target="blank">Portfolio Website.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Dr. Carl Sagan</h3>
+          </summary>
+          <img
+            src="./images-projects/tribute.jpg"
+            alt="Photo of the Dr. Carl Sagan website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://tribute-page-2-bucheli-web-development.netlify.app/" target="blank">Dr. Carl Sagan.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Tribute Web Site</h3>
+          </summary>
+          <img
+            src="./images-projects/tribute-page.jpg"
+            alt="Photo of the Tribute Page website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-tribute-page.netlify.app/" target="blank">Tribute Web Site.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Product Landing Page</h3>
+          </summary>
+          <img
+            src="./images-projects/product-landing-page.jpg"
+            alt="Photo of the Product Landing Page Website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-product-landing-page.netlify.app/" target="blank">Product Landing Page.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Technical Documentation Page</h3>
+          </summary>
+          <img
+            src="./images-projects/technical-documentation-page.jpg"
+            alt="Photo of the Technical Documentation Page Website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-technical-documentation-page.netlify.app/" target="blank">Technical Documentation Page.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Brighton Times</h3>
+          </summary>
+          <img
+            src="./images-projects/brigton.jpg"
+            alt="Photo of the Brighton Times website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://responsive-web-newspaper-bucheli-web-development.netlify.app/" target="blank">Responsive digital Brighton newspaper.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">The Punk Rock Gazeta</h3>
+          </summary>
+          <img
+            src="./images-projects/punk.jpg"
+            alt="Photo of the Brighton Times website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://the-punk-rock-gazeta-bucheli-web-development.netlify.app/" target="blank">Responsive digital punk newspaper.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Quiz Webpage</h3>
+          </summary>
+          <img
+            src="./images-projects/quiz-webpage.jpg"
+            alt="Photo of the quiz website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-freecodecamp-new-resp-web-design-cert-quiz.netlify.app/" target="blank">Accessible Quiz website with ARIA attributes.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Nutrition Label</h3>
+          </summary>
+          <img
+            src="./images-projects/nutrition-label.jpg"
+            alt="Photo of the nutrition label site"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-freecodecamp-new-resp-web-design-nutrition-label.netlify.app/" target="blank">Nutrition Label Design.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Photo Gallery</h3>
+          </summary>
+          <img
+            src="./images-projects/photo-gallery.jpg"
+            alt="Photo of the photo gallery site"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-freecodecamp-new-resp-web-design-photo-gallery.netlify.app/" target="blank">Photo Gallery Powered by CSS Flexbox.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Art Rothko Painting</h3>
+          </summary>
+          <img
+            src="./images-projects/art-rothko-painting.jpg"
+            alt="Photo of the photo gallery site"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-freecodecamp-new-resp-web-design-rothko-painting.netlify.app/" target="blank">Art Rothko Painting Powered by CSS.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Cafe Menu</h3>
+          </summary>
+          <img
+            src="./images-projects/cafe-menu.jpg"
+            alt="Photo of the cafe menu site"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-freecodecamp-new-resp-web-design-cert-cafemenu.netlify.app/" target="blank">Cafe Menu Powered by CSS Flexbox.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Mockup Up to Article</h3>
+          </summary>
+          <img
+            src="./images-projects/mockup-to-article.jpg"
+            alt="Photo of the mockup to article site"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-mockup-to-article.netlify.app/" target="blank">Mocku Up to Article</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Color Markers</h3>
+          </summary>
+          <img
+            src="./images-projects/color-markers.jpg"
+            alt="Photo of the color marker site"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-freecodecamp-new-resp-web-design-cert-colormarkers.netlify.app/" target="blank">Color Markers.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Registration Form</h3>
+          </summary>
+          <img
+            src="./images-projects/registration-form.jpg"
+            alt="Photo of the registration form site"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+             href="https://bucheli-freecodecamp-new-resp-web-design-cert-registration-form.netlify.app/" target="blank">Registration Form.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Excursion</h3>
+          </summary>
+          <img
+            src="./images-projects/excursion.jpg"
+            alt="Photo of the excursion site"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-excursion-app-project.netlify.app/" target="blank">Landing Page for Mobile App.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Colmar Academy</h3>
+          </summary>
+          <img
+            src="./images-projects/colmar-academy.jpg"
+            alt="Photo of the colmar academy website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-colmar-academy-project.netlify.app/" target="blank">Landing Page for Online Academy.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Website Powered by HTML, and CSS!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Bootstrap for Pricing</h3>
+          </summary>
+          <img
+            src="./images-projects/bootstrap-for-pricing.jpg"
+            alt="Photo of the bootstrap for pricing website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-bootstrap-for-pricing.netlify.app/" target="blank">Bootstrap for Pricing.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Bootstrap for Pricing.  Powered by Bootstrap!</p>
+        </details>
+          
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Product Landing Page with Bootstrap</h3>
+          </summary>
+          <img
+            src="./images-projects/product-landing-page-with-bootstrap.jpg"
+            alt="Photo of the product landing page website"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://bucheli-web-development-product-landing-page-with-bootstrap.netlify.app/" target="blank">Product Landing Page with Bootstrap.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Product Landing.  Powered by Bootstrap!</p>
+        </details>
+      </section>
+
+      <section id="projects-projects">
+        <h2 style="color: #034f84">Back-End Projects</h2>
+        <h3 style="color: #667292">Node.Js and Express Apps</h3>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Coder Warriors NewsLetter</h3>
+          </summary>
+          <img
+            src="./images-projects/newsletter.jpg"
+            alt="Photo of the Newsletter app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://thawing-reaches-09155.herokuapp.com/" target="blank">Newsletter App.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Backend App powered by Node.js, Express.js, Heroku, and Mailchimp!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Todo List</h3>
+          </summary>
+          <img
+            src="./images-projects/todo-list.jpg"
+            alt="Photo of the Todo List app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://calm-woodland-84400.herokuapp.com/" target="blank">Todo List App with Persisting Data.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Backend App powered by Node.js, Express.js, Heroku, MongoDB, Mongoose and Mailchimp!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Daily Journal</h3>
+          </summary>
+          <img
+            src="./images-projects/daily-journal.jpg"
+            alt="Photo of the Daily Journal app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://desolate-temple-32561.herokuapp.com/" target="blank">Daily Journal App with persisting data capabilities.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Backend App powered by Node.js, Express.js, Heroku, MongoDB, Mongoose and Mailchimp!</p>
+        </details>
+      </section>
+
+      <section id="projects-projects">
+        <h2 style="color: #034f84">Full-Stack Projects</h2>
+        <h3 style="color: #667292">Node.Js and Express Apps</h3>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Restaurants List</h3>
+          </summary>
+          <img
+            src="./images-projects/restaurants.jpg"
+            alt="Photo of the Restaurants List app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://github.com/ARBUCHELI/BUCHELI-PROJECT-SERVER-SIDE-CALLS-TO-EXTERNAL-APIS" target="blank">Restaurants List Full Stack App.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Full Stack App powered by React.js, Node.js, Express.js, PostgreSQL, and Supabase!</p>
+        </details>
+
+        <h3 style="color: #667292">PHP and JavaScript Apps</h3>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Franklin's Fine Dining</h3>
+          </summary>
+          <img
+            src="./images-projects/franklins.jpg"
+            alt="Photo of the Franklins Restaurant app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://github.com/ARBUCHELI/RESTAURANT-ONE-PAGE-PHP-APP" target="blank">Dining Restaurant PHP Full Stack App.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Full Stack App powered by PHP, and JavaSript!</p>
+        </details>
+      </section>
+
+      <section id="projects-projects">
+        <h2 style="color: #034f84">Artificial Intelligence</h2>
+        <h3 style="color: #667292">Edge Artificial Intelligence for IoT Apps</h3>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Computer Pointer Controller</h3>
+          </summary>
+          <img
+            src="./images-projects/computer-pointer.jpg"
+            alt="Photo of the Computer Pointer Controller app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://github.com/ARBUCHELI/COMPUTER-POINTER-CONTROLLER" target="blank">AI application that allows a user to control the computer pointer with the eyes, using computer vision.</a>
+          </p>
+          <p>
+            <a style="color:#c94c4c; font-weight:bold" 
+            href="https://www.youtube.com/watch?v=qy7uZli2U3w" target="blank">Edge AI App powered by Computer Vision, Python, and OpenVino!</a></p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Smart Queuing System</h3>
+          </summary>
+          <img
+            src="./images-projects/smart-system.jpg"
+            alt="Photo of the Smart Queuing System app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://github.com/ARBUCHELI/SMART-QUEUING-SYSTEM" target="blank">AI application that implements a Smart Queuing System using Computer Vision.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Edge AI App powered by Computer Vision, Python, and OpenVino!</p>
+        </details>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">People Counter App</h3>
+          </summary>
+          <img
+            src="./images-projects/people-counter.jpg"
+            alt="Photo of the People Counter app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://github.com/ARBUCHELI/DEPLOY-A-PEOPLE-COUNTER-APP-AT-THE-EDGE" target="blank">AI application that implements a people counter system using Computer Vision.</a>
+          </p>
+          <p style="color:#c94c4c; font-weight:bold">Edge AI App powered by Computer Vision, Python, and OpenVino!</p>
+        </details>
+      </section>
+
+      <section id="projects-projects">
+        <h2 style="color: #034f84">Cloud Computing</h2>
+        <h3 style="color: #667292">Hybrid Cloud Engineering Projects</h3>
+
+        <details open class="project">
+          <summary class="project-title">
+            <h3 class="colored-link-header">Hybrid Cloud Saas Three Tier Web Application</h3>
+          </summary>
+          <img
+            src="./images-projects/three-tier.jpg"
+            alt="Photo of the Hybrid Cloud app"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a class="colored-link"
+            href="https://github.com/ARBUCHELI/PROJECT-HYBRID-CLOUD-SAAS-THREE-TIER-WEB-APPLICATION" target="blank">Three tier Web application deployed with Hybrid Cloud Capabilities.</a>
+          </p>
+          <p>
+            <a style="color:#c94c4c; font-weight:bold" 
+            href="https://www.youtube.com/watch?v=qy7uZli2U3w" target="blank">Edge AI App powered by AWS and Nutanix!</a></p>
+        </details>
         </section>
 
         <section id="skills-projects">
@@ -2526,7 +2487,7 @@
         </section>
     </main>
     <!--<footer>Made with <span class="heart">♥</span> in Nizhny Novgorod</footer>-->
-    <footer style="color: #6b5b95">Bucheli Web Development © 2022</footer>
+    <footer style="color: #6b5b95; font-weight: normal;">Bucheli Web Development © 2022</footer>
     <script>
       let slideIndex = 1;
       showSlides(slideIndex);
