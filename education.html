@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <script src="myScript.js"></script>
     <style>    
+       nav {
+        text-align: center;
+      } 
       .topnav {
         overflow: hidden;
         background-color: #deeaee;
@@ -20,7 +23,7 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 16.8px;
         border-radius: 5px;
       }
       .topnav a:hover {
@@ -34,14 +37,19 @@
       .topnav .icon {
         display: none;
       }
+      @media only screen and (max-width: 1281px) {
+        .topnav a {
+          font-size: 16.8px;
+        }
+      }
       @media only screen and (max-width: 1025px) {
         .topnav a {
-          font-size: 17px;
+          font-size: 16.8px;
         }
       }
       @media only screen and (max-width: 913px) {
         .topnav a {
-          font-size: 17px;
+          font-size: 16px;
         }
       }
       @media screen and (max-width: 910px) {
@@ -51,9 +59,9 @@
       }
       @media screen and (max-width: 821px) {
         .topnav a {
-          font-size: 17px;
+          font-size: 16px;
         }
-      }
+      }     
       @media screen and (max-width: 872px) {
         .topnav a {
           font-size: 14px;
@@ -61,7 +69,7 @@
       }
       @media screen and (max-width: 769px) {
         .topnav a {
-          font-size: 13px;
+          font-size: 12.5px;
         }
       }
       @media screen and (max-width: 693px) {
