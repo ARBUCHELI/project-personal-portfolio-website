@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="myScript.js"></script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      html,
+      body {
+        height: 100%;
+        color: var(--font-color);
+        background-color: #deeaee;
+      }
+
+      :root {
+        --spacing-1: 8px;
+        --spacing-2: 12px;
+        --spacing-3: 16px;
+        --spacing-4: 24px;
+        --border-radius: 12px;
+        --font-color: #323232;
+      }
+      h1 {
+        font-family: "Proza Libre", sans-serif;
+        color: #6b5b95;
+      }
+      h2 {
+        font-family: "Proza Libre", sans-serif;
+        margin: 0;
+        margin-bottom: var(--spacing-2);
+        font-size: 18px;
+      }
+      h3 {
+        font-family: "Proza Libre", sans-serif;
+        margin: 0;
+        margin-bottom: var(--spacing-2);
+      }
+      body {
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        padding: 0 var(--spacing-3);
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        padding: var(--spacing-3) 0;
+      }
+      .navigation-items {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        align-items: center;
+        margin: 0;
+        margin-left: auto;
+      }
+      .navigation-item {
+        margin: var(--spacing-1);
+      }
+      .topnav {
+        overflow: hidden;
+        background-color: #deeaee;
+        text-align: center;
+      }
+      .topnav a {
+        float: left;
+        display: block;
+        color: #6b5b95;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16.8px;
+        border-radius: 5px;
+      } 
+      .topnav a:hover {
+        background-color: #ddd;
+        color: #034f84;
+      }
+      .topnav a.active {
+        background-color: #6b5b95;
+        color: white;
+      }
+      .topnav .icon {
+        display: none;
+      }
+      @media only screen and (max-width: 1025px) {
+        .topnav a {
+          font-size: 16.8px;
+        }
+      }
+      @media screen and (max-width: 913px) {
+        .topnav a {
+          font-size: 16.8px;
+        }
+      }
+      @media screen and (max-width: 910px) {
+        .topnav a {
+          font-size: 16px;
+        }
+      }
+      @media screen and (max-width: 821px) {
+        .topnav a {
+          font-size: 17px;
+        }
+      }
+      @media screen and (max-width: 872px) {
+        .topnav a {
+          font-size: 14px;
+        }
+      }
+      @media screen and (max-width: 769px) {
+        .topnav a {
+          font-size: 13px;
+        }
+      }
+      @media screen and (max-width: 693px) {
+        .topnav a {
+          font-size: 13px;
+        }
+      }
+      @media screen and (max-width: 667px) {
+        .topnav a {
+          font-size: 12px;
+        }
+      }
+      @media screen and (max-width: 631px) {
+        .topnav a {
+          font-size: 11px;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .topnav a {
+          font-size: 14px;
+          padding: 1px 16px;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .topnav a:not(first-child) {display: none;}
+        .topnav a.icon {
+          float: right;
+          display: block;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .topnav.responsive {position: relative;}
+        .topnav.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .topnav.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+      }
+      @media screen and (max-width: 541px) {
+        .topnav a {
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+      }
+      @media screen and (max-width: 415px) {
+        .topnav a {
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+      }
+      @media screen and (max-width: 413px) {
+        .topnav a {
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+      }
+      @media screen and (max-width: 394px) {
+        .topnav a {
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+      }
+      @media screen and (max-width: 361px) {
+        .topnav a {
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+      }
+      @media screen and (max-width: 376px) {
+        .topnav a {
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+      }
+      @media screen and (max-width: 281px) {
+        .topnav a {
+          font-size: 16px;
+          padding: 1px 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="./index.html">About Me</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./customizations.html">Customizations</a>
+        <a href="./skills.html">Skills</a>
+        <a href="./certificates.html">Certificates</a>
+        <a href="./education.html">Education</a>
+        <a href="./curriculum.html" class="active">Curriculum</a>
+        <a href="./contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <section id="contact">
+            <div>
+
+              <!-- Page Container -->
+              <div class="w3-content w3-margin-top" style="max-width:1400px;">
+              
+                <!-- The Grid -->
+                <div class="w3-row-padding">
+                
+                  <!-- Left Column -->
+                  <div class="w3-third">
+                  
+                    <div class="w3-white w3-text-grey w3-card-4">
+                      <div class="w3-display-container">
+                        <img src="profile_picture.jpg" style="width:100%" alt="Avatar">
+                        <div class="w3-display-bottomleft w3-container w3-text-black">
+                          <h2 style="color: white">Andres R. Bucheli</h2>
+                        </div>
+                      </div>
+                      <div class="w3-container">
+                        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-light-blue"></i>Front-End Web Developer</p>
+                        <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-light-blue"></i>Nizhny Novgorod, RUSSIA</p>
+                        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-light-blue"></i>radio_seattle@hotmail.com</p>
+                        <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-light-blue"></i>+79601847870</p>
+                        <hr>
+              
+                        <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-cyan"></i>Skills</b></p>
+                        <p>HTML/CSS</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                          <div class="w3-container w3-center w3-round-xlarge w3-light-blue w3-text-white" style="width:95%">95%</div>
+                        </div>
+                        <p>JavaScript/jQuery</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                          <div class="w3-container w3-center w3-round-xlarge w3-light-blue" style="width:90%">
+                            <div class="w3-center w3-text-white">90%</div>
+                          </div>
+                        </div>
+                        <p>Responsive Web Design</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                          <div class="w3-container w3-center w3-round-xlarge w3-light-blue w3-text-white" style="width:85%">85%</div>
+                        </div>
+                        <p>React</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                          <div class="w3-container w3-center w3-round-xlarge w3-light-blue w3-text-white" style="width:80%">80%</div>
+                        </div>
+                        <p>Version Control/Git</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                          <div class="w3-container w3-center w3-round-xlarge w3-light-blue w3-text-white" style="width:80%">80%</div>
+                        </div>
+                        <p>Testing/Debugging</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                          <div class="w3-container w3-center w3-round-xlarge w3-light-blue w3-text-white" style="width:70%">70%</div>
+                        </div>
+                        <p>Browser Developer Tools</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                          <div class="w3-container w3-center w3-round-xlarge w3-light-blue w3-text-white" style="width:80%">80%</div>
+                        </div>
+                        <p>Web Performance</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                          <div class="w3-container w3-center w3-round-xlarge w3-light-blue w3-text-white" style="width:70%">70%</div>
+                        </div>
+                        <p>CSS Preprocessing</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                          <div class="w3-container w3-center w3-round-xlarge w3-light-blue w3-text-white" style="width:80%">80%</div>
+                        </div>
+                        <p>Command Line</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                          <div class="w3-container w3-center w3-round-xlarge w3-light-blue w3-text-white" style="width:80%">80%</div>
+                        </div>
+                        <br>
+              
+                        <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-cyan"></i>Languages</b></p>
+                        <p>English</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                          <div class="w3-round-xlarge w3-cyan" style="height:24px;width:100%"></div>
+                        </div>
+                        <p>Spanish</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                          <div class="w3-round-xlarge w3-cyan" style="height:24px;width:100%"></div>
+                        </div>
+                        <p>Russian</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                          <div class="w3-round-xlarge w3-cyan" style="height:24px;width:60%"></div>
+                        </div>
+                        <p>French</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                          <div class="w3-round-xlarge w3-cyan" style="height:24px;width:60%"></div>
+                        </div>
+                        <br>
+                      </div>
+                    </div><br>
+              
+                  <!-- End Left Column -->
+                  </div>
+              
+                  <!-- Right Column -->
+                  <div class="w3-twothird">
+                  
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                      <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-cyan"></i>Work Experience</h2>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>React Developer - Vonavis</b></h5>
+                        <h6>Nizhny Novgorod - Russia</h6>
+                        <a 
+                          href="https://vonaviscom.wordpress.com/" target="blank">vonavis.com</a>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2021  - <span class="w3-tag w3-light-blue w3-text-white w3-round">Current</span></h6>
+                        <p>
+                          <ul>
+                            <li>Development of highly scalable applications and implementation of solutions with advanced technologies for a wide range of clients around the world (Vonavis - Poland, UpStack - U.S.A, Radiant Digital - India, New Math Data - U.S.A, Veritas - U.S.A).</li>
+                            <li>Translate requirements into technical solutions.</li>
+                            <li>Actively participate in projects within Vonavis - architecting solutions, and new features for clients, and communicating with teams of professionals from different technical and cultural backgrounds.</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Full Stack Web Developer - UpWork</b></h5>
+                        <h6>Nizhny Novgorod - Russia</h6>
+                        <a
+                          href="https://www.upwork.com/" target="blank">www.upwork.com</a>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2021  - <span class="w3-tag w3-light-blue w3-text-white w3-round">Current</span></h6>
+                        <p>
+                          <ul>
+                            <li>Design and Development of web apps, web platforms, and websites for different types of businesses, institutions, and clients.</li>
+                            <li>Solutions architecture designed to enhance resilience to disruptions and failures - using modern technologies to improve reliability.</li>
+                            <li>Applications review in deployment to ensure compliance with design parameters, development standards, and best practices.</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Full-Stack Web Developer - Bücheli Web Development (Freelance)</b></h5>
+                        <h6>Nizhny Novgorod - Russia</h6>
+                        <a
+                          href="https://companies.rbc.ru/persons/ogrnip/321527500114882-regalado-bucheli-andres-fernando/" target="blank">https://companies.rbc.ru/persons/ogrnip/321527500114882-regalado-bucheli-andres-fernando/</a>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2014  - <span class="w3-tag w3-light-blue w3-text-white w3-round">Current</span></h6>
+                        <p>
+                          <ul>
+                            <li>Design, and Development of web apps, web platforms, and websites for all types of businesses, institutions, and clients.</li>
+                            <li>Solutions architecture designed to enhance resilience to disruptions and failures - using modern technologies to improve reliability.</li>
+                            <li>Applications review in deployment to ensure compliance with design parameters, development standards, and best practices.</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Contractor/Remote Front-End Web Developer - New Math Data</b></h5>
+                        <h6>Nizhny Novgorod - Russia</h6>
+                        <a
+                          href="https://newmathdata.com/" target="blank">https://newmathdata.com/</a>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2022 - Nov 2022</h6>
+                        <p>
+                          <ul>
+                            <li>Software Development.</li>
+                            <li>Developing the Front-End of a Data-Intensive Web Platform in cooperation with experts from different countries.</li>
+                            <li>Integration with third part applications and services.</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Contractor/Frontend Developer - UpStack</b></h5>
+                        <h6>Nizhny Novgorod - Russia</h6>
+                        <a
+                          href="https://upstackhq.com/" target="blank">https://upstackhq.com/</a>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2022 - Apr 2022</h6>
+                        <p>
+                          <ul>
+                            <li>Front-End Development.</li>
+                            <li>Collaboration in the development of the company's corporate platform.</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Cloud Practitioner - Consultant - Professional Advisor (Participant of the first phase of the SUSE Scholarship - Global Competition 2021) - SUSE</b></h5>
+                        <h6>Nizhny Novgorod - Russia</h6>
+                        <a
+                          href="https://www.udacity.com/scholarships/suse-cloud-native-foundations-scholarship" target="blank">https://www.udacity.com/scholarships/suse-cloud-native-foundations-scholarship</a>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2021 - Dec 2021</h6>
+                        <p>
+                          <ul>
+                            <li>Working on the development of native cloud architecture projects with remote teams located in different countries.</li>
+                            <li>Structuring, packaging, releasing, migrating, and refactoring microservice capabilities of applications, using technologies such as Kubernetes, Docker, DockerHub, GitHub Actions, ArgoCD, Prometheus, Jaeger, Grafana, Docker-bench, Kube-bench, Trivy, and Grype.</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Cloud Developer with Microsoft Azure - Consultant - Professional Advisor (Participant of the first phase of the Bertelsmann Scholarship - Global Competition 2020) - Bertelsmann-Microsoft</b></h5>
+                        <h6>Nizhny Novgorod - Russia</h6>
+                        <a
+                          href="https://www.udacity.com/bertelsmann-tech-scholarships" target="blank">https://www.udacity.com/bertelsmann-tech-scholarships</a>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2020 - Nov 2021</h6>
+                        <p>
+                          <ul>
+                            <li>Working on the development of projects in the cloud with remote teams located in different countries.</li>
+                            <li>Implementation of serverless microservice back-end architectures in Python using Azure cloud serverless offerings, MongoDB database, and CosmosDB.</li>
+                            <li>Migration of applications to Azure.</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Hybrid Cloud Engineer (Winner of the NUTANIX Hybrid Cloud Scholarship - Global Competition 2020) - Nutanix</b></h5>
+                        <h6>Nizhny Novgorod - Russia</h6>
+                        <a
+                          href="https://www.udacity.com/scholarships/nutanix-hybrid-cloud-scholarship-program" target="blank">https://www.udacity.com/scholarships/nutanix-hybrid-cloud-scholarship-program</a>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2020 - Feb 2021</h6>
+                        <p>
+                          <ul>
+                            <li>Creation and deployment of hybrid cloud applications in collaboration with a worldwide community of professionals.</li>
+                            <li>Hyperconverged Infrastructure (HCI). Role of a hybrid cloud engineer using HCI using Nutanix’s Prism web console to configure the different components of a private cloud cluster.</li>
+                            <li>Security tasks and management of virtual machines, including data protection, risk calculation and creating backups.</li>
+                            <li>Deployment and management of private cloud workloads using best practices and industry standards.</li>
+                            <li>Using tools and features that Nutanix provides to eliminate the process of manually operating infrastructure while extending up the stack to incorporate applications and maintenance operations.</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Technology Advisor, Instructor (Remote Job) - CINAR SISTEMAS</b></h5>
+                        <h6>Colombia</h6>
+                        <a
+                          href="https://cinarsistemas.edu.co" target="blank">https://cinarsistemas.edu.co</a>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2016 - Dec 2020</h6>
+                        <p>
+                          <ul>
+                            <li>Providing consultative support on enterprise-wide information technology-based systems.</li>
+                            <li>Web development.</li>
+                            <li>Search for cooperation projects with world-class educational institutions (Harvard CS50x Project 2021).</li>
+                            <li>Planning, designing, and studying infrastructure, implementation, and use of information technologies and information management systems and processes.</li>
+                            <li>Responsible for providing technical training in different areas such as Computer Networks, Computer Maintenance, Operative Systems, Servers, Databases, Telecommunications, Mobile Communications, and design of Android Mobile Apps.</li>
+                            <li>Creation and designing of cooperative educational programs with international institutions.</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>IoT developer (Winner of the INTEL Edge AI for IoT Developers Scholarship Program - Global Competition 2019) - Intel - Udacity</b></h5>
+                        <h6>Nizhny Novgorod - Russia</h6>
+                        <a
+                          href="https://www.udacity.com/scholarships/intel-edge-ai-scholarship" target="blank">https://www.udacity.com/scholarships/intel-edge-ai-scholarship</a>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2019 - Jul 2020</h6>
+                        <p>
+                          <ul>
+                            <li>Creation and deployment of Computer Vision and Artificial Intelligence applications in collaboration with a worldwide community of professionals.</li>
+                            <li>Convert pre-trained models into the framework agnostic intermediate representation with the Model Optimizer, and perform efficient inference on deep learning models through the hardware-agnostic Inference Engine.</li>
+                            <li>Deploy an app on the edge, including sending information through MQTT, and analyze model performance and use cases.</li>
+                            <li>Choosing the right hardware. Identify key hardware specifications of various hardware types (CPU, VPU, FPGA, and Integrated GPU). Utilize the Intel® DevCloud for the Edge to test model performance and deploy power-efficient deep neural network inference on the various hardware types.</li>
+                            <li>Optimize model and application code to reduce inference time when running the model at the edge.</li>
+                            <li>Use the DL Workbench to optimize the model and benchmark the performance of the model. Use a VTune amplifier to find and fix hotspots in the application code.</li>
+                            <li>Package the application code and data so that it can be easily deployed to multiple devices.</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Project manager - FUNDACOM</b></h5>
+                        <h6>Colombia</h6>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Apr 2015 - Dec 2015</h6>
+                        <p>
+                          <ul>
+                            <li>Installation of training equipment, multimedia equipment, and simulation software, intended to transform the existing classrooms located in schools in rural areas, into a computer science learning environment.</li>
+                            <li>Led the technical team responsible for the installation of the equipment.</li>
+                            <li>Coordination of budgets and purchases of the equipment with local and international supplier companies.</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Fixed Access Network Trainer - HUAWEI TECHNOLOGIES</b></h5>
+                        <h6>Colombia</h6>
+                        <a
+                          href="https://consumer.huawei.com/co/" target="blank">https://consumer.huawei.com/co/</a>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2014 - Feb 2015</h6>
+                        <p>
+                          <ul>
+                            <li>Providing technical training on 4G Mobile Technologies, and GPON (Gigabit Passive Optical Networks) to teams of engineers from telecommunications and Internet Service Provider companies in Colombia, and other companies that use Huawei Technologies in Latin America.</li>
+                            <li>Providing technical training to Huawei's staff from different areas (support, first line, second line, commercial area).</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Consulting Engineer - FUNDACIÓN ANDINA</b></h5>
+                        <h6>Colombia</h6>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2012 - Jan 2014</h6>
+                        <p>
+                          <ul>
+                            <li>Installation and maintenance of communication networks (LAN), maintenance of computer equipment, technical advice on the purchase and installation of computer equipment and software, and technical advice on environmental monitoring projects.</li>
+                            <li>Staff training in best practices and management of computer and electronic equipment.</li>
+                            <li>Coordination of multidisciplinary teams (engineers,
+                              international experts from international agencies such as Movimondo (Italy), Government of Holland, and Principality of Asturias. Communication in English to coordinate the different projects carried out in the natural park belonging to the Foundation.</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>External consultant in monitoring streamflows project - FUNDACIÓN BIOTOPO SELVA HÚMEDA</b></h5>
+                        <h6>Colombia</h6>
+                        <a
+                        href="http://biotoporainforest.blogspot.com/" target="blank">http://biotoporainforest.blogspot.com/</a>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2013 - Aug 2013</h6>
+                        <p>
+                          <ul>
+                            <li>Coordination of the whole project, advising, and consulting. (Hydrological monitoring project using TCP-IP- ultrasonic sensors and cloud servers connected through a metropolitan area network for flood prevention.</li>
+                            <li>Budgeting, consulting, financial analysis, administration management, cost analysis, contracting suppliers, and direct contact with American and European companies.</li>
+                            <li>Structuring the architecture of the network of sensors. Analysis of technologies for industrial, control, and communication protocols (Modbus, BACnet), analysis of the evolution towards control via TCP / IP technologies, analysis of GSM, GPRS, UMTS, LTE technologies, for sending alarms and data readings via IP, analysis of satellite communication services, network planning and design with structured cabling system, analysis of alternative power sources (solar energy), studies of hydrology.</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Support Engineer in the building automation area (home and building automation) - G4S TECHNOLOGIES COLOMBIA S.A</b></h5>
+                        <h6>Colombia</h6>
+                        <a
+                        href="https://www.g4s.com/es-co" target="blank">https://www.g4s.com/es-co</a>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2012 - Dec 2012</h6>
+                        <p>
+                          <ul>
+                            <li>Support Engineer in the area of control and automation in the project Edificio Paralelo 108, Edificio Scotiabank project. Bogotá (Colombia).</li>
+                            <li>Configuration and advanced PLC programming, the configuration of telecommunications networks, CISCO equipment configuration, sensor programming through Enterprise Building Integrator platform, sensor programming with industrial communication protocols (BACnet, Modbus), configuration and programming of sensors, security cameras, IP protocol, automatic doors with IP protocol, IP protocol biometric devices, access cards, drafting of manuals, structured cabling, LAN networks, Ethernet technologies.</li>
+                            <li>Installation and programming of fire detectors (heat detectors and smoke detectors), automation of doors, panic buttons, lighting systems, security cameras, and panels (FPGA data acquisition and control cards), fire detection integration, by the EBI (Enterprise Building Integrator) and DVM (Digital Video Manager), equipment configuration using Honeywell software under Windows Server.</li>
+                            <li>Training of security staff in the use of the installed technology. Training technical staff on the installation of technologies.</li>
+                            <li>Installation, configuring, and maintenance of servers under Windows Server 2012.</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>IT Instructor - FUNDACIÓN ASE (ALIANZA SOCIAL EDUCATIVA)</b></h5>
+                        <h6>Colombia</h6>
+                        <a
+                        href="http://fase.org.co/" target="blank">http://fase.org.co/</a>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2012 - Dec 2012</h6>
+                        <p>
+                          <ul>
+                            <li>Training elder people in the area of basic computer and use of IT tools, for six months.</li>
+                            <li>Training senior students (elderly people) in the use and handling of tools related to information and communication technologies. My students developed skills and knowledge to be able to use software packages like Office, create their own emails, access social networks and learn the fundamentals of maintenance and configuration of computers.</li>
+                          </ul>
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>External IT consultant and document manager - FUNDACIÓN BIOTOPO SELVA HÚMEDA</b></h5>
+                        <h6>Colombia</h6>
+                        <a
+                        href="http://biotoporainforest.blogspot.com/" target="blank">http://biotoporainforest.blogspot.com/</a>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2001 - Jul 2009</h6>
+                        <p>
+                          <ul>
+                            <li>Advising and consulting in installation, maintenance, and repair of electronic equipment (computers, servers, telephones, printers, photocopiers).</li>
+                            <li>Consulting on IT, documentation management, and administration management.</li>
+                            <li>Documentation for cooperation projects with governmental organizations, translating documents to English and getting international support for different projects (ECOFONDO Corp (Holland), German Mission.</li>
+                          </ul>
+                        </p>
+                        <br>
+                      </div>
+                    </div>
+              
+                    <div class="w3-container w3-card w3-white">
+                      <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-cyan"></i>Education</h2>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Нижегородский Государственный Университет им. Н.И. Лобачевского (ННГУ)</b></h5>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2019</h6>
+                        <p>Economy and Entrepreneurship, MASTER IN MANAGEMENT OF BUSINESS AND FINANCIAL INSTITUTIONS</p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Universidad Santo Tomás - Bogotá (Colombia)</b></h5>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2015</h6>
+                        <p>Engineering, SPECIALIST IN PROJECT MANAGEMENT OF TELECOMMUNICATIONS ENGINEERING</p>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Pontificia Universidad Javeriana - Bogotá</b></h5>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2006 - 2012</h6>
+                        <p>Electronic Engineering, ELECTRONIC ENGINEER</p><br>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Udacity</b></h5>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - 2021</h6>
+                        <p>Computer Science, NUTANIX HYBRID CLOUD ENGINEER</p><br>
+                      </div>
+                      <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Udacity</b></h5>
+                        <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019 - 2020</h6>
+                        <p>Computer Science, INTEL EDGE AI FOR IoT DEVELOPER</p><br>
+                      </div>
+                    </div>
+              
+                  <!-- End Right Column -->
+                  </div>
+                  
+                <!-- End Grid -->
+                </div>
+                
+                <!-- End Page Container -->
+              </div>
+              
+              <footer class="w3-container w3-light-blue w3-text-white w3-center w3-margin-top">
+                <p>Find me on social media.</p>
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+                <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+              </footer>
+              
+       
+        </div>
+      </section>
+
+      <section id="skills-contact">
+        <div id="skills-container">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-aws"></i>
+          <i class="fab fa-sketch"></i>
+          <i class="fab fa-figma"></i>
+          <i class="fab fa-git"></i>
+          <i class="fab fa-chrome"></i>
+          <i class="fas fa-terminal"></i>
+          <i class="fas fa-universal-access"></i>
+          <i class="fab fa-npm"></i>
+          <i class="fab fa-node"></i>
+          <i class="fab fa-github"></i>
+        </div>
+      </section>
+    </main>
+    <!--<footer>Made with <span class="heart">♥</span> in Nizhny Novgorod</footer>-->
+    <footer style="color: #6b5b95; font-weight: normal;">Bucheli Web Development © 2022</footer>
+  </body>
+</html>

@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="myScript.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-    <style>    
+    <style>   
+      nav {
+        text-align: center;
+      } 
       .topnav {
         overflow: hidden;
         background-color: #deeaee;
@@ -35,9 +38,14 @@
       .topnav .icon {
         display: none;
       }
+      @media only screen and (max-width: 1281px) {
+        .topnav a {
+          font-size: 17px;
+        }
+      }
       @media only screen and (max-width: 1025px) {
         .topnav a {
-          font-size: 16px;
+          font-size: 17px;
         }
       }
       @media screen and (max-width: 910px) {
@@ -53,6 +61,11 @@
       @media screen and (max-width: 872px) {
         .topnav a {
           font-size: 14px;
+        }
+      }
+      @media screen and (max-width: 769px) {
+        .topnav a {
+          font-size: 13px;
         }
       }
       @media screen and (max-width: 693px) {
@@ -149,6 +162,7 @@
         <a href="./skills.html">Skills</a>
         <a href="./certificates.html">Certificates</a>
         <a href="./education.html">Education</a>
+        <a href="./curriculum.html">Curriculum</a>
         <a href="./contact.html">Contact</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
