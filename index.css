@@ -213,6 +213,10 @@ nav {
   border: solid 1px #87bdd8;
 }
 
+.home-project-picture {
+  text-align: center;
+}
+
 .project-title h3 {
   display: inline;
 }
