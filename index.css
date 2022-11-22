@@ -197,6 +197,10 @@ nav {
   margin-bottom: 3em;
 }
 
+#projects-projects, h2 {
+  font-size: 22px;
+}
+
 #projects-customizations {
   font-size: 14px;
   padding: 1em;
