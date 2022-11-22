@@ -42,7 +42,7 @@ h3 {
   font-family: "Proza Libre", sans-serif;
   margin: 0;
   margin-bottom: var(--spacing-2);
-  font-size: 20px;
+  font-size: 22px;
 }
 
 body {
@@ -174,6 +174,10 @@ nav {
   border: 1px transparent solid;
   background-color: #eaece5;
   text-align: center;
+}
+
+.project-home {
+  font-size: 18px;
 }
 
 .project {
