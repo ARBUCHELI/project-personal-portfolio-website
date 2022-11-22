@@ -175,6 +175,10 @@ nav {
   text-align: center;
 }
 
+.project {
+  margin-bottom: 3em;
+}
+
 #projects {
   font-size: 14px;
   padding: 1em;
