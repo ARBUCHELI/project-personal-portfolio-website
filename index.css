@@ -2,7 +2,6 @@
 
 html {
   scroll-behavior: smooth;
-  text-align: center;
 }
 
 html,
@@ -49,7 +48,7 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0 var(--spacing-3);
-  max-width: 90%;
+  max-width: 900px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
