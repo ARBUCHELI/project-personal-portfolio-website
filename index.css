@@ -2,6 +2,7 @@
 
 html {
   scroll-behavior: smooth;
+  text-align: center;
 }
 
 html,
@@ -52,7 +53,6 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 
 nav {
