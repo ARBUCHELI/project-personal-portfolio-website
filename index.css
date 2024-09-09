@@ -480,20 +480,6 @@ footer {
 .external {
   min-height: 310px;
   margin-bottom: 10px;
-  text-align: center;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-}
-
-.gallery {
-  margin: 10px;
-}
-
-.gallery img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
 }
 
 
