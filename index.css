@@ -3,7 +3,7 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  /*padding: 0 15% 0 22%;*/
+  padding: 0 15% 0 22%;
 }
 
 html,
@@ -545,14 +545,6 @@ text-align: center;
   width: 180px; 
   height: auto; 
   border:none
-}
-
-@media only screen and (max-width: 1670px) {
-  html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-    padding: 0 15% 0 22%;
-  }
 }
 
 @media only screen and (max-width: 1281px) {
