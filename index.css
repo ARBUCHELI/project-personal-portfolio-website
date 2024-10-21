@@ -4,6 +4,12 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  width: 100%;
+  max-width: 100%;
+}
+
+
 html,
 body {
   height: 100%;
