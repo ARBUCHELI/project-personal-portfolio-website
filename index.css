@@ -547,6 +547,14 @@ text-align: center;
   border:none
 }
 
+@media only screen and (max-width: 1670px) {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    padding: 0 15% 0 22%;
+  }
+}
+
 @media only screen and (max-width: 1281px) {
   .about-me-text-container {
     font-size: 14px;
