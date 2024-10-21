@@ -2,6 +2,7 @@
 
 html {
   scroll-behavior: smooth;
+  padding: 0 25% 0 0;
 }
 
 html,
