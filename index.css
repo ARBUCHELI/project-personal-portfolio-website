@@ -14,7 +14,7 @@ body {
 :root {
   --spacing-1: 8px;
   --spacing-2: 12px;
-  --spacing-3: 25%;
+  --spacing-3: 16px;
   --spacing-4: 24px;
 
   --border-radius: 12px;
@@ -46,7 +46,7 @@ h3 {
 
 body {
   font-family: "Open Sans", sans-serif;
-  padding: 0 var(--spacing-3);
+  padding: 0 50%;
   max-width: 900px;
   margin: 0 auto;
   display: flex;
