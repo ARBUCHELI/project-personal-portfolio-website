@@ -2,6 +2,7 @@
 
 html {
   scroll-behavior: smooth;
+  padding: 0 25%;
 }
 
 html,
@@ -46,7 +47,7 @@ h3 {
 
 body {
   font-family: "Open Sans", sans-serif;
-  padding: 0 15%;
+  padding: 0 var(--spacing-3);
   max-width: 900px;
   margin: 0 auto;
   display: flex;
