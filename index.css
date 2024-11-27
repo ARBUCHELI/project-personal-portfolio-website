@@ -1211,6 +1211,9 @@ text-align: center;
   .certificate-card {
     margin: 2em;
   }
+  #skills-container {
+    font-size: 0.6em;
+  }
 }
 
 @media only screen and (max-width: 415px) {
