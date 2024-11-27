@@ -14,17 +14,20 @@
       } 
       .topnav {
         overflow: hidden;
-        background-color: #deeaee;
+        background-color: #034f84; /*Change*/
         text-align: center;
+        padding: 1em 5.8em 1em 5.8em; /*Change*/
+        border-radius: 5px; /*Change*/
+        border: 1px #6b5b95 solid /*Change*/
       }
       .topnav a {
         float: left;
         display: block;
-        color: #6b5b95;
+        color: white; /*Change*/
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 16.8px;
+        font-size: 14px; /*Change*/
         border-radius: 5px;
       }
       .topnav a:hover {
@@ -38,12 +41,87 @@
       .topnav .icon {
         display: none;
       }
-      @media only screen and (max-width: 1281px) {
+      @media only screen and (min-width: 1285px) and (max-width: 1670px) {
+        .topnav {
+          padding: 1em 3.6em 1em 3.6em; /*Change*/
+        }
         .topnav a {
-          font-size: 16.8px;
+          font-size: 15px; /*Change*/
         }
       }
-      @media only screen and (max-width: 1025px) {
+      @media only screen and (min-width: 1200px) and (max-width: 1285px) {
+        .topnav {
+          padding: 1em 4.2em 1em 4.2em; /*Change*/
+        }
+        .topnav a {
+          font-size: 14.5px; /*Change*/
+        }
+      }
+      @media only screen and (min-width: 1175px) and (max-width: 1200px) {
+        .topnav {
+          padding: 1em 4.2em 1em 4.2em; /*Change*/
+        }
+        .topnav a {
+          font-size: 14.4px; /*Change*/
+        }
+      }
+      @media only screen and (min-width: 1149px) and (max-width: 1175px) {
+        .topnav {
+          padding: 1em 4em 1em 4em; /*Change*/
+        }
+        .topnav a {
+          font-size: 14px; /*Change*/
+        }
+      }
+      @media only screen and (min-width: 1105px) and (max-width: 1149px) {
+        .topnav {
+          padding: 1em 4em 1em 4em; /*Change*/
+        }
+        .topnav a {
+          font-size: 13px; /*Change*/
+        }
+      }
+      @media only screen and (min-width: 1050px) and (max-width: 1105px) {
+        .topnav {
+          padding: 1em 2.5em 1em 2.5em; /*Change*/
+        }
+        .topnav a {
+          font-size: 13px; /*Change*/
+        }
+      }
+      @media only screen and (min-width: 950px) and (max-width: 1050px) {
+        .topnav {
+          padding: 1em 1.1em 1em 1.1em; /*Change*/
+        }
+        .topnav a {
+          font-size: 12px; /*Change*/
+        }
+      }
+      @media only screen and (min-width: 870px) and (max-width: 950px) {
+        .topnav {
+          padding: 1em 1.1em 1em 1.1em; /*Change*/
+        }
+        .topnav a {
+          font-size: 10px; /*Change*/
+        }
+      }
+      @media only screen and (min-width: 800px) and (max-width: 870px) {
+        .topnav {
+          padding: 1em 0.4em 1em 0.4em; /*Change*/
+        }
+        .topnav a {
+          font-size: 9px; /*Change*/
+        }
+      }
+      /*@media only screen and (min-width: 600px) and (max-width: 800px) {
+        .topnav {
+          padding: 1em 0.1em 1em 0.1em; /*Change*/
+        /*}
+        .topnav a {
+          font-size: 6px; /*Change*/
+        /*}
+      }*/
+      /*@media only screen and (max-width: 1025px) {
         .topnav a {
           font-size: 16.8px;
         }
@@ -67,8 +145,8 @@
         .topnav a {
           font-size: 14px;
         }
-      }
-      @media screen and (max-width: 769px) {
+      }*/
+      /*@media screen and (max-width: 769px) {
         .topnav a {
           font-size: 12.5px;
         }
@@ -91,17 +169,17 @@
       @media screen and (max-width: 600px) {
         .topnav a {
           font-size: 14px;
-          /*padding: 1px 16px;*/
+          padding: 1px 16px;
         }
-      }
-      @media screen and (max-width: 600px) {
+      }*/
+      @media screen and (max-width: 800px) {
         .topnav a:not(first-child) {display: none;}
         .topnav a.icon {
           float: right;
           display: block;
         }
       }     
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 800px) {
         .topnav.responsive {position: relative;}
         .topnav.responsive .icon {
           position: absolute;
@@ -117,11 +195,11 @@
       @media screen and (max-width: 541px) {
         .topnav a {
           font-size: 16px;
-          /*padding: 1px 16px;*/
+          padding: 1px 16px;
         }
         .topnav .icon {
           font-size: 30px;
-          margin-left: 15.6em;
+          /*margin-left: 15.6em;*/
         }
         .topnav.responsive .icon {
           display: none;
@@ -130,11 +208,11 @@
       @media screen and (max-width: 415px) {
         .topnav a {
           font-size: 16px;
-          /*padding: 1px 16px;*/
+          padding: 1px 16px;
         }
         .topnav .icon {
           font-size: 30px;
-          margin-left: 11.3em;
+          /*margin-left: 11.3em;*/
         }
         .topnav.responsive .icon {
           display: none;
@@ -143,11 +221,11 @@
       @media screen and (max-width: 413px) {
         .topnav a {
           font-size: 16px;
-          /*padding: 1px 16px;*/
+          padding: 1px 16px;
         }
         .topnav .icon {
           font-size: 30px;
-          margin-left: 11.2em;
+          /*margin-left: 11.2em;*/
         }
         .topnav.responsive .icon {
           display: none;
@@ -156,11 +234,11 @@
       @media screen and (max-width: 394px) {
         .topnav a {
           font-size: 16px;
-          /*padding: 1px 16px;*/
+          padding: 1px 16px;
         }
         .topnav .icon {
           font-size: 30px;
-          margin-left: 10.7em;
+          /*margin-left: 10.7em;*/
         }
         .topnav.responsive .icon {
           display: none;
@@ -169,11 +247,11 @@
       @media screen and (max-width: 391px) {
         .topnav a {
           font-size: 16px;
-          /*padding: 1px 16px;*/
+          padding: 1px 16px;
         }
         .topnav .icon {
           font-size: 30px;
-          margin-left: 10.6em;
+          /*margin-left: 10.6em;*/
         }
         .topnav.responsive .icon {
           display: none;
@@ -182,11 +260,10 @@
       @media screen and (max-width: 376px) {
         .topnav a {
           font-size: 16px;
-          /*padding: 1px 16px;*/
+          padding: 1px 16px;
         }
         .topnav .icon {
           font-size: 30px;
-          margin-left: 10em;
         }
         .topnav.responsive .icon {
           display: none;
@@ -195,11 +272,11 @@
       @media screen and (max-width: 361px) {
         .topnav a {
           font-size: 16px;
-          /*padding: 1px 16px;*/
+          padding: 1px 16px;
         }
         .topnav .icon {
           font-size: 30px;
-          margin-left: 9.5em;
+          /*margin-left: 9.5em;*/
         }
         .topnav.responsive .icon {
           display: none;
@@ -208,15 +285,15 @@
       @media screen and (max-width: 281px) {
         .topnav a {
           font-size: 16px;
-          /*padding: 1px 16px;*/
+          padding: 1px 16px;
         }
         .topnav a {
           font-size: 16px;
-          /*padding: 1px 16px;*/
+          padding: 1px 16px;
         }
         .topnav .icon {
           font-size: 30px;
-          margin-left: 6.9em;
+          /*margin-left: 6.9em;*/
         }
         .topnav.responsive .icon {
           display: none;
@@ -330,7 +407,7 @@
                 src="company-logo-4.jpg"
                 alt="A photo of Andrés R. Bucheli"
                 class="portrait about-logos"
-                style="border: 4px white solid";
+                style="border: 4px #6b5b95 solid"; 
               />
               <img
                 src="company-logo-1.jpg"
@@ -342,7 +419,7 @@
                 src="company-logo-2.jpg"
                 alt="A photo of Andrés R. Bucheli"
                 class="portrait about-logos"
-                style="border: 4px white solid";
+                style="border: 4px #034f84 solid";
               />
               <img
                 src="company-logo-5.jpg"
@@ -354,7 +431,7 @@
                 src="company-logo-3.jpg"
                 alt="A photo of Andrés R. Bucheli"
                 class="portrait about-logos"
-                style="border: 4px white solid";
+                style="border: 4px #6b5b95 solid";
               />
             </div>
           </div>
