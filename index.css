@@ -180,11 +180,6 @@ nav {
   margin-bottom: 4em;
 }
 
-#projects {
-  font-size: 14px;
-  padding: 1em;
-}
-
 #projects-home {
   font-size: 14px;
   padding: 1em;
@@ -266,6 +261,7 @@ a {
 #skills-home {
   margin-top: 0.5em;
   margin-left: 1.7em;
+  margin-right: 1.7em;
 }
 
 #skills-projects {
@@ -770,6 +766,12 @@ text-align: center;
   }
 }
 
+@media only screen and (max-width: 854px) {
+  #skills-container {
+    font-size: 0.8em;
+  }
+}
+
 @media only screen and (max-width: 842px) {
   .cert-image {
     max-width: 600px;
@@ -1215,7 +1217,7 @@ text-align: center;
     margin: 2em;
   }
   #skills-container {
-    font-size: 0.6em;
+    font-size: 0.5em;
   }
 }
 
