@@ -1528,9 +1528,9 @@ text-align: center;
   .about-me-text-container {
     font-size: 9.2px;
   }
-  #projects {
+  /*#projects {
     font-size: 9.2px;
-  }
+  }*/
   #skills {
     margin-top: 1em;
   }
