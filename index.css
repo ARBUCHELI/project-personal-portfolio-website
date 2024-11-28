@@ -799,7 +799,7 @@ text-align: center;
     font-size: 16px;
   }
   #skills-container {
-    font-size: 1em;
+    font-size: 0.8em;
   }
   .portrait {
     width: 200px;
@@ -889,6 +889,9 @@ text-align: center;
     height: 125px;
     border-radius: var(--border-radius);
     flex-shrink: 0;
+  }
+  #skills-container {
+    font-size: 0.5em;
   }
 }
 
@@ -1201,7 +1204,7 @@ text-align: center;
   }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 431px) {
   .cert-image {
     max-width: 200px;
   }
@@ -1233,7 +1236,7 @@ text-align: center;
     font-size: 10.8px;
   }
   #skills-container {
-    font-size: 0.6em;
+    font-size: 0.5em;
   }
   .external {
     margin-left: 40px;
@@ -1314,7 +1317,7 @@ text-align: center;
     font-size: 10.5px;
   }
   #skills-container {
-    font-size: 0.6em;
+    font-size: 0.5em;
   }
   div.gallery {
     margin: 5px 0px 5px 0px;
