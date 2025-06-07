@@ -46,7 +46,7 @@ export default function ContactPage() {
     <Layout>
       <div className="container mx-auto px-4 py-12 text-center">
         <motion.h1
-          className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6"
+          className="text-4xl lg:text-5xl font-bold text-brand-primary mb-6" // Updated
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -54,7 +54,7 @@ export default function ContactPage() {
           Get In Touch
         </motion.h1>
         <motion.p
-          className="text-lg text-gray-600 mb-12 max-w-xl mx-auto"
+          className="text-lg text-brand-text-primary mb-12 max-w-xl mx-auto" // Updated
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
@@ -74,18 +74,18 @@ export default function ContactPage() {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white p-4 rounded-xl shadow-lg hover:shadow-purple-400/50 transition-all duration-300 ease-in-out flex flex-col items-center justify-center space-y-2 aspect-square group"
+              className="bg-white p-4 rounded-xl shadow-lg hover:shadow-brand-secondary/40 transition-all duration-300 ease-in-out flex flex-col items-center justify-center space-y-2 aspect-square group" // Updated shadow
               variants={itemVariants}
-              whileHover={{ scale: 1.1, y: -5, boxShadow: "0px 10px 20px rgba(128, 90, 213, 0.2)" }} // Adjusted shadow color for purple theme
+              whileHover={{ scale: 1.1, y: -5, boxShadow: "0px 10px 20px rgba(107, 91, 149, 0.2)" }} // Updated shadow (brand-secondary with opacity)
               whileTap={{ scale: 0.95 }}
             >
-              {link.Icon && <link.Icon className="text-4xl md:text-5xl text-purple-600 group-hover:text-purple-700 transition-colors" />}
+              {link.Icon && <link.Icon className="text-4xl md:text-5xl text-brand-secondary group-hover:text-brand-link-hover transition-colors" />} {/* Updated icon colors */}
               {link.customIconSrc && (
                 <div className="relative w-12 h-12 md:w-14 md:h-14 group-hover:scale-110 transition-transform">
                   <Image src={link.customIconSrc} alt={link.altText} layout="fill" objectFit="contain" />
                 </div>
               )}
-              <span className="text-xs md:text-sm font-medium text-gray-700 group-hover:text-purple-600 transition-colors">{link.name}</span>
+              <span className="text-xs md:text-sm font-medium text-brand-text-primary group-hover:text-brand-secondary transition-colors">{link.name}</span> {/* Updated text colors */}
             </motion.a>
           ))}
         </motion.div>

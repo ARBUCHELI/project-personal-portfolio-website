@@ -136,7 +136,7 @@ export default function SkillsPage() {
     <Layout>
       <div className="container mx-auto px-4 py-8">
         <motion.h1
-          className="text-4xl font-bold text-center text-gray-800 mb-6"
+          className="text-4xl font-bold text-center text-brand-primary mb-6" // Updated
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -144,14 +144,14 @@ export default function SkillsPage() {
           Skills
         </motion.h1>
         <motion.p
-          className="text-center text-gray-600 mb-12 max-w-2xl mx-auto"
+          className="text-center text-brand-text-primary mb-12 max-w-2xl mx-auto" // Updated
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           If you have an interesting project and you are looking for a Professional Web Developer with strong engineering background,
-          take a look at my <a href="https://github.com/ARBUCHELI" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">GitHub Profile</a>,
-          my <a href="https://www.codecademy.com/profiles/ANDRES.R.BUCHELI" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Codecademy Profile</a>,
+          take a look at my <a href="https://github.com/ARBUCHELI" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">GitHub Profile</a>, {/* Updated */}
+          my <a href="https://www.codecademy.com/profiles/ANDRES.R.BUCHELI" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Codecademy Profile</a>, {/* Updated */}
           where I constantly spend my free time sharpening my technological tools, and feel free to contact me.
           Below you can see the different technologies I have worked with during my professional life.
         </motion.p>
@@ -165,8 +165,8 @@ export default function SkillsPage() {
               whileInView="visible"
               viewport={{ once: true, amount: 0.2 }}
             >
-              <h2 className="text-3xl font-semibold text-purple-700 mb-6 flex items-center">
-                {category.icon && <category.icon className="mr-3 text-2xl text-purple-500" />}
+              <h2 className="text-3xl font-semibold text-brand-primary mb-6 flex items-center"> {/* Updated */}
+                {category.icon && <category.icon className="mr-3 text-2xl text-brand-secondary" />}  {/* Updated icon color */}
                 {category.name}
               </h2>
               <motion.div
@@ -174,12 +174,12 @@ export default function SkillsPage() {
                 variants={tagContainerVariants}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: true, amount: 0.1 }} // amount to trigger when 10% of div is visible
+                viewport={{ once: true, amount: 0.1 }}
               >
                 {category.skills.map((skill) => (
                   <motion.span
                     key={skill}
-                    className="bg-gray-200 text-gray-700 px-4 py-2 rounded-full text-sm font-medium shadow-sm hover:bg-purple-200 hover:text-purple-700 transition-all duration-200 cursor-default"
+                    className="bg-brand-medium-light-bg text-brand-text-primary px-4 py-2 rounded-full text-sm font-medium shadow-sm hover:bg-brand-secondary hover:text-brand-nav-text transition-all duration-200 cursor-default" // Updated
                     variants={tagVariants}
                   >
                     {skill}

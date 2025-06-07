@@ -94,7 +94,7 @@ export default function EducationPage() {
     <Layout>
       <div className="container mx-auto px-4 py-8">
         <motion.h1
-          className="text-4xl font-bold text-center text-gray-800 mb-12"
+          className="text-4xl font-bold text-center text-brand-primary mb-12" // Updated
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -105,32 +105,32 @@ export default function EducationPage() {
           {educationData.map((edu, index) => (
             <motion.section
               key={edu.id}
-              className="bg-white p-6 md:p-8 rounded-xl shadow-xl hover:shadow-purple-300/40 transition-shadow duration-300 group" // Added group for hover effect on logo
+              className="bg-brand-light-bg p-6 md:p-8 rounded-xl shadow-xl hover:shadow-brand-secondary/40 transition-shadow duration-300 group" // Updated
               variants={sectionVariants}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.2 }}
-              transition={{ delay: index * 0.1 }} // Stagger appearance of education cards
+              transition={{ delay: index * 0.1 }}
             >
-              <h2 className="text-2xl md:text-3xl font-bold text-purple-700 mb-3">{edu.degreeType}</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-brand-primary mb-3">{edu.degreeType}</h2> {/* Updated */}
               <div className="md:flex md:space-x-6 items-start">
                 <div className="md:w-2/3">
-                  <h3 className="text-xl lg:text-2xl font-semibold text-gray-800">{edu.title}</h3>
+                  <h3 className="text-xl lg:text-2xl font-semibold text-brand-text-primary">{edu.title}</h3> {/* Updated */}
                   <a
                     href={edu.institutionLink || '#'}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-800 transition-colors text-lg block mt-1 mb-2"
+                    className="text-brand-primary hover:text-brand-link-hover transition-colors text-lg block mt-1 mb-2" // Updated
                   >
                     {edu.institution}
                   </a>
-                  {edu.details && <p className="text-sm text-gray-500 mb-4">{edu.details}</p>}
+                  {edu.details && <p className="text-sm text-brand-text-secondary mb-4">{edu.details}</p>} {/* Updated */}
                   {edu.verifyLink && (
                     <a
                       href={edu.verifyLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-block bg-green-500 text-white px-5 py-2 rounded-md hover:bg-green-600 transition-colors text-sm font-medium mb-4 shadow-sm hover:shadow-md"
+                      className="inline-block bg-brand-accent-amber text-white px-5 py-2 rounded-md hover:bg-opacity-80 transition-colors text-sm font-medium mb-4 shadow-sm hover:shadow-md" // Updated
                     >
                       Verify Certificate
                     </a>
@@ -142,8 +142,8 @@ export default function EducationPage() {
                        <Image src={edu.institutionLogo} alt={`${edu.institution} logo`} layout="fill" objectFit="contain" />
                     </div>
                   )}
-                   <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md h-56 sm:h-64 md:h-72 border border-gray-200 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
-                     <Image src={edu.diplomaImage} alt={`${edu.title} diploma`} layout="fill" objectFit="contain" className="p-2 bg-gray-50" />
+                   <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md h-56 sm:h-64 md:h-72 border border-brand-accent-lightblue rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"> {/* Updated border */}
+                     <Image src={edu.diplomaImage} alt={`${edu.title} diploma`} layout="fill" objectFit="contain" className="p-2 bg-white" /> {/* Updated background to white */}
                    </div>
                 </div>
               </div>

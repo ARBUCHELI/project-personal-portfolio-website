@@ -18,20 +18,20 @@ const navItems = [
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <nav className="bg-gray-800 text-white shadow-lg">
+    <nav className="bg-brand-nav-bg text-brand-nav-text shadow-lg"> {/* Using brand-nav-bg */}
       <ul className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-center items-center h-14 space-x-2 sm:space-x-3 md:space-x-4">
         {navItems.map((item) => (
           <li key={item.href} className="relative">
             <Link
               href={item.href}
               className={`block px-2 py-2 sm:px-3 text-sm font-medium rounded-md transition-colors duration-200 ease-in-out
-                ${pathname === item.href ? 'text-yellow-400' : 'text-gray-300 hover:text-yellow-400 hover:bg-gray-700'}`}
+                ${pathname === item.href ? 'bg-brand-active-nav-bg text-brand-nav-text' : 'text-brand-nav-text hover:text-brand-primary hover:bg-brand-nav-hover-bg'}`}
             >
               {item.label}
             </Link>
             {pathname === item.href && (
               <motion.div
-                className="absolute bottom-0 left-0 right-0 h-0.5 bg-yellow-400"
+                className="absolute bottom-0 left-0 right-0 h-0.5 bg-brand-accent-amber" // Underline color updated
                 layoutId="underline" // Animates the underline
                 initial={false}
                 animate={{ opacity: 1 }}

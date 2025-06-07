@@ -95,7 +95,7 @@ export default function ProjectsPage() {
     <Layout>
       <div className="container mx-auto px-4 py-8">
         <motion.h1
-          className="text-4xl font-bold text-center text-gray-800 mb-12"
+          className="text-4xl font-bold text-center text-brand-primary mb-12" // Updated
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -106,7 +106,7 @@ export default function ProjectsPage() {
         {categories.map(category => (
           <section key={category} className="mb-16">
             <motion.h2
-              className="text-3xl font-semibold text-purple-700 mb-8 border-b-2 border-purple-300 pb-2"
+              className="text-3xl font-semibold text-brand-primary mb-8 border-b-2 border-brand-secondary pb-2" // Updated
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.2 }}
@@ -134,13 +134,13 @@ export default function ProjectsPage() {
                       alt={project.title}
                       layout="fill"
                       objectFit="cover"
-                      className="rounded-t-lg transform group-hover:scale-110 transition-transform duration-300 ease-in-out" // Zoom effect on hover
+                      className="rounded-t-lg transform group-hover:scale-110 transition-transform duration-300 ease-in-out"
                     />
                   </div>
                   <div className="p-6 flex flex-col flex-grow">
-                    <h3 className="text-xl lg:text-2xl font-bold text-gray-800 mb-3 group-hover:text-purple-600 transition-colors duration-300">{project.title}</h3>
-                    <p className="text-gray-600 text-sm mb-4 flex-grow">{project.description}</p>
-                    <p className="text-xs text-purple-500 font-semibold mb-4">
+                    <h3 className="text-xl lg:text-2xl font-bold text-brand-primary mb-3 group-hover:text-brand-secondary transition-colors duration-300">{project.title}</h3> {/* Updated */}
+                    <p className="text-brand-text-primary text-sm mb-4 flex-grow">{project.description}</p> {/* Updated */}
+                    <p className="text-xs text-brand-accent-terracotta font-semibold mb-4"> {/* Updated */}
                       Technologies: {project.techStack}
                     </p>
                     <div className="mt-auto flex flex-wrap gap-3">
@@ -149,7 +149,7 @@ export default function ProjectsPage() {
                           href={project.liveLink}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-block bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors duration-300 text-sm font-medium"
+                          className="inline-block bg-brand-primary text-white px-4 py-2 rounded-md hover:bg-brand-link-hover transition-colors duration-300 text-sm font-medium" // Updated
                         >
                           Live Demo
                         </a>
@@ -159,7 +159,7 @@ export default function ProjectsPage() {
                           href={project.repoLink}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-block bg-gray-700 text-white px-4 py-2 rounded-md hover:bg-gray-800 transition-colors duration-300 text-sm font-medium"
+                          className="inline-block bg-brand-text-secondary text-white px-4 py-2 rounded-md hover:bg-brand-text-primary transition-colors duration-300 text-sm font-medium" // Updated
                         >
                           View Code
                         </a>
