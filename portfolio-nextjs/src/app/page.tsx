@@ -69,16 +69,16 @@ const HomePage = () => {
     <Layout>
       <motion.section
         id="about-me"
-        className="py-10 md:py-16 bg-white shadow-xl rounded-lg mb-12"
+        className="py-10 md:py-16 bg-[#eaece5] shadow-xl rounded-lg mb-12"
         variants={sectionVariants}
         initial="hidden"
         animate="visible"
       >
         <div className="container mx-auto px-4 md:px-6">
-          <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">Andrés R. Bucheli</h2>
-          <div className="prose prose-lg max-w-3xl mx-auto text-gray-700 space-y-5">
+          <h2 className="text-4xl font-bold text-center text-[#034f84] mb-10">About Me</h2>
+          <div className="prose prose-lg max-w-4xl mx-auto text-gray-700 space-y-5 text-justify">
             <p>
-              <span className="font-semibold text-purple-600">Hey there!</span> I'm <a
+              <span className="font-semibold text-[#6b5b95]">Hey there!</span> I'm <a
                 href="https://www.linkedin.com/in/andresregaladobucheli/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -109,7 +109,7 @@ const HomePage = () => {
             </p>
             <p className="mt-8 text-xl text-center">
               I've spent
-              <span className="font-bold text-purple-700 mx-2 text-2xl">
+              <span className="font-bold text-[#c94c4c] mx-2 text-2xl">
                 {new Intl.NumberFormat("en-US").format(timeCoding)}
               </span>
               seconds coding websites.
@@ -123,17 +123,23 @@ const HomePage = () => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
           >
-            <h3 className="text-3xl font-semibold text-gray-800 text-center mb-10">Worked With / For</h3>
+            <h3 className="text-3xl font-bold text-[#034f84] text-center mb-10">Company</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 items-center">
               {companyLogos.map((logo, index) => (
                 <motion.div
                   key={logo.src}
-                  className="flex justify-center p-2 grayscale hover:grayscale-0 transition-all duration-300"
+                  className="flex justify-center p-4 grayscale hover:grayscale-0 transition-all duration-300"
                   initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }} // Changed from whileInView for direct animation
+                  animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.1 }}
                 >
-                  <Image src={logo.src} alt={logo.alt} width={120} height={60} className="object-contain h-14" />
+                  <Image 
+                    src={logo.src} 
+                    alt={logo.alt} 
+                    width={300} 
+                    height={180} 
+                    className="object-contain h-54"  // or h-24 for extra large
+                  />
                 </motion.div>
               ))}
             </div>
@@ -143,14 +149,14 @@ const HomePage = () => {
 
       <motion.section
         id="projects-home"
-        className="py-10 md:py-16"
+        className="py-10 md:py-16 bg-[#eaece5]"
         variants={sectionVariants}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
       >
         <div className="container mx-auto px-4 md:px-6">
-          <h2 className="text-3xl font-bold text-gray-800 text-center mb-10">Sample Projects</h2>
+          <h2 className="text-3xl font-bold text-[#034f84] text-center mb-10">Sample Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8"> {/* Simplified to 2 columns for homepage */}
             {sampleProjects.slice(0, 2).map((project) => ( // Show only first 2 projects for brevity on home
               <motion.div
@@ -161,8 +167,15 @@ const HomePage = () => {
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.5 }}
               >
-                <div className="relative h-56">
-                    <Image src={project.imageSrc} alt={project.title} layout="fill" objectFit="cover" />
+                <div className="relative h-48 w-full flex items-center justify-center pt-5 pb-1 px-4">
+                    <Image
+                      src={project.imageSrc}
+                      alt={project.title}
+                      width={150}  // Fixed width
+                      height={200} // Fixed height
+                      className="object-contain h-full w-auto mt-2" // Maintain aspect ratio
+                      quality={80}
+                    />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-purple-600 mb-2">{project.title}</h3>
@@ -181,7 +194,7 @@ const HomePage = () => {
             ))}
           </div>
            <div className="text-center mt-10">
-                <Link href="/projects" className="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors font-semibold">
+                <Link href="/projects" className="inline-block bg-purple-600 text-[#50394c] px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors font-semibold">
                     View All Projects
                 </Link>
             </div>
