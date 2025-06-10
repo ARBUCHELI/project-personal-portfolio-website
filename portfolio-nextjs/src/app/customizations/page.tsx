@@ -93,7 +93,7 @@ export default function CustomizationsPage() {
     <Layout>
       <div className="container mx-auto px-4 py-8">
         <motion.h1
-          className="text-4xl font-bold text-center text-gray-800 mb-6"
+          className="text-4xl font-bold text-center text-brand-primary mb-6" // Updated
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -101,7 +101,7 @@ export default function CustomizationsPage() {
           Customizations
         </motion.h1>
         <motion.p
-          className="text-center text-gray-600 mb-12 max-w-2xl mx-auto"
+          className="text-center text-brand-text-primary mb-12 max-w-2xl mx-auto" // Updated
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -117,7 +117,7 @@ export default function CustomizationsPage() {
           return (
             <section key={category} className="mb-16">
               <motion.h2
-                className="text-3xl font-semibold text-purple-700 mb-8 border-b-2 border-purple-300 pb-2"
+                className="text-3xl font-semibold text-brand-primary mb-8 border-b-2 border-brand-secondary pb-2" // Updated
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.2 }}
@@ -147,19 +147,19 @@ export default function CustomizationsPage() {
                         className="rounded-t-lg transform group-hover:scale-110 transition-transform duration-300 ease-in-out"
                       />
                       {Array.isArray(item.imageSrc) && item.imageSrc.length > 1 && (
-                        <span className="absolute top-2 right-2 bg-black bg-opacity-70 text-white text-xs px-2 py-1 rounded-md shadow">
+                            <span className="absolute top-2 right-2 bg-brand-primary bg-opacity-80 text-brand-nav-text text-xs px-2 py-1 rounded-md shadow"> {/* Updated badge */}
                           +{item.imageSrc.length - 1} more
                         </span>
                       )}
                     </div>
                     <div className="p-6 flex flex-col flex-grow">
-                      <h3 className="text-xl lg:text-2xl font-bold text-gray-800 mb-3 group-hover:text-purple-600 transition-colors duration-300">{item.title}</h3>
+                          <h3 className="text-xl lg:text-2xl font-bold text-brand-primary mb-3 group-hover:text-brand-secondary transition-colors duration-300">{item.title}</h3> {/* Updated */}
                       <div className="mt-auto">
                         <a
                           href={item.liveLink}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-block bg-blue-500 text-white px-5 py-2 rounded-md hover:bg-blue-600 transition-colors duration-300 text-sm font-medium"
+                              className="inline-block bg-brand-primary text-white px-5 py-2 rounded-md hover:bg-brand-link-hover transition-colors duration-300 text-sm font-medium" // Updated
                         >
                           {item.description}
                         </a>

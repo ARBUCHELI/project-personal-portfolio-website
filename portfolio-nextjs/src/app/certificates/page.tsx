@@ -79,7 +79,7 @@ export default function CertificatesPage() {
     <Layout>
       <div className="container mx-auto px-4 py-8">
         <motion.h1
-          className="text-4xl font-bold text-center text-gray-800 mb-6"
+          className="text-4xl font-bold text-center text-brand-primary mb-6" // Updated
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -88,13 +88,13 @@ export default function CertificatesPage() {
         </motion.h1>
 
         <motion.section
-          className="mb-12 bg-white p-6 rounded-lg shadow-md"
+          className="mb-12 bg-brand-light-bg p-6 rounded-lg shadow-md" // Updated background
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <h2 className="text-2xl font-semibold text-purple-700 mb-4 text-center">My Learning Platforms</h2>
-          <p className="text-gray-600 mb-6 text-center max-w-lg mx-auto">
+          <h2 className="text-2xl font-semibold text-brand-primary mb-4 text-center">My Learning Platforms</h2> {/* Updated text color */}
+          <p className="text-brand-text-primary mb-6 text-center max-w-lg mx-auto"> {/* Updated text color */}
             One of my biggest motivations as a Software Engineer is constant learning, and that is why I frequently use different
             virtual educational platforms to keep my knowledge up to date.
           </p>
@@ -104,7 +104,7 @@ export default function CertificatesPage() {
                 <div className="relative w-20 h-20 mb-1">
                     <Image src={icon.src} alt={icon.name} width={80} height={80} className="object-contain rounded-lg" />
                 </div>
-                <p className="text-xs text-gray-500">{icon.name}</p>
+                <p className="text-xs text-brand-text-secondary">{icon.name}</p> {/* Updated */}
               </div>
             ))}
           </div>
@@ -117,7 +117,7 @@ export default function CertificatesPage() {
           return (
             <section key={mainCat} className="mb-16">
               <motion.h2
-                className="text-3xl font-bold text-center text-gray-700 bg-purple-100 py-4 my-8 rounded-md shadow-sm"
+                className="text-3xl font-bold text-center text-brand-primary bg-brand-medium-light-bg py-4 my-8 rounded-md shadow-sm" // Updated
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.2 }}
@@ -132,7 +132,7 @@ export default function CertificatesPage() {
                 return (
                   <div key={subCat} className="mb-10">
                     <motion.h3
-                      className="text-2xl font-semibold text-purple-600 mb-6 border-b-2 border-purple-200 pb-2"
+                      className="text-2xl font-semibold text-brand-secondary mb-6 border-b-2 border-brand-accent-lightblue pb-2" // Updated
                       initial={{ opacity: 0, x: -20 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true, amount: 0.2 }}
@@ -153,15 +153,15 @@ export default function CertificatesPage() {
                           className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col group"
                           variants={cardVariants}
                         >
-                          <div className="relative w-full h-52 bg-gray-100 group-hover:bg-gray-200 transition-colors duration-300">
+                          <div className="relative w-full h-52 bg-white group-hover:bg-brand-lightest-bg transition-colors duration-300"> {/* Updated */}
                             <Image src={cert.imageSrc} alt={cert.title} layout="fill" objectFit="contain" className="p-3"/>
                           </div>
                           <div className="p-5 flex flex-col flex-grow">
-                            <h4 className="text-base font-semibold text-gray-800 mb-2 flex-grow group-hover:text-purple-600 transition-colors duration-300" title={cert.title}>
+                            <h4 className="text-base font-semibold text-brand-primary mb-2 flex-grow group-hover:text-brand-secondary transition-colors duration-300" title={cert.title}> {/* Updated */}
                               {cert.title.length > 70 ? cert.title.substring(0, 70) + '...' : cert.title}
                             </h4>
-                            {cert.issuer && <p className="text-xs text-purple-500 mb-2">Issuer: {cert.issuer}</p>}
-                            <a href={cert.verifyLink} target="_blank" rel="noopener noreferrer" className="mt-auto w-full text-center bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors text-sm font-medium">
+                            {cert.issuer && <p className="text-xs text-brand-accent-terracotta mb-2">Issuer: {cert.issuer}</p>} {/* Updated */}
+                            <a href={cert.verifyLink} target="_blank" rel="noopener noreferrer" className="mt-auto w-full text-center bg-brand-primary text-white px-4 py-2 rounded-md hover:bg-brand-link-hover transition-colors text-sm font-medium"> {/* Updated */}
                               View Certificate
                             </a>
                           </div>
@@ -184,15 +184,15 @@ export default function CertificatesPage() {
                           className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col group"
                           variants={cardVariants}
                         >
-                        <div className="relative w-full h-52 bg-gray-100 group-hover:bg-gray-200 transition-colors duration-300">
+                        <div className="relative w-full h-52 bg-white group-hover:bg-brand-lightest-bg transition-colors duration-300"> {/* Updated */}
                             <Image src={cert.imageSrc} alt={cert.title} layout="fill" objectFit="contain" className="p-3"/>
                         </div>
                         <div className="p-5 flex flex-col flex-grow">
-                            <h4 className="text-base font-semibold text-gray-800 mb-2 flex-grow group-hover:text-purple-600 transition-colors duration-300" title={cert.title}>
+                            <h4 className="text-base font-semibold text-brand-primary mb-2 flex-grow group-hover:text-brand-secondary transition-colors duration-300" title={cert.title}> {/* Updated */}
                               {cert.title.length > 70 ? cert.title.substring(0, 70) + '...' : cert.title}
                             </h4>
-                            {cert.issuer && <p className="text-xs text-purple-500 mb-2">Issuer: {cert.issuer}</p>}
-                            <a href={cert.verifyLink} target="_blank" rel="noopener noreferrer" className="mt-auto w-full text-center bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors text-sm font-medium">
+                            {cert.issuer && <p className="text-xs text-brand-accent-terracotta mb-2">Issuer: {cert.issuer}</p>} {/* Updated */}
+                            <a href={cert.verifyLink} target="_blank" rel="noopener noreferrer" className="mt-auto w-full text-center bg-brand-primary text-white px-4 py-2 rounded-md hover:bg-brand-link-hover transition-colors text-sm font-medium"> {/* Updated */}
                             View Certificate
                             </a>
                         </div>
@@ -206,7 +206,7 @@ export default function CertificatesPage() {
 
         <section id="scholarships" className="mb-16">
           <motion.h2
-            className="text-3xl font-bold text-center text-gray-700 bg-green-100 py-4 my-8 rounded-md shadow-sm"
+            className="text-3xl font-bold text-center text-brand-primary bg-brand-medium-light-bg py-4 my-8 rounded-md shadow-sm" // Updated
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.2 }}
@@ -227,14 +227,14 @@ export default function CertificatesPage() {
                 className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col group"
                 variants={cardVariants}
               >
-                <div className="relative w-full h-52 bg-gray-100 group-hover:bg-gray-200 transition-colors duration-300">
+                <div className="relative w-full h-52 bg-white group-hover:bg-brand-lightest-bg transition-colors duration-300"> {/* Updated */}
                     <Image src={scholarship.imageSrc} alt={scholarship.title} layout="fill" objectFit="contain" className="p-3"/>
                 </div>
                 <div className="p-5 flex flex-col flex-grow">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-1 group-hover:text-green-600 transition-colors duration-300">{scholarship.title}</h3>
-                  <p className="text-sm text-green-500 font-medium mb-1">{scholarship.issuer}</p>
-                  {scholarship.year && <p className="text-xs text-gray-500 mb-2">{scholarship.year}</p>}
-                  {scholarship.description && <p className="text-xs text-gray-600 mb-3 flex-grow">{scholarship.description}</p>}
+                  <h3 className="text-lg font-semibold text-brand-primary mb-1 group-hover:text-brand-secondary transition-colors duration-300">{scholarship.title}</h3>
+                  <p className="text-sm text-brand-accent-amber font-medium mb-1">{scholarship.issuer}</p>
+                  {scholarship.year && <p className="text-xs text-brand-text-secondary mb-2">{scholarship.year}</p>} {/* Updated */}
+                  {scholarship.description && <p className="text-xs text-brand-text-primary mb-3 flex-grow">{scholarship.description}</p>}
                 </div>
               </motion.div>
             ))}

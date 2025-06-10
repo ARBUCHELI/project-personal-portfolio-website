@@ -82,7 +82,7 @@ const HomePage = () => {
                 href="https://www.linkedin.com/in/andresregaladobucheli/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800 transition-colors"
+                className="text-brand-primary hover:text-brand-link-hover transition-colors" // Updated link colors
               >
                 Andrés R. Bucheli
               </a>, and with over fifteen years of rich experience as a Software Engineer, I've passionately contributed to various domains related to
@@ -90,13 +90,13 @@ const HomePage = () => {
               React Development, Mobile Application Development with React Native, and Data Science.
             </p>
             <p>
-              As the proud founder of <a href="https://bucheli-web.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 transition-colors">Bucheli Software Development</a> I've spearheaded numerous successful projects for very important American, European, and Russian companies.
+              As the proud founder of <a href="https://bucheli-web.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:text-brand-link-hover transition-colors">Bucheli Software Development</a> I've spearheaded numerous successful projects for very important American, European, and Russian companies.
             </p>
             <p>
-              My <Link href="/education" className="text-blue-600 hover:text-blue-800 transition-colors">academic journey</Link> comprises a <a href="/images/images-education/diploma.jpg" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 transition-colors">Bachelor's Degree</a> in Electronics Engineering with a focus on Automatic Control and Telecommunications, complemented by a <a href="/images/images-education/especializacion.jpg" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 transition-colors">Specialist's Degree</a> in Telecommunications Engineering Project Management, and a <a href="/images/images-education/russian-master.jpg" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 transition-colors">Master's Degree</a> in Management of Business and Financial Institutions.
+              My <Link href="/education" className="text-brand-primary hover:text-brand-link-hover transition-colors">academic journey</Link> comprises a <a href="/images/images-education/diploma.jpg" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:text-brand-link-hover transition-colors">Bachelor's Degree</a> in Electronics Engineering with a focus on Automatic Control and Telecommunications, complemented by a <a href="/images/images-education/especializacion.jpg" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:text-brand-link-hover transition-colors">Specialist's Degree</a> in Telecommunications Engineering Project Management, and a <a href="/images/images-education/russian-master.jpg" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:text-brand-link-hover transition-colors">Master's Degree</a> in Management of Business and Financial Institutions.
             </p>
             <p>
-              Holding certifications from esteemed institutions such as <a href="https://www.bertelsmann.com/company/company-profile/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 transition-colors">Bertelsmann</a>, <a href="https://www.intel.com/content/www/us/en/support/ru-banner-inside.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 transition-colors">Intel</a>, <a href="https://www.nutanix.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 transition-colors">Nutanix</a>, and <a href="https://www.udacity.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 transition-colors">Udacity</a>, I'm proficient in <span className="font-semibold">Full-Stack Web Development</span>, <span className="font-semibold">Edge AI For IoT Development</span>, and <span className="font-semibold">Hybrid Cloud Engineering</span>.
+              Holding certifications from esteemed institutions such as <a href="https://www.bertelsmann.com/company/company-profile/" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:text-brand-link-hover transition-colors">Bertelsmann</a>, <a href="https://www.intel.com/content/www/us/en/support/ru-banner-inside.html" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:text-brand-link-hover transition-colors">Intel</a>, <a href="https://www.nutanix.com/" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:text-brand-link-hover transition-colors">Nutanix</a>, and <a href="https://www.udacity.com/" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:text-brand-link-hover transition-colors">Udacity</a>, I'm proficient in <span className="font-semibold">Full-Stack Web Development</span>, <span className="font-semibold">Edge AI For IoT Development</span>, and <span className="font-semibold">Hybrid Cloud Engineering</span>.
             </p>
             <p>
               With a blend of engineering, computer science, software development, and business management acumen, honed through engagements with
@@ -104,8 +104,8 @@ const HomePage = () => {
               solutions that align with their business objectives.
             </p>
             <p>
-              Beyond the professional realm, I find solace in <a href="https://www.youtube.com/watch?v=adOx5Hme-6Q" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 transition-colors">strumming the guitar</a>, crafting <a href="https://www.youtube.com/watch?v=LPDFTO6uKQo" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 transition-colors">custom effects</a> for electric guitars, delving into historical, economic, and political literature, and sharing insights on
-              coding through my <a href="https://my-tech-blog-bucheli-web.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 transition-colors">dedicated blog</a>.
+              Beyond the professional realm, I find solace in <a href="https://www.youtube.com/watch?v=adOx5Hme-6Q" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:text-brand-link-hover transition-colors">strumming the guitar</a>, crafting <a href="https://www.youtube.com/watch?v=LPDFTO6uKQo" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:text-brand-link-hover transition-colors">custom effects</a> for electric guitars, delving into historical, economic, and political literature, and sharing insights on
+              coding through my <a href="https://my-tech-blog-bucheli-web.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:text-brand-link-hover transition-colors">dedicated blog</a>.
             </p>
             <p className="mt-8 text-xl text-center">
               I've spent
@@ -178,14 +178,14 @@ const HomePage = () => {
                     />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-purple-600 mb-2">{project.title}</h3>
-                  <p className="text-gray-600 text-sm mb-3">{project.description}</p>
-                  <p className="text-red-500 font-bold text-sm mb-4">{project.tech}</p>
+                  <h3 className="text-xl font-semibold text-brand-secondary mb-2">{project.title}</h3> {/* Updated text color */}
+                  <p className="text-brand-text-primary text-sm mb-3">{project.description}</p> {/* Updated text color */}
+                  <p className="text-brand-accent-red font-bold text-sm mb-4">{project.tech}</p> {/* Updated text color */}
                   <a
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors"
+                    className="inline-block bg-brand-primary text-white px-4 py-2 rounded hover:bg-brand-secondary transition-colors" // Updated button colors
                   >
                     View Project
                   </a>
@@ -203,27 +203,27 @@ const HomePage = () => {
 
       <motion.section
         id="skills-home"
-        className="py-10 md:py-16 bg-gray-100 rounded-lg my-12 shadow-inner"
+        className="py-10 md:py-16 bg-brand-medium-light-bg rounded-lg my-12 shadow-inner" // Updated background
         variants={sectionVariants}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
       >
         <div className="container mx-auto px-4 md:px-6">
-          <h3 className="text-3xl font-semibold text-gray-800 text-center mb-10">Core Technologies</h3>
-          <div className="flex flex-wrap justify-center items-center gap-6 text-5xl text-gray-700">
+          <h3 className="text-3xl font-semibold text-brand-primary text-center mb-10">Core Technologies</h3> {/* Updated text color */}
+          <div className="flex flex-wrap justify-center items-center gap-6 text-5xl text-brand-text-secondary"> {/* Updated icon color */}
             {/* Using text for icons for simplicity, assuming Font Awesome is globally available via layout.tsx's <link> */}
-            <i className="fab fa-html5 hover:text-purple-600 transition-colors" title="HTML5"></i>
-            <i className="fab fa-css3-alt hover:text-purple-600 transition-colors" title="CSS3"></i>
-            <i className="fab fa-js-square hover:text-purple-600 transition-colors" title="JavaScript"></i>
-            <i className="fab fa-react hover:text-purple-600 transition-colors" title="React"></i>
-            <i className="fab fa-node hover:text-purple-600 transition-colors" title="Node.js"></i>
-            <i className="fab fa-aws hover:text-purple-600 transition-colors" title="AWS"></i>
-            <i className="fab fa-git-alt hover:text-purple-600 transition-colors" title="Git"></i>
-            <i className="fab fa-python hover:text-purple-600 transition-colors" title="Python"></i>
+            <i className="fab fa-html5 hover:text-brand-secondary transition-colors" title="HTML5"></i> {/* Updated hover color */}
+            <i className="fab fa-css3-alt hover:text-brand-secondary transition-colors" title="CSS3"></i> {/* Updated hover color */}
+            <i className="fab fa-js-square hover:text-brand-secondary transition-colors" title="JavaScript"></i> {/* Updated hover color */}
+            <i className="fab fa-react hover:text-brand-secondary transition-colors" title="React"></i> {/* Updated hover color */}
+            <i className="fab fa-node hover:text-brand-secondary transition-colors" title="Node.js"></i> {/* Updated hover color */}
+            <i className="fab fa-aws hover:text-brand-secondary transition-colors" title="AWS"></i> {/* Updated hover color */}
+            <i className="fab fa-git-alt hover:text-brand-secondary transition-colors" title="Git"></i> {/* Updated hover color */}
+            <i className="fab fa-python hover:text-brand-secondary transition-colors" title="Python"></i> {/* Updated hover color */}
           </div>
            <div className="text-center mt-10">
-                <Link href="/skills" className="inline-block bg-gray-600 text-white px-6 py-3 rounded-lg hover:bg-gray-700 transition-colors font-semibold">
+                <Link href="/skills" className="inline-block bg-brand-text-secondary text-white px-6 py-3 rounded-lg hover:bg-brand-primary transition-colors font-semibold"> {/* Updated button colors */}
                     Explore All Skills
                 </Link>
             </div>
