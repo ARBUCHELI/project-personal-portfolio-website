@@ -502,9 +502,10 @@
         </div>
       </section>
     </main>
-    <footer style="color: #484848; font-size: 13px; font-weight: bolder;">BUCHELI © WEB DEVELOPMENT 2025</footer>
+    <footer style="color: #484848; font-size: 13px; font-weight: bolder;">BUCHELI © WEB DEVELOPMENT <span id="footer-year"></span></footer>
   </body>
   <script>
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
     const timeContainer = document.getElementById("time-container");
     const STARTING_DAY = "01-01-2008";
     const STARTING_DAY_DATE = new Date(STARTING_DAY);
