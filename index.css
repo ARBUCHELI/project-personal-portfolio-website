@@ -188,6 +188,10 @@ nav {
   background-color: #f0f0f0;
 }
 
+.project-home {
+  margin-bottom: 3em;
+}
+
 #projects-projects {
   font-size: 14px;
   padding: 1em;
