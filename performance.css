@@ -1,0 +1,23 @@
+/* Reserve space and show placeholder while lazy images load */
+img.lazy-img {
+  background: linear-gradient(135deg, #d6d4e0 0%, #c5c2d0 100%);
+  object-fit: cover;
+}
+
+div.gallery img.lazy-img,
+img.pop.lazy-img {
+  min-height: 180px;
+  aspect-ratio: 3 / 2;
+}
+
+img.icon-image.lazy-img {
+  min-height: 50px;
+  aspect-ratio: 1;
+}
+
+/* Skip rendering off-screen certificate galleries until needed */
+.projectcard .external,
+.projectcard .gallery {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 320px;
+}

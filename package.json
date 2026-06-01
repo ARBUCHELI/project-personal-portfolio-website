@@ -1,0 +1,10 @@
+{
+  "name": "personal-portfolio-website",
+  "private": true,
+  "scripts": {
+    "optimize-images": "node scripts/optimize-images.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}
